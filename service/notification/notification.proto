@@ -6,6 +6,7 @@ import "lib/rpc/rpc.proto";
 package bnet.protocol.notification;
 
 option cc_generic_services = true;
+option java_outer_classname = "Notification2";
 
 message Notification {
   optional .bnet.protocol.EntityId sender_id = 1;

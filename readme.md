@@ -4,7 +4,8 @@ Community-driven Google Protobuf definitions for a game client/server, that are 
 
 ## Known Issues
 
-`protoc.exe` may not have been compiled with an incorrect protobuf version (2.3.0)  
+* `protoc.exe` may not have been compiled with an incorrect protobuf version (2.3.0)  
+* In Java, `bnet.protocol.notification.Notification` must be `bnet.protocol.notification.Notification2`
 
 ## Building
 
