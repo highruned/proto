@@ -1,5 +1,2 @@
 .DS_Store
-*.h
-*.c
-*.cc
 *.desc
