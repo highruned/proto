@@ -1,6 +1,7 @@
 
 
 package bnet.protocol;
+option java_outer_classname = "CContentHandle";
 
 message ContentHandle {
   required fixed32 region = 1;

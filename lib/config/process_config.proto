@@ -3,6 +3,8 @@
 import "lib/rpc/rpc.proto";
 package bnet.protocol.config;
 
+option java_outer_classname = "CProcessConfig";
+
 message Var {
   required string name = 1;
   required string value = 2;

@@ -204,7 +204,7 @@ void protobuf_AddDesc_lib_2fprotocol_2finvitation_2eproto() {
     "\n\016GenericRequest\022)\n\010agent_id\030\001 \001(\0132\027.bne"
     "t.protocol.EntityId\022*\n\ttarget_id\030\002 \001(\0132\027"
     ".bnet.protocol.EntityId\022\025\n\rinvitation_id"
-    "\030\003 \002(\006", 966);
+    "\030\003 \002(\006B\rB\013CInvitation", 981);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "lib/protocol/invitation.proto", &protobuf_RegisterTypes);
   Invitation::default_instance_ = new Invitation();

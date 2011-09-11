@@ -715,7 +715,7 @@ void protobuf_AddDesc_service_2fgame_5fmaster_2fgame_5fmaster_2eproto() {
     "ocol.NO_RESPONSE2x\n\025GameFactorySubscribe"
     "r\022_\n\017NotifyGameFound\0220.bnet.protocol.gam"
     "e_master.GameFoundNotification\032\032.bnet.pr"
-    "otocol.NO_RESPONSEB\003\200\001\001", 4703);
+    "otocol.NO_RESPONSEB\020B\013CGameMaster\200\001\001", 4716);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "service/game_master/game_master.proto", &protobuf_RegisterTypes);
   JoinGameRequest::default_instance_ = new JoinGameRequest();

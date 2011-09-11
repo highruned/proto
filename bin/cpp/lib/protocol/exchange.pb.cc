@@ -154,7 +154,7 @@ void protobuf_AddDesc_lib_2fprotocol_2fexchange_2eproto() {
     "\nBlobOfType\022\014\n\004type\030\001 \002(\t\022\014\n\004data\030\002 \001(\014\022"
     "\022\n\nextra_data\030\003 \001(\014\"<\n\016BlobFromOfType\022\016\n"
     "\006source\030\001 \002(\007\022\014\n\004type\030\002 \002(\t\022\014\n\004data\030\003 \002("
-    "\014B\003\200\001\001", 286);
+    "\014B\021B\014CExchangeLib\200\001\001", 300);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "lib/protocol/exchange.proto", &protobuf_RegisterTypes);
   PartitionId::default_instance_ = new PartitionId();

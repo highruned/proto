@@ -1105,7 +1105,8 @@ void protobuf_AddDesc_service_2fexchange_2fexchange_2eproto() {
     "tionRequest\032\032.bnet.protocol.NO_RESPONSE\022"
     "c\n\025NotifyBidStatusChange\022..bnet.protocol"
     ".exchange.BidNotificationRequest\032\032.bnet."
-    "protocol.NO_RESPONSEB\003\200\001\001", 8425);
+    "protocol.NO_RESPONSEB\025B\020CExchangeService"
+    "\200\001\001", 8443);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "service/exchange/exchange.proto", &protobuf_RegisterTypes);
   CreateOrderBookRequest::default_instance_ = new CreateOrderBookRequest();
