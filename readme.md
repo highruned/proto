@@ -11,5 +11,5 @@ Protobuf files in the `source` directory are compiled into the `build` directory
 On Windows run `generate.bat`, on Linux/Mac OS X run `generate.sh`.
 
 ## Credit
-d3 protos and cpp compiler by wwertyu
+d3 protos and cpp compiler by wwertyu  
 bent protos by rollick
