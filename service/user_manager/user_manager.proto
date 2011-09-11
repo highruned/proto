@@ -1,8 +1,7 @@
-
-
 import "lib/protocol/attribute.proto";
 import "lib/protocol/entity.proto";
 import "lib/rpc/rpc.proto";
+
 package bnet.protocol.user_manager;
 
 option cc_generic_services = true;

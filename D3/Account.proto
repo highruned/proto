@@ -1,7 +1,7 @@
-import "AttributeSerializer.proto";
-import "Items.proto";
-import "OnlineService.proto";
-import "ItemCrafting.proto";
+import "D3/AttributeSerializer.proto";
+import "D3/Items.proto";
+import "D3/OnlineService.proto";
+import "D3/ItemCrafting.proto";
 
 package D3.Account;
 

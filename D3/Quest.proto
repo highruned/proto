@@ -1,4 +1,4 @@
-import "Items.proto";
+import "D3/Items.proto";
 
 package D3.Quests;
 
