@@ -433,7 +433,7 @@ void protobuf_AddDesc_service_2fgame_5futilities_2fgame_5futilities_2eproto() {
     "otocol.game_utilities.VariablesResponse\022"
     "\\\n\007GetLoad\022).bnet.protocol.server_pool.G"
     "etLoadRequest\032&.bnet.protocol.server_poo"
-    "l.ServerStateB\003\200\001\001", 3258);
+    "l.ServerStateB\021B\014CGameUtilies\200\001\001", 3272);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "service/game_utilities/game_utilities.proto", &protobuf_RegisterTypes);
   ClientRequest::default_instance_ = new ClientRequest();

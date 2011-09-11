@@ -3,6 +3,7 @@
 package bnet.protocol.exchange;
 
 option cc_generic_services = true;
+option java_outer_classname = "CExchangeLib";
 
 message PartitionId {
   required fixed64 high = 1;

@@ -10,6 +10,7 @@ import "service/game_master/game_master_types.proto";
 package bnet.protocol.game_master;
 
 option cc_generic_services = true;
+option java_outer_classname = "CGameMaster";
 
 message JoinGameRequest {
   required .bnet.protocol.game_master.GameHandle game_handle = 1;

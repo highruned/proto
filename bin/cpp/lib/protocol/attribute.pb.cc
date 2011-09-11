@@ -142,7 +142,7 @@ void protobuf_AddDesc_lib_2fprotocol_2fattribute_2eproto() {
     "tribute\030\002 \003(\0132\".bnet.protocol.attribute."
     "Attribute\"V\n\tOperation\022\016\n\nMATCH_NONE\020\000\022\r"
     "\n\tMATCH_ANY\020\001\022\r\n\tMATCH_ALL\020\002\022\033\n\027MATCH_AL"
-    "L_MOST_SPECIFIC\020\003", 537);
+    "L_MOST_SPECIFIC\020\003B\014B\nCAttribute", 551);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "lib/protocol/attribute.proto", &protobuf_RegisterTypes);
   Variant::default_instance_ = new Variant();

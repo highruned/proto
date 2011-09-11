@@ -342,7 +342,7 @@ void protobuf_AddDesc_lib_2fconfig_2fprocess_5fconfig_2eproto() {
     "otocol.config.ServiceConfig\022&\n\003var\030\005 \003(\013"
     "2\031.bnet.protocol.config.Var\022G\n\024supplemen"
     "tal_service\030\006 \003(\0132).bnet.protocol.config"
-    ".SupplementalService", 1180);
+    ".SupplementalServiceB\020B\016CProcessConfig", 1198);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "lib/config/process_config.proto", &protobuf_RegisterTypes);
   Var::default_instance_ = new Var();

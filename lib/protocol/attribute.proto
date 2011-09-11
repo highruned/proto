@@ -1,6 +1,7 @@
 
 
 package bnet.protocol.attribute;
+option java_outer_classname = "CAttribute";
 
 message Variant {
   optional bool bool_value = 2;

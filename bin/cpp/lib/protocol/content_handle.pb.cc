@@ -77,7 +77,8 @@ void protobuf_AddDesc_lib_2fprotocol_2fcontent_5fhandle_2eproto() {
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
     "\n!lib/protocol/content_handle.proto\022\rbne"
     "t.protocol\"<\n\rContentHandle\022\016\n\006region\030\001 "
-    "\002(\007\022\r\n\005usage\030\002 \002(\007\022\014\n\004hash\030\003 \002(\014", 112);
+    "\002(\007\022\r\n\005usage\030\002 \002(\007\022\014\n\004hash\030\003 \002(\014B\020B\016CCon"
+    "tentHandle", 130);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "lib/protocol/content_handle.proto", &protobuf_RegisterTypes);
   ContentHandle::default_instance_ = new ContentHandle();

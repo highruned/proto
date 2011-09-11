@@ -3,6 +3,7 @@
 import "lib/protocol/attribute.proto";
 import "lib/protocol/entity.proto";
 package bnet.protocol.invitation;
+option java_outer_classname = "CInvitation";
 
 message Invitation {
   required fixed64 id = 1;

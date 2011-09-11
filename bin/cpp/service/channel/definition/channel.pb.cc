@@ -485,7 +485,8 @@ void protobuf_AddDesc_service_2fchannel_2fdefinition_2fchannel_2eproto() {
     "eNotification\032\032.bnet.protocol.NO_RESPONS"
     "E\022k\n\027NotifyUpdateMemberState\0224.bnet.prot"
     "ocol.channel.UpdateMemberStateNotificati"
-    "on\032\032.bnet.protocol.NO_RESPONSEB\003\200\001\001", 3795);
+    "on\032\032.bnet.protocol.NO_RESPONSEB\rB\010CChann"
+    "el\200\001\001", 3805);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "service/channel/definition/channel.proto", &protobuf_RegisterTypes);
   AddMemberRequest::default_instance_ = new AddMemberRequest();

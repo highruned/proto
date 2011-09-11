@@ -203,8 +203,8 @@ void protobuf_AddDesc_service_2fnotification_2fnotification_2eproto() {
     "ol.notification.FindClientResponse2v\n\024No"
     "tificationListener\022^\n\026OnNotificationRece"
     "ived\022(.bnet.protocol.notification.Notifi"
-    "cation\032\032.bnet.protocol.NO_RESPONSEB\022B\rNo"
-    "tification2\200\001\001", 1214);
+    "cation\032\032.bnet.protocol.NO_RESPONSEB\022B\rCN"
+    "otification\200\001\001", 1214);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "service/notification/notification.proto", &protobuf_RegisterTypes);
   Notification::default_instance_ = new Notification();

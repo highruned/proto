@@ -10,7 +10,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = descriptor.FileDescriptor(
   name='lib/protocol/content_handle.proto',
   package='bnet.protocol',
-  serialized_pb='\n!lib/protocol/content_handle.proto\x12\rbnet.protocol\"<\n\rContentHandle\x12\x0e\n\x06region\x18\x01 \x02(\x07\x12\r\n\x05usage\x18\x02 \x02(\x07\x12\x0c\n\x04hash\x18\x03 \x02(\x0c')
+  serialized_pb='\n!lib/protocol/content_handle.proto\x12\rbnet.protocol\"<\n\rContentHandle\x12\x0e\n\x06region\x18\x01 \x02(\x07\x12\r\n\x05usage\x18\x02 \x02(\x07\x12\x0c\n\x04hash\x18\x03 \x02(\x0c\x42\x10\x42\x0e\x43\x43ontentHandle')
 
 
 
