@@ -1,6 +1,6 @@
 # proto
 
-Protobuf files in the `source` directory are compiled into the `build` directory.
+Community driven protobuf files.
 
 ## Known Issues
 
