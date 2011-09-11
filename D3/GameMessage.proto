@@ -1,7 +1,7 @@
-import "Hero.proto";
-import "OnlineService.proto";
-import "Settings.proto";
-import "Account.proto";
+import "D3/Hero.proto";
+import "D3/OnlineService.proto";
+import "D3/Settings.proto";
+import "D3/Account.proto";
 
 package D3.GameMessage;
 

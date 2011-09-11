@@ -1,4 +1,4 @@
-import "GBHandle.proto";
+import "D3/GBHandle.proto";
 
 package D3.AttributeSerializer;
 

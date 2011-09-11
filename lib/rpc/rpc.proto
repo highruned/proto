@@ -25,9 +25,12 @@ message ObjectAddress {
 message NoData {
 }
 
-extend .google.protobuf.MethodOptions {
-  optional uint32 method_id = 50000;
-  optional uint32 cost = 50001;
-  optional float timeout = 50002;
-}
 
+extend google.protobuf.MessageOptions { 
+    optional int32 msg_type = 50001; 
+}
+message Msg {
+    option (msg_type) = 11;
+    required string name = 1;
+    required string pswd = 2;
+}

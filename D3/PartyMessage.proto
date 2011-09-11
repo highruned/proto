@@ -1,4 +1,4 @@
-import "OnlineService.proto";
+import "D3/OnlineService.proto";
 
 package D3.PartyMessage;
 

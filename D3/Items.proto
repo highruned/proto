@@ -1,5 +1,5 @@
-import "GBHandle.proto";
-import "OnlineService.proto";
+import "D3/GBHandle.proto";
+import "D3/OnlineService.proto";
 
 package D3.Items;
 
