@@ -1218,10 +1218,10 @@ public final class GameMasterTypes {
     public boolean hasBucketMin() { return hasBucketMin; }
     public float getBucketMin() { return bucketMin_; }
     
-    // optional float bucket_max = 2 [default = 4.2949673e+09];
+    // optional float bucket_max = 2 [default = 4.2949673e+009];
     public static final int BUCKET_MAX_FIELD_NUMBER = 2;
     private boolean hasBucketMax;
-    private float bucketMax_ = 4.2949673e+09F;
+    private float bucketMax_ = 4.2949673e+009F;
     public boolean hasBucketMax() { return hasBucketMax; }
     public float getBucketMax() { return bucketMax_; }
     
@@ -1603,7 +1603,7 @@ public final class GameMasterTypes {
         return this;
       }
       
-      // optional float bucket_max = 2 [default = 4.2949673e+09];
+      // optional float bucket_max = 2 [default = 4.2949673e+009];
       public boolean hasBucketMax() {
         return result.hasBucketMax();
       }
@@ -1617,7 +1617,7 @@ public final class GameMasterTypes {
       }
       public Builder clearBucketMax() {
         result.hasBucketMax = false;
-        result.bucketMax_ = 4.2949673e+09F;
+        result.bucketMax_ = 4.2949673e+009F;
         return this;
       }
       
@@ -2642,19 +2642,19 @@ public final class GameMasterTypes {
       "tInfo\022(\n\007toon_id\030\001 \002(\0132\027.bnet.protocol.E" +
       "ntityId\022\014\n\004host\030\002 \002(\t\022\014\n\004port\030\003 \002(\005\022\r\n\005t" +
       "oken\030\004 \001(\014\0225\n\tattribute\030\005 \003(\0132\".bnet.pro" +
-      "tocol.attribute.Attribute\"\356\001\n\017GameStatsB" +
-      "ucket\022\025\n\nbucket_min\030\001 \001(\002:\0010\022!\n\nbucket_m" +
-      "ax\030\002 \001(\002:\r4.2949673e+09\022\034\n\021wait_millisec" +
-      "onds\030\003 \001(\r:\0010\022\031\n\016games_per_hour\030\004 \001(\r:\0010" +
-      "\022\027\n\014active_games\030\005 \001(\r:\0010\022\031\n\016active_play" +
-      "ers\030\006 \001(\r:\0010\022\030\n\rforming_games\030\007 \001(\r:\0010\022\032",
-      "\n\017waiting_players\030\010 \001(\r:\0010\"\253\001\n\026GameFacto" +
-      "ryDescription\022\n\n\002id\030\001 \002(\006\022\014\n\004name\030\002 \001(\t\022" +
-      "5\n\tattribute\030\003 \003(\0132\".bnet.protocol.attri" +
-      "bute.Attribute\022@\n\014stats_bucket\030\004 \003(\0132*.b" +
-      "net.protocol.game_master.GameStatsBucket" +
-      "\"J\n\nGameHandle\022\022\n\nfactory_id\030\001 \002(\006\022(\n\007ga" +
-      "me_id\030\002 \002(\0132\027.bnet.protocol.EntityId"
+      "tocol.attribute.Attribute\"\357\001\n\017GameStatsB" +
+      "ucket\022\025\n\nbucket_min\030\001 \001(\002:\0010\022\"\n\nbucket_m" +
+      "ax\030\002 \001(\002:\0164.2949673e+009\022\034\n\021wait_millise" +
+      "conds\030\003 \001(\r:\0010\022\031\n\016games_per_hour\030\004 \001(\r:\001" +
+      "0\022\027\n\014active_games\030\005 \001(\r:\0010\022\031\n\016active_pla" +
+      "yers\030\006 \001(\r:\0010\022\030\n\rforming_games\030\007 \001(\r:\0010\022",
+      "\032\n\017waiting_players\030\010 \001(\r:\0010\"\253\001\n\026GameFact" +
+      "oryDescription\022\n\n\002id\030\001 \002(\006\022\014\n\004name\030\002 \001(\t" +
+      "\0225\n\tattribute\030\003 \003(\0132\".bnet.protocol.attr" +
+      "ibute.Attribute\022@\n\014stats_bucket\030\004 \003(\0132*." +
+      "bnet.protocol.game_master.GameStatsBucke" +
+      "t\"J\n\nGameHandle\022\022\n\nfactory_id\030\001 \002(\006\022(\n\007g" +
+      "ame_id\030\002 \002(\0132\027.bnet.protocol.EntityId"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {

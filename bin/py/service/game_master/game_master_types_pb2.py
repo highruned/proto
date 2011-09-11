@@ -10,7 +10,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = descriptor.FileDescriptor(
   name='service/game_master/game_master_types.proto',
   package='bnet.protocol.game_master',
-  serialized_pb='\n+service/game_master/game_master_types.proto\x12\x19\x62net.protocol.game_master\x1a\x1clib/protocol/attribute.proto\x1a\x19lib/protocol/entity.proto\"\xa9\x02\n\x06Player\x12:\n\x04type\x18\x01 \x01(\x0e\x32&.bnet.protocol.game_master.Player.Type:\x04TOON\x12(\n\x07toon_id\x18\x02 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x30\n\x0fgame_account_id\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x30\n\x0f\x62net_account_id\x18\x04 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x35\n\tattribute\x18\x05 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\"\x1e\n\x04Type\x12\x08\n\x04TOON\x10\x00\x12\x0c\n\x08\x43OMPUTER\x10\x01\"\x99\x01\n\x0b\x43onnectInfo\x12(\n\x07toon_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x0c\n\x04host\x18\x02 \x02(\t\x12\x0c\n\x04port\x18\x03 \x02(\x05\x12\r\n\x05token\x18\x04 \x01(\x0c\x12\x35\n\tattribute\x18\x05 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\"\xee\x01\n\x0fGameStatsBucket\x12\x15\n\nbucket_min\x18\x01 \x01(\x02:\x01\x30\x12!\n\nbucket_max\x18\x02 \x01(\x02:\r4.2949673e+09\x12\x1c\n\x11wait_milliseconds\x18\x03 \x01(\r:\x01\x30\x12\x19\n\x0egames_per_hour\x18\x04 \x01(\r:\x01\x30\x12\x17\n\x0c\x61\x63tive_games\x18\x05 \x01(\r:\x01\x30\x12\x19\n\x0e\x61\x63tive_players\x18\x06 \x01(\r:\x01\x30\x12\x18\n\rforming_games\x18\x07 \x01(\r:\x01\x30\x12\x1a\n\x0fwaiting_players\x18\x08 \x01(\r:\x01\x30\"\xab\x01\n\x16GameFactoryDescription\x12\n\n\x02id\x18\x01 \x02(\x06\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x35\n\tattribute\x18\x03 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\x12@\n\x0cstats_bucket\x18\x04 \x03(\x0b\x32*.bnet.protocol.game_master.GameStatsBucket\"J\n\nGameHandle\x12\x12\n\nfactory_id\x18\x01 \x02(\x06\x12(\n\x07game_id\x18\x02 \x02(\x0b\x32\x17.bnet.protocol.EntityId')
+  serialized_pb='\n+service/game_master/game_master_types.proto\x12\x19\x62net.protocol.game_master\x1a\x1clib/protocol/attribute.proto\x1a\x19lib/protocol/entity.proto\"\xa9\x02\n\x06Player\x12:\n\x04type\x18\x01 \x01(\x0e\x32&.bnet.protocol.game_master.Player.Type:\x04TOON\x12(\n\x07toon_id\x18\x02 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x30\n\x0fgame_account_id\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x30\n\x0f\x62net_account_id\x18\x04 \x01(\x0b\x32\x17.bnet.protocol.EntityId\x12\x35\n\tattribute\x18\x05 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\"\x1e\n\x04Type\x12\x08\n\x04TOON\x10\x00\x12\x0c\n\x08\x43OMPUTER\x10\x01\"\x99\x01\n\x0b\x43onnectInfo\x12(\n\x07toon_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x0c\n\x04host\x18\x02 \x02(\t\x12\x0c\n\x04port\x18\x03 \x02(\x05\x12\r\n\x05token\x18\x04 \x01(\x0c\x12\x35\n\tattribute\x18\x05 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\"\xef\x01\n\x0fGameStatsBucket\x12\x15\n\nbucket_min\x18\x01 \x01(\x02:\x01\x30\x12\"\n\nbucket_max\x18\x02 \x01(\x02:\x0e\x34.2949673e+009\x12\x1c\n\x11wait_milliseconds\x18\x03 \x01(\r:\x01\x30\x12\x19\n\x0egames_per_hour\x18\x04 \x01(\r:\x01\x30\x12\x17\n\x0c\x61\x63tive_games\x18\x05 \x01(\r:\x01\x30\x12\x19\n\x0e\x61\x63tive_players\x18\x06 \x01(\r:\x01\x30\x12\x18\n\rforming_games\x18\x07 \x01(\r:\x01\x30\x12\x1a\n\x0fwaiting_players\x18\x08 \x01(\r:\x01\x30\"\xab\x01\n\x16GameFactoryDescription\x12\n\n\x02id\x18\x01 \x02(\x06\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x35\n\tattribute\x18\x03 \x03(\x0b\x32\".bnet.protocol.attribute.Attribute\x12@\n\x0cstats_bucket\x18\x04 \x03(\x0b\x32*.bnet.protocol.game_master.GameStatsBucket\"J\n\nGameHandle\x12\x12\n\nfactory_id\x18\x01 \x02(\x06\x12(\n\x07game_id\x18\x02 \x02(\x0b\x32\x17.bnet.protocol.EntityId')
 
 
 
@@ -166,7 +166,7 @@ _GAMESTATSBUCKET = descriptor.Descriptor(
     descriptor.FieldDescriptor(
       name='bucket_max', full_name='bnet.protocol.game_master.GameStatsBucket.bucket_max', index=1,
       number=2, type=2, cpp_type=6, label=1,
-      has_default_value=True, default_value=4.2949673e+09,
+      has_default_value=True, default_value=4.2949673e+009,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -222,7 +222,7 @@ _GAMESTATSBUCKET = descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=588,
-  serialized_end=826,
+  serialized_end=827,
 )
 
 
@@ -270,8 +270,8 @@ _GAMEFACTORYDESCRIPTION = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=829,
-  serialized_end=1000,
+  serialized_start=830,
+  serialized_end=1001,
 )
 
 
@@ -305,8 +305,8 @@ _GAMEHANDLE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1002,
-  serialized_end=1076,
+  serialized_start=1003,
+  serialized_end=1077,
 )
 
 import lib.protocol.attribute_pb2

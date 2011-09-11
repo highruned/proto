@@ -408,7 +408,7 @@ class GameStatsBucket : public ::google::protobuf::Message {
   inline float bucket_min() const;
   inline void set_bucket_min(float value);
   
-  // optional float bucket_max = 2 [default = 4.2949673e+09];
+  // optional float bucket_max = 2 [default = 4.2949673e+009];
   inline bool has_bucket_max() const;
   inline void clear_bucket_max();
   static const int kBucketMaxFieldNumber = 2;
@@ -980,12 +980,12 @@ inline void GameStatsBucket::set_bucket_min(float value) {
   bucket_min_ = value;
 }
 
-// optional float bucket_max = 2 [default = 4.2949673e+09];
+// optional float bucket_max = 2 [default = 4.2949673e+009];
 inline bool GameStatsBucket::has_bucket_max() const {
   return _has_bit(1);
 }
 inline void GameStatsBucket::clear_bucket_max() {
-  bucket_max_ = 4.2949673e+09f;
+  bucket_max_ = 4.2949673e+009f;
   _clear_bit(1);
 }
 inline float GameStatsBucket::bucket_max() const {
