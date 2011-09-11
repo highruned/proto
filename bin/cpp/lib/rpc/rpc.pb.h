@@ -39,7 +39,6 @@ class Address;
 class ProcessId;
 class ObjectAddress;
 class NoData;
-class Msg;
 
 // ===================================================================
 
@@ -506,117 +505,20 @@ class NoData : public ::google::protobuf::Message {
   void InitAsDefaultInstance();
   static NoData* default_instance_;
 };
-// -------------------------------------------------------------------
-
-class Msg : public ::google::protobuf::Message {
- public:
-  Msg();
-  virtual ~Msg();
-  
-  Msg(const Msg& from);
-  
-  inline Msg& operator=(const Msg& from) {
-    CopyFrom(from);
-    return *this;
-  }
-  
-  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {
-    return _unknown_fields_;
-  }
-  
-  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {
-    return &_unknown_fields_;
-  }
-  
-  static const ::google::protobuf::Descriptor* descriptor();
-  static const Msg& default_instance();
-  
-  void Swap(Msg* other);
-  
-  // implements Message ----------------------------------------------
-  
-  Msg* New() const;
-  void CopyFrom(const ::google::protobuf::Message& from);
-  void MergeFrom(const ::google::protobuf::Message& from);
-  void CopyFrom(const Msg& from);
-  void MergeFrom(const Msg& from);
-  void Clear();
-  bool IsInitialized() const;
-  
-  int ByteSize() const;
-  bool MergePartialFromCodedStream(
-      ::google::protobuf::io::CodedInputStream* input);
-  void SerializeWithCachedSizes(
-      ::google::protobuf::io::CodedOutputStream* output) const;
-  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;
-  int GetCachedSize() const { return _cached_size_; }
-  private:
-  void SharedCtor();
-  void SharedDtor();
-  void SetCachedSize(int size) const;
-  public:
-  
-  ::google::protobuf::Metadata GetMetadata() const;
-  
-  // nested types ----------------------------------------------------
-  
-  // accessors -------------------------------------------------------
-  
-  // required string name = 1;
-  inline bool has_name() const;
-  inline void clear_name();
-  static const int kNameFieldNumber = 1;
-  inline const ::std::string& name() const;
-  inline void set_name(const ::std::string& value);
-  inline void set_name(const char* value);
-  inline void set_name(const char* value, size_t size);
-  inline ::std::string* mutable_name();
-  
-  // required string pswd = 2;
-  inline bool has_pswd() const;
-  inline void clear_pswd();
-  static const int kPswdFieldNumber = 2;
-  inline const ::std::string& pswd() const;
-  inline void set_pswd(const ::std::string& value);
-  inline void set_pswd(const char* value);
-  inline void set_pswd(const char* value, size_t size);
-  inline ::std::string* mutable_pswd();
-  
-  // @@protoc_insertion_point(class_scope:bnet.protocol.Msg)
- private:
-  ::google::protobuf::UnknownFieldSet _unknown_fields_;
-  mutable int _cached_size_;
-  
-  ::std::string* name_;
-  static const ::std::string _default_name_;
-  ::std::string* pswd_;
-  static const ::std::string _default_pswd_;
-  friend void  protobuf_AddDesc_lib_2frpc_2frpc_2eproto();
-  friend void protobuf_AssignDesc_lib_2frpc_2frpc_2eproto();
-  friend void protobuf_ShutdownFile_lib_2frpc_2frpc_2eproto();
-  
-  ::google::protobuf::uint32 _has_bits_[(2 + 31) / 32];
-  
-  // WHY DOES & HAVE LOWER PRECEDENCE THAN != !?
-  inline bool _has_bit(int index) const {
-    return (_has_bits_[index / 32] & (1u << (index % 32))) != 0;
-  }
-  inline void _set_bit(int index) {
-    _has_bits_[index / 32] |= (1u << (index % 32));
-  }
-  inline void _clear_bit(int index) {
-    _has_bits_[index / 32] &= ~(1u << (index % 32));
-  }
-  
-  void InitAsDefaultInstance();
-  static Msg* default_instance_;
-};
 // ===================================================================
 
-static const int kMsgTypeFieldNumber = 50001;
-extern ::google::protobuf::internal::ExtensionIdentifier< ::google::protobuf::MessageOptions,
-    ::google::protobuf::internal::PrimitiveTypeTraits< ::google::protobuf::int32 >, 5, false >
-  msg_type;
+static const int kMethodIdFieldNumber = 50000;
+extern ::google::protobuf::internal::ExtensionIdentifier< ::google::protobuf::MethodOptions,
+    ::google::protobuf::internal::PrimitiveTypeTraits< ::google::protobuf::uint32 >, 13, false >
+  method_id;
+static const int kCostFieldNumber = 50001;
+extern ::google::protobuf::internal::ExtensionIdentifier< ::google::protobuf::MethodOptions,
+    ::google::protobuf::internal::PrimitiveTypeTraits< ::google::protobuf::uint32 >, 13, false >
+  cost;
+static const int kTimeoutFieldNumber = 50002;
+extern ::google::protobuf::internal::ExtensionIdentifier< ::google::protobuf::MethodOptions,
+    ::google::protobuf::internal::PrimitiveTypeTraits< float >, 2, false >
+  timeout;
 
 // ===================================================================
 
@@ -777,94 +679,6 @@ inline void ObjectAddress::set_object_id(::google::protobuf::uint64 value) {
 // -------------------------------------------------------------------
 
 // NoData
-
-// -------------------------------------------------------------------
-
-// Msg
-
-// required string name = 1;
-inline bool Msg::has_name() const {
-  return _has_bit(0);
-}
-inline void Msg::clear_name() {
-  if (name_ != &_default_name_) {
-    name_->clear();
-  }
-  _clear_bit(0);
-}
-inline const ::std::string& Msg::name() const {
-  return *name_;
-}
-inline void Msg::set_name(const ::std::string& value) {
-  _set_bit(0);
-  if (name_ == &_default_name_) {
-    name_ = new ::std::string;
-  }
-  name_->assign(value);
-}
-inline void Msg::set_name(const char* value) {
-  _set_bit(0);
-  if (name_ == &_default_name_) {
-    name_ = new ::std::string;
-  }
-  name_->assign(value);
-}
-inline void Msg::set_name(const char* value, size_t size) {
-  _set_bit(0);
-  if (name_ == &_default_name_) {
-    name_ = new ::std::string;
-  }
-  name_->assign(reinterpret_cast<const char*>(value), size);
-}
-inline ::std::string* Msg::mutable_name() {
-  _set_bit(0);
-  if (name_ == &_default_name_) {
-    name_ = new ::std::string;
-  }
-  return name_;
-}
-
-// required string pswd = 2;
-inline bool Msg::has_pswd() const {
-  return _has_bit(1);
-}
-inline void Msg::clear_pswd() {
-  if (pswd_ != &_default_pswd_) {
-    pswd_->clear();
-  }
-  _clear_bit(1);
-}
-inline const ::std::string& Msg::pswd() const {
-  return *pswd_;
-}
-inline void Msg::set_pswd(const ::std::string& value) {
-  _set_bit(1);
-  if (pswd_ == &_default_pswd_) {
-    pswd_ = new ::std::string;
-  }
-  pswd_->assign(value);
-}
-inline void Msg::set_pswd(const char* value) {
-  _set_bit(1);
-  if (pswd_ == &_default_pswd_) {
-    pswd_ = new ::std::string;
-  }
-  pswd_->assign(value);
-}
-inline void Msg::set_pswd(const char* value, size_t size) {
-  _set_bit(1);
-  if (pswd_ == &_default_pswd_) {
-    pswd_ = new ::std::string;
-  }
-  pswd_->assign(reinterpret_cast<const char*>(value), size);
-}
-inline ::std::string* Msg::mutable_pswd() {
-  _set_bit(1);
-  if (pswd_ == &_default_pswd_) {
-    pswd_ = new ::std::string;
-  }
-  return pswd_;
-}
 
 
 // @@protoc_insertion_point(namespace_scope)
