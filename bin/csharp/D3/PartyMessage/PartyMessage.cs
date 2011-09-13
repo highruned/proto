@@ -349,7 +349,6 @@ namespace D3.PartyMessage {
     public bool HasSecondsToSearch {
       get { return hasSecondsToSearch; }
     }
-    [global::System.CLSCompliant(false)]
     public uint SecondsToSearch {
       get { return secondsToSearch_; }
     }
@@ -602,12 +601,10 @@ namespace D3.PartyMessage {
       public bool HasSecondsToSearch {
         get { return result.HasSecondsToSearch; }
       }
-      [global::System.CLSCompliant(false)]
       public uint SecondsToSearch {
         get { return result.SecondsToSearch; }
         set { SetSecondsToSearch(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSecondsToSearch(uint value) {
         result.hasSecondsToSearch = true;
         result.secondsToSearch_ = value;

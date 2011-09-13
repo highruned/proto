@@ -493,7 +493,6 @@ namespace D3.Items {
     public bool HasSeed {
       get { return hasSeed; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Seed {
       get { return seed_; }
     }
@@ -556,7 +555,6 @@ namespace D3.Items {
     public bool HasFlags {
       get { return hasFlags; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Flags {
       get { return flags_; }
     }
@@ -567,7 +565,6 @@ namespace D3.Items {
     public bool HasDurability {
       get { return hasDurability; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Durability {
       get { return durability_; }
     }
@@ -578,7 +575,6 @@ namespace D3.Items {
     public bool HasStackSize {
       get { return hasStackSize; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong StackSize {
       get { return stackSize_; }
     }
@@ -589,7 +585,6 @@ namespace D3.Items {
     public bool HasDyeType {
       get { return hasDyeType; }
     }
-    [global::System.CLSCompliant(false)]
     public uint DyeType {
       get { return dyeType_; }
     }
@@ -620,7 +615,6 @@ namespace D3.Items {
     public bool HasMaxDurability {
       get { return hasMaxDurability; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxDurability {
       get { return maxDurability_; }
     }
@@ -1028,12 +1022,10 @@ namespace D3.Items {
       public bool HasSeed {
         get { return result.HasSeed; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Seed {
         get { return result.Seed; }
         set { SetSeed(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSeed(uint value) {
         result.hasSeed = true;
         result.seed_ = value;
@@ -1182,12 +1174,10 @@ namespace D3.Items {
       public bool HasFlags {
         get { return result.HasFlags; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Flags {
         get { return result.Flags; }
         set { SetFlags(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFlags(uint value) {
         result.hasFlags = true;
         result.flags_ = value;
@@ -1202,12 +1192,10 @@ namespace D3.Items {
       public bool HasDurability {
         get { return result.HasDurability; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Durability {
         get { return result.Durability; }
         set { SetDurability(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetDurability(uint value) {
         result.hasDurability = true;
         result.durability_ = value;
@@ -1222,12 +1210,10 @@ namespace D3.Items {
       public bool HasStackSize {
         get { return result.HasStackSize; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong StackSize {
         get { return result.StackSize; }
         set { SetStackSize(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStackSize(ulong value) {
         result.hasStackSize = true;
         result.stackSize_ = value;
@@ -1242,12 +1228,10 @@ namespace D3.Items {
       public bool HasDyeType {
         get { return result.HasDyeType; }
       }
-      [global::System.CLSCompliant(false)]
       public uint DyeType {
         get { return result.DyeType; }
         set { SetDyeType(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetDyeType(uint value) {
         result.hasDyeType = true;
         result.dyeType_ = value;
@@ -1298,12 +1282,10 @@ namespace D3.Items {
       public bool HasMaxDurability {
         get { return result.HasMaxDurability; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxDurability {
         get { return result.MaxDurability; }
         set { SetMaxDurability(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxDurability(uint value) {
         result.hasMaxDurability = true;
         result.maxDurability_ = value;
@@ -1770,7 +1752,6 @@ namespace D3.Items {
     public bool HasUsedSocketCount {
       get { return hasUsedSocketCount; }
     }
-    [global::System.CLSCompliant(false)]
     public uint UsedSocketCount {
       get { return usedSocketCount_; }
     }
@@ -2236,12 +2217,10 @@ namespace D3.Items {
       public bool HasUsedSocketCount {
         get { return result.HasUsedSocketCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint UsedSocketCount {
         get { return result.UsedSocketCount; }
         set { SetUsedSocketCount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetUsedSocketCount(uint value) {
         result.hasUsedSocketCount = true;
         result.usedSocketCount_ = value;

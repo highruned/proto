@@ -78,7 +78,6 @@ namespace D3.Stats {
     public bool HasStatId {
       get { return hasStatId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint StatId {
       get { return statId_; }
     }
@@ -89,7 +88,6 @@ namespace D3.Stats {
     public bool HasData1 {
       get { return hasData1; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Data1 {
       get { return data1_; }
     }
@@ -100,7 +98,6 @@ namespace D3.Stats {
     public bool HasData2 {
       get { return hasData2; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Data2 {
       get { return data2_; }
     }
@@ -111,7 +108,6 @@ namespace D3.Stats {
     public bool HasTotal {
       get { return hasTotal; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Total {
       get { return total_; }
     }
@@ -321,12 +317,10 @@ namespace D3.Stats {
       public bool HasStatId {
         get { return result.HasStatId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint StatId {
         get { return result.StatId; }
         set { SetStatId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStatId(uint value) {
         result.hasStatId = true;
         result.statId_ = value;
@@ -341,12 +335,10 @@ namespace D3.Stats {
       public bool HasData1 {
         get { return result.HasData1; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Data1 {
         get { return result.Data1; }
         set { SetData1(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetData1(uint value) {
         result.hasData1 = true;
         result.data1_ = value;
@@ -361,12 +353,10 @@ namespace D3.Stats {
       public bool HasData2 {
         get { return result.HasData2; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Data2 {
         get { return result.Data2; }
         set { SetData2(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetData2(uint value) {
         result.hasData2 = true;
         result.data2_ = value;
@@ -381,12 +371,10 @@ namespace D3.Stats {
       public bool HasTotal {
         get { return result.HasTotal; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Total {
         get { return result.Total; }
         set { SetTotal(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTotal(ulong value) {
         result.hasTotal = true;
         result.total_ = value;

@@ -1358,7 +1358,6 @@ namespace D3.Hero {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Version {
       get { return version_; }
     }
@@ -1409,7 +1408,6 @@ namespace D3.Hero {
     public bool HasPlayerFlags {
       get { return hasPlayerFlags; }
     }
-    [global::System.CLSCompliant(false)]
     public uint PlayerFlags {
       get { return playerFlags_; }
     }
@@ -1502,7 +1500,6 @@ namespace D3.Hero {
     public bool HasTimePlayed {
       get { return hasTimePlayed; }
     }
-    [global::System.CLSCompliant(false)]
     public uint TimePlayed {
       get { return timePlayed_; }
     }
@@ -1883,12 +1880,10 @@ namespace D3.Hero {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(uint value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -1994,12 +1989,10 @@ namespace D3.Hero {
       public bool HasPlayerFlags {
         get { return result.HasPlayerFlags; }
       }
-      [global::System.CLSCompliant(false)]
       public uint PlayerFlags {
         get { return result.PlayerFlags; }
         set { SetPlayerFlags(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPlayerFlags(uint value) {
         result.hasPlayerFlags = true;
         result.playerFlags_ = value;
@@ -2196,12 +2189,10 @@ namespace D3.Hero {
       public bool HasTimePlayed {
         get { return result.HasTimePlayed; }
       }
-      [global::System.CLSCompliant(false)]
       public uint TimePlayed {
         get { return result.TimePlayed; }
         set { SetTimePlayed(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTimePlayed(uint value) {
         result.hasTimePlayed = true;
         result.timePlayed_ = value;
@@ -3747,7 +3738,6 @@ namespace D3.Hero {
     public bool HasCreatesPortal {
       get { return hasCreatesPortal; }
     }
-    [global::System.CLSCompliant(false)]
     public uint CreatesPortal {
       get { return createsPortal_; }
     }
@@ -3980,12 +3970,10 @@ namespace D3.Hero {
       public bool HasCreatesPortal {
         get { return result.HasCreatesPortal; }
       }
-      [global::System.CLSCompliant(false)]
       public uint CreatesPortal {
         get { return result.CreatesPortal; }
         set { SetCreatesPortal(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCreatesPortal(uint value) {
         result.hasCreatesPortal = true;
         result.createsPortal_ = value;
@@ -4054,7 +4042,6 @@ namespace D3.Hero {
     public bool HasTimePlayed {
       get { return hasTimePlayed; }
     }
-    [global::System.CLSCompliant(false)]
     public uint TimePlayed {
       get { return timePlayed_; }
     }
@@ -4065,7 +4052,6 @@ namespace D3.Hero {
     public bool HasActivatedWaypoints {
       get { return hasActivatedWaypoints; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ActivatedWaypoints {
       get { return activatedWaypoints_; }
     }
@@ -4086,7 +4072,6 @@ namespace D3.Hero {
     public bool HasLastLevelTime {
       get { return hasLastLevelTime; }
     }
-    [global::System.CLSCompliant(false)]
     public uint LastLevelTime {
       get { return lastLevelTime_; }
     }
@@ -4599,12 +4584,10 @@ namespace D3.Hero {
       public bool HasTimePlayed {
         get { return result.HasTimePlayed; }
       }
-      [global::System.CLSCompliant(false)]
       public uint TimePlayed {
         get { return result.TimePlayed; }
         set { SetTimePlayed(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTimePlayed(uint value) {
         result.hasTimePlayed = true;
         result.timePlayed_ = value;
@@ -4619,12 +4602,10 @@ namespace D3.Hero {
       public bool HasActivatedWaypoints {
         get { return result.HasActivatedWaypoints; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ActivatedWaypoints {
         get { return result.ActivatedWaypoints; }
         set { SetActivatedWaypoints(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetActivatedWaypoints(uint value) {
         result.hasActivatedWaypoints = true;
         result.activatedWaypoints_ = value;
@@ -4675,12 +4656,10 @@ namespace D3.Hero {
       public bool HasLastLevelTime {
         get { return result.HasLastLevelTime; }
       }
-      [global::System.CLSCompliant(false)]
       public uint LastLevelTime {
         get { return result.LastLevelTime; }
         set { SetLastLevelTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetLastLevelTime(uint value) {
         result.hasLastLevelTime = true;
         result.lastLevelTime_ = value;
@@ -5168,7 +5147,6 @@ namespace D3.Hero {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Version {
       get { return version_; }
     }
@@ -5522,12 +5500,10 @@ namespace D3.Hero {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(uint value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -6224,7 +6200,6 @@ namespace D3.Hero {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Version {
       get { return version_; }
     }
@@ -6255,7 +6230,6 @@ namespace D3.Hero {
     public bool HasState {
       get { return hasState; }
     }
-    [global::System.CLSCompliant(false)]
     public uint State {
       get { return state_; }
     }
@@ -6479,12 +6453,10 @@ namespace D3.Hero {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(uint value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -6571,12 +6543,10 @@ namespace D3.Hero {
       public bool HasState {
         get { return result.HasState; }
       }
-      [global::System.CLSCompliant(false)]
       public uint State {
         get { return result.State; }
         set { SetState(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetState(uint value) {
         result.hasState = true;
         result.state_ = value;

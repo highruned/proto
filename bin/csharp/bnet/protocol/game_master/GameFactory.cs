@@ -106,7 +106,6 @@ namespace bnet.protocol.game_master {
     public bool HasProgramId {
       get { return hasProgramId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ProgramId {
       get { return programId_; }
     }
@@ -393,12 +392,10 @@ namespace bnet.protocol.game_master {
       public bool HasProgramId {
         get { return result.HasProgramId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ProgramId {
         get { return result.ProgramId; }
         set { SetProgramId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgramId(uint value) {
         result.hasProgramId = true;
         result.programId_ = value;

@@ -77,7 +77,6 @@ namespace D3.Client {
     public bool HasUiFlags {
       get { return hasUiFlags; }
     }
-    [global::System.CLSCompliant(false)]
     public uint UiFlags {
       get { return uiFlags_; }
     }
@@ -245,12 +244,10 @@ namespace D3.Client {
       public bool HasUiFlags {
         get { return result.HasUiFlags; }
       }
-      [global::System.CLSCompliant(false)]
       public uint UiFlags {
         get { return result.UiFlags; }
         set { SetUiFlags(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetUiFlags(uint value) {
         result.hasUiFlags = true;
         result.uiFlags_ = value;

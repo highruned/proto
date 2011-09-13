@@ -205,7 +205,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasInvitationId {
       get { return hasInvitationId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong InvitationId {
       get { return invitationId_; }
     }
@@ -216,7 +215,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -456,12 +454,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasInvitationId {
         get { return result.HasInvitationId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong InvitationId {
         get { return result.InvitationId; }
         set { SetInvitationId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetInvitationId(ulong value) {
         result.hasInvitationId = true;
         result.invitationId_ = value;
@@ -476,12 +472,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -526,7 +520,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -695,12 +688,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -755,7 +746,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -981,12 +971,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -2044,7 +2032,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasInvitationId {
       get { return hasInvitationId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong InvitationId {
       get { return invitationId_; }
     }
@@ -2357,12 +2344,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasInvitationId {
         get { return result.HasInvitationId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong InvitationId {
         get { return result.InvitationId; }
         set { SetInvitationId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetInvitationId(ulong value) {
         result.hasInvitationId = true;
         result.invitationId_ = value;
@@ -2443,7 +2428,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasServiceType {
       get { return hasServiceType; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ServiceType {
       get { return serviceType_; }
     }
@@ -2612,12 +2596,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasServiceType {
         get { return result.HasServiceType; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ServiceType {
         get { return result.ServiceType; }
         set { SetServiceType(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetServiceType(uint value) {
         result.hasServiceType = true;
         result.serviceType_ = value;
@@ -2912,7 +2894,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -3136,12 +3117,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;

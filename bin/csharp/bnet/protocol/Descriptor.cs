@@ -66,14 +66,12 @@ namespace bnet.protocol {
     
     public const int OrdinalFieldNumber = 1;
     private pbc::PopsicleList<uint> ordinal_ = new pbc::PopsicleList<uint>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<uint> OrdinalList {
       get { return pbc::Lists.AsReadOnly(ordinal_); }
     }
     public int OrdinalCount {
       get { return ordinal_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GetOrdinal(int index) {
       return ordinal_[index];
     }
@@ -246,28 +244,23 @@ namespace bnet.protocol {
       }
       
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<uint> OrdinalList {
         get { return result.ordinal_; }
       }
       public int OrdinalCount {
         get { return result.OrdinalCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GetOrdinal(int index) {
         return result.GetOrdinal(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrdinal(int index, uint value) {
         result.ordinal_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddOrdinal(uint value) {
         result.ordinal_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeOrdinal(scg::IEnumerable<uint> values) {
         base.AddRange(values, result.ordinal_);
         return this;

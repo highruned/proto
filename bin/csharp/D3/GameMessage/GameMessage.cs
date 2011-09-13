@@ -1591,7 +1591,6 @@ namespace D3.GameMessage {
     public bool HasPlayerIndex {
       get { return hasPlayerIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint PlayerIndex {
       get { return playerIndex_; }
     }
@@ -1790,12 +1789,10 @@ namespace D3.GameMessage {
       public bool HasPlayerIndex {
         get { return result.HasPlayerIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint PlayerIndex {
         get { return result.PlayerIndex; }
         set { SetPlayerIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPlayerIndex(uint value) {
         result.hasPlayerIndex = true;
         result.playerIndex_ = value;
@@ -1886,7 +1883,6 @@ namespace D3.GameMessage {
     public bool HasSlotIndex {
       get { return hasSlotIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint SlotIndex {
       get { return slotIndex_; }
     }
@@ -2133,12 +2129,10 @@ namespace D3.GameMessage {
       public bool HasSlotIndex {
         get { return result.HasSlotIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint SlotIndex {
         get { return result.SlotIndex; }
         set { SetSlotIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSlotIndex(uint value) {
         result.hasSlotIndex = true;
         result.slotIndex_ = value;

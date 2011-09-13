@@ -116,7 +116,6 @@ namespace bnet.protocol {
     public bool HasDataSize {
       get { return hasDataSize; }
     }
-    [global::System.CLSCompliant(false)]
     public uint DataSize {
       get { return dataSize_; }
     }
@@ -349,12 +348,10 @@ namespace bnet.protocol {
       public bool HasDataSize {
         get { return result.HasDataSize; }
       }
-      [global::System.CLSCompliant(false)]
       public uint DataSize {
         get { return result.DataSize; }
         set { SetDataSize(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetDataSize(uint value) {
         result.hasDataSize = true;
         result.dataSize_ = value;

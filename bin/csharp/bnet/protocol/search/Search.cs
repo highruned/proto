@@ -133,7 +133,6 @@ namespace bnet.protocol.search {
     public bool HasStartingIndex {
       get { return hasStartingIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint StartingIndex {
       get { return startingIndex_; }
     }
@@ -144,7 +143,6 @@ namespace bnet.protocol.search {
     public bool HasCount {
       get { return hasCount; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Count {
       get { return count_; }
     }
@@ -415,12 +413,10 @@ namespace bnet.protocol.search {
       public bool HasStartingIndex {
         get { return result.HasStartingIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint StartingIndex {
         get { return result.StartingIndex; }
         set { SetStartingIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStartingIndex(uint value) {
         result.hasStartingIndex = true;
         result.startingIndex_ = value;
@@ -435,12 +431,10 @@ namespace bnet.protocol.search {
       public bool HasCount {
         get { return result.HasCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Count {
         get { return result.Count; }
         set { SetCount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCount(uint value) {
         result.hasCount = true;
         result.count_ = value;
@@ -485,7 +479,6 @@ namespace bnet.protocol.search {
     public bool HasTotalCount {
       get { return hasTotalCount; }
     }
-    [global::System.CLSCompliant(false)]
     public uint TotalCount {
       get { return totalCount_; }
     }
@@ -685,12 +678,10 @@ namespace bnet.protocol.search {
       public bool HasTotalCount {
         get { return result.HasTotalCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint TotalCount {
         get { return result.TotalCount; }
         set { SetTotalCount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTotalCount(uint value) {
         result.hasTotalCount = true;
         result.totalCount_ = value;

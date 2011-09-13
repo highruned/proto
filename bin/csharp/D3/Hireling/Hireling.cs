@@ -111,7 +111,6 @@ namespace D3.Hireling {
     public bool HasAttributeExperienceNext {
       get { return hasAttributeExperienceNext; }
     }
-    [global::System.CLSCompliant(false)]
     public uint AttributeExperienceNext {
       get { return attributeExperienceNext_; }
     }
@@ -433,12 +432,10 @@ namespace D3.Hireling {
       public bool HasAttributeExperienceNext {
         get { return result.HasAttributeExperienceNext; }
       }
-      [global::System.CLSCompliant(false)]
       public uint AttributeExperienceNext {
         get { return result.AttributeExperienceNext; }
         set { SetAttributeExperienceNext(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAttributeExperienceNext(uint value) {
         result.hasAttributeExperienceNext = true;
         result.attributeExperienceNext_ = value;
@@ -539,7 +536,6 @@ namespace D3.Hireling {
     public bool HasActiveHireling {
       get { return hasActiveHireling; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ActiveHireling {
       get { return activeHireling_; }
     }
@@ -550,7 +546,6 @@ namespace D3.Hireling {
     public bool HasAvailableHirelingsBitfield {
       get { return hasAvailableHirelingsBitfield; }
     }
-    [global::System.CLSCompliant(false)]
     public uint AvailableHirelingsBitfield {
       get { return availableHirelingsBitfield_; }
     }
@@ -790,12 +785,10 @@ namespace D3.Hireling {
       public bool HasActiveHireling {
         get { return result.HasActiveHireling; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ActiveHireling {
         get { return result.ActiveHireling; }
         set { SetActiveHireling(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetActiveHireling(uint value) {
         result.hasActiveHireling = true;
         result.activeHireling_ = value;
@@ -810,12 +803,10 @@ namespace D3.Hireling {
       public bool HasAvailableHirelingsBitfield {
         get { return result.HasAvailableHirelingsBitfield; }
       }
-      [global::System.CLSCompliant(false)]
       public uint AvailableHirelingsBitfield {
         get { return result.AvailableHirelingsBitfield; }
         set { SetAvailableHirelingsBitfield(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAvailableHirelingsBitfield(uint value) {
         result.hasAvailableHirelingsBitfield = true;
         result.availableHirelingsBitfield_ = value;

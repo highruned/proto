@@ -269,7 +269,6 @@ namespace bnet.protocol.exchange {
     public bool HasProgram {
       get { return hasProgram; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Program {
       get { return program_; }
     }
@@ -280,7 +279,6 @@ namespace bnet.protocol.exchange {
     public bool HasCompatibility {
       get { return hasCompatibility; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Compatibility {
       get { return compatibility_; }
     }
@@ -311,7 +309,6 @@ namespace bnet.protocol.exchange {
     public bool HasAllowedRealm {
       get { return hasAllowedRealm; }
     }
-    [global::System.CLSCompliant(false)]
     public uint AllowedRealm {
       get { return allowedRealm_; }
     }
@@ -592,12 +589,10 @@ namespace bnet.protocol.exchange {
       public bool HasProgram {
         get { return result.HasProgram; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Program {
         get { return result.Program; }
         set { SetProgram(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgram(uint value) {
         result.hasProgram = true;
         result.program_ = value;
@@ -612,12 +607,10 @@ namespace bnet.protocol.exchange {
       public bool HasCompatibility {
         get { return result.HasCompatibility; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Compatibility {
         get { return result.Compatibility; }
         set { SetCompatibility(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCompatibility(uint value) {
         result.hasCompatibility = true;
         result.compatibility_ = value;
@@ -669,12 +662,10 @@ namespace bnet.protocol.exchange {
       public bool HasAllowedRealm {
         get { return result.HasAllowedRealm; }
       }
-      [global::System.CLSCompliant(false)]
       public uint AllowedRealm {
         get { return result.AllowedRealm; }
         set { SetAllowedRealm(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAllowedRealm(uint value) {
         result.hasAllowedRealm = true;
         result.allowedRealm_ = value;
@@ -729,7 +720,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookId {
       get { return hasOrderBookId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookId {
       get { return orderBookId_; }
     }
@@ -954,12 +944,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookId {
         get { return result.HasOrderBookId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookId {
         get { return result.OrderBookId; }
         set { SetOrderBookId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookId(ulong value) {
         result.hasOrderBookId = true;
         result.orderBookId_ = value;
@@ -1024,7 +1012,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookId {
       get { return hasOrderBookId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookId {
       get { return orderBookId_; }
     }
@@ -1035,7 +1022,6 @@ namespace bnet.protocol.exchange {
     public bool HasTradeNowPrice {
       get { return hasTradeNowPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong TradeNowPrice {
       get { return tradeNowPrice_; }
     }
@@ -1046,7 +1032,6 @@ namespace bnet.protocol.exchange {
     public bool HasStatus {
       get { return hasStatus; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Status {
       get { return status_; }
     }
@@ -1057,7 +1042,6 @@ namespace bnet.protocol.exchange {
     public bool HasUpdateTime {
       get { return hasUpdateTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong UpdateTime {
       get { return updateTime_; }
     }
@@ -1379,12 +1363,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookId {
         get { return result.HasOrderBookId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookId {
         get { return result.OrderBookId; }
         set { SetOrderBookId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookId(ulong value) {
         result.hasOrderBookId = true;
         result.orderBookId_ = value;
@@ -1399,12 +1381,10 @@ namespace bnet.protocol.exchange {
       public bool HasTradeNowPrice {
         get { return result.HasTradeNowPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong TradeNowPrice {
         get { return result.TradeNowPrice; }
         set { SetTradeNowPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTradeNowPrice(ulong value) {
         result.hasTradeNowPrice = true;
         result.tradeNowPrice_ = value;
@@ -1419,12 +1399,10 @@ namespace bnet.protocol.exchange {
       public bool HasStatus {
         get { return result.HasStatus; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Status {
         get { return result.Status; }
         set { SetStatus(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStatus(uint value) {
         result.hasStatus = true;
         result.status_ = value;
@@ -1439,12 +1417,10 @@ namespace bnet.protocol.exchange {
       public bool HasUpdateTime {
         get { return result.HasUpdateTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong UpdateTime {
         get { return result.UpdateTime; }
         set { SetUpdateTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetUpdateTime(ulong value) {
         result.hasUpdateTime = true;
         result.updateTime_ = value;
@@ -1499,7 +1475,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookId {
       get { return hasOrderBookId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookId {
       get { return orderBookId_; }
     }
@@ -1510,7 +1485,6 @@ namespace bnet.protocol.exchange {
     public bool HasResult {
       get { return hasResult; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Result {
       get { return result_; }
     }
@@ -1531,7 +1505,6 @@ namespace bnet.protocol.exchange {
     public bool HasAmount {
       get { return hasAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Amount {
       get { return amount_; }
     }
@@ -1542,7 +1515,6 @@ namespace bnet.protocol.exchange {
     public bool HasBestOfferPrice {
       get { return hasBestOfferPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong BestOfferPrice {
       get { return bestOfferPrice_; }
     }
@@ -1553,7 +1525,6 @@ namespace bnet.protocol.exchange {
     public bool HasBestBidPrice {
       get { return hasBestBidPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong BestBidPrice {
       get { return bestBidPrice_; }
     }
@@ -1564,7 +1535,6 @@ namespace bnet.protocol.exchange {
     public bool HasEndTime {
       get { return hasEndTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong EndTime {
       get { return endTime_; }
     }
@@ -1585,7 +1555,6 @@ namespace bnet.protocol.exchange {
     public bool HasCreatedTime {
       get { return hasCreatedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong CreatedTime {
       get { return createdTime_; }
     }
@@ -1596,7 +1565,6 @@ namespace bnet.protocol.exchange {
     public bool HasActiveTime {
       get { return hasActiveTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ActiveTime {
       get { return activeTime_; }
     }
@@ -1607,7 +1575,6 @@ namespace bnet.protocol.exchange {
     public bool HasClosedTime {
       get { return hasClosedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ClosedTime {
       get { return closedTime_; }
     }
@@ -1618,7 +1585,6 @@ namespace bnet.protocol.exchange {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -1629,7 +1595,6 @@ namespace bnet.protocol.exchange {
     public bool HasOutBidUnitPrice {
       get { return hasOutBidUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OutBidUnitPrice {
       get { return outBidUnitPrice_; }
     }
@@ -2019,12 +1984,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookId {
         get { return result.HasOrderBookId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookId {
         get { return result.OrderBookId; }
         set { SetOrderBookId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookId(ulong value) {
         result.hasOrderBookId = true;
         result.orderBookId_ = value;
@@ -2039,12 +2002,10 @@ namespace bnet.protocol.exchange {
       public bool HasResult {
         get { return result.HasResult; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Result {
         get { return result.Result; }
         set { SetResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetResult(uint value) {
         result.hasResult = true;
         result.result_ = value;
@@ -2095,12 +2056,10 @@ namespace bnet.protocol.exchange {
       public bool HasAmount {
         get { return result.HasAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Amount {
         get { return result.Amount; }
         set { SetAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAmount(ulong value) {
         result.hasAmount = true;
         result.amount_ = value;
@@ -2115,12 +2074,10 @@ namespace bnet.protocol.exchange {
       public bool HasBestOfferPrice {
         get { return result.HasBestOfferPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong BestOfferPrice {
         get { return result.BestOfferPrice; }
         set { SetBestOfferPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetBestOfferPrice(ulong value) {
         result.hasBestOfferPrice = true;
         result.bestOfferPrice_ = value;
@@ -2135,12 +2092,10 @@ namespace bnet.protocol.exchange {
       public bool HasBestBidPrice {
         get { return result.HasBestBidPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong BestBidPrice {
         get { return result.BestBidPrice; }
         set { SetBestBidPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetBestBidPrice(ulong value) {
         result.hasBestBidPrice = true;
         result.bestBidPrice_ = value;
@@ -2155,12 +2110,10 @@ namespace bnet.protocol.exchange {
       public bool HasEndTime {
         get { return result.HasEndTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong EndTime {
         get { return result.EndTime; }
         set { SetEndTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetEndTime(ulong value) {
         result.hasEndTime = true;
         result.endTime_ = value;
@@ -2193,12 +2146,10 @@ namespace bnet.protocol.exchange {
       public bool HasCreatedTime {
         get { return result.HasCreatedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong CreatedTime {
         get { return result.CreatedTime; }
         set { SetCreatedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCreatedTime(ulong value) {
         result.hasCreatedTime = true;
         result.createdTime_ = value;
@@ -2213,12 +2164,10 @@ namespace bnet.protocol.exchange {
       public bool HasActiveTime {
         get { return result.HasActiveTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ActiveTime {
         get { return result.ActiveTime; }
         set { SetActiveTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetActiveTime(ulong value) {
         result.hasActiveTime = true;
         result.activeTime_ = value;
@@ -2233,12 +2182,10 @@ namespace bnet.protocol.exchange {
       public bool HasClosedTime {
         get { return result.HasClosedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ClosedTime {
         get { return result.ClosedTime; }
         set { SetClosedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetClosedTime(ulong value) {
         result.hasClosedTime = true;
         result.closedTime_ = value;
@@ -2253,12 +2200,10 @@ namespace bnet.protocol.exchange {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -2273,12 +2218,10 @@ namespace bnet.protocol.exchange {
       public bool HasOutBidUnitPrice {
         get { return result.HasOutBidUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OutBidUnitPrice {
         get { return result.OutBidUnitPrice; }
         set { SetOutBidUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOutBidUnitPrice(ulong value) {
         result.hasOutBidUnitPrice = true;
         result.outBidUnitPrice_ = value;
@@ -2323,7 +2266,6 @@ namespace bnet.protocol.exchange {
     public bool HasAmount {
       get { return hasAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Amount {
       get { return amount_; }
     }
@@ -2334,7 +2276,6 @@ namespace bnet.protocol.exchange {
     public bool HasStartTime {
       get { return hasStartTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong StartTime {
       get { return startTime_; }
     }
@@ -2345,7 +2286,6 @@ namespace bnet.protocol.exchange {
     public bool HasEndTime {
       get { return hasEndTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong EndTime {
       get { return endTime_; }
     }
@@ -2695,12 +2635,10 @@ namespace bnet.protocol.exchange {
       public bool HasAmount {
         get { return result.HasAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Amount {
         get { return result.Amount; }
         set { SetAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAmount(uint value) {
         result.hasAmount = true;
         result.amount_ = value;
@@ -2715,12 +2653,10 @@ namespace bnet.protocol.exchange {
       public bool HasStartTime {
         get { return result.HasStartTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong StartTime {
         get { return result.StartTime; }
         set { SetStartTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStartTime(ulong value) {
         result.hasStartTime = true;
         result.startTime_ = value;
@@ -2735,12 +2671,10 @@ namespace bnet.protocol.exchange {
       public bool HasEndTime {
         get { return result.HasEndTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong EndTime {
         get { return result.EndTime; }
         set { SetEndTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetEndTime(ulong value) {
         result.hasEndTime = true;
         result.endTime_ = value;
@@ -2975,7 +2909,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookId {
       get { return hasOrderBookId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookId {
       get { return orderBookId_; }
     }
@@ -2986,7 +2919,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderId {
       get { return hasOrderId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderId {
       get { return orderId_; }
     }
@@ -2997,7 +2929,6 @@ namespace bnet.protocol.exchange {
     public bool HasFilledAmount {
       get { return hasFilledAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FilledAmount {
       get { return filledAmount_; }
     }
@@ -3018,7 +2949,6 @@ namespace bnet.protocol.exchange {
     public bool HasAuthorizedTime {
       get { return hasAuthorizedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AuthorizedTime {
       get { return authorizedTime_; }
     }
@@ -3029,7 +2959,6 @@ namespace bnet.protocol.exchange {
     public bool HasCreatedTime {
       get { return hasCreatedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong CreatedTime {
       get { return createdTime_; }
     }
@@ -3040,7 +2969,6 @@ namespace bnet.protocol.exchange {
     public bool HasClosedTime {
       get { return hasClosedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ClosedTime {
       get { return closedTime_; }
     }
@@ -3051,7 +2979,6 @@ namespace bnet.protocol.exchange {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -3072,7 +2999,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookStatus {
       get { return hasOrderBookStatus; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookStatus {
       get { return orderBookStatus_; }
     }
@@ -3083,7 +3009,6 @@ namespace bnet.protocol.exchange {
     public bool HasMoneyToClaim {
       get { return hasMoneyToClaim; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MoneyToClaim {
       get { return moneyToClaim_; }
     }
@@ -3094,7 +3019,6 @@ namespace bnet.protocol.exchange {
     public bool HasItemsToClaim {
       get { return hasItemsToClaim; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ItemsToClaim {
       get { return itemsToClaim_; }
     }
@@ -3471,12 +3395,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookId {
         get { return result.HasOrderBookId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookId {
         get { return result.OrderBookId; }
         set { SetOrderBookId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookId(ulong value) {
         result.hasOrderBookId = true;
         result.orderBookId_ = value;
@@ -3491,12 +3413,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderId {
         get { return result.HasOrderId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderId {
         get { return result.OrderId; }
         set { SetOrderId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderId(ulong value) {
         result.hasOrderId = true;
         result.orderId_ = value;
@@ -3511,12 +3431,10 @@ namespace bnet.protocol.exchange {
       public bool HasFilledAmount {
         get { return result.HasFilledAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FilledAmount {
         get { return result.FilledAmount; }
         set { SetFilledAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFilledAmount(ulong value) {
         result.hasFilledAmount = true;
         result.filledAmount_ = value;
@@ -3549,12 +3467,10 @@ namespace bnet.protocol.exchange {
       public bool HasAuthorizedTime {
         get { return result.HasAuthorizedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AuthorizedTime {
         get { return result.AuthorizedTime; }
         set { SetAuthorizedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuthorizedTime(ulong value) {
         result.hasAuthorizedTime = true;
         result.authorizedTime_ = value;
@@ -3569,12 +3485,10 @@ namespace bnet.protocol.exchange {
       public bool HasCreatedTime {
         get { return result.HasCreatedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong CreatedTime {
         get { return result.CreatedTime; }
         set { SetCreatedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCreatedTime(ulong value) {
         result.hasCreatedTime = true;
         result.createdTime_ = value;
@@ -3589,12 +3503,10 @@ namespace bnet.protocol.exchange {
       public bool HasClosedTime {
         get { return result.HasClosedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ClosedTime {
         get { return result.ClosedTime; }
         set { SetClosedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetClosedTime(ulong value) {
         result.hasClosedTime = true;
         result.closedTime_ = value;
@@ -3609,12 +3521,10 @@ namespace bnet.protocol.exchange {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -3665,12 +3575,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookStatus {
         get { return result.HasOrderBookStatus; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookStatus {
         get { return result.OrderBookStatus; }
         set { SetOrderBookStatus(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookStatus(ulong value) {
         result.hasOrderBookStatus = true;
         result.orderBookStatus_ = value;
@@ -3685,12 +3593,10 @@ namespace bnet.protocol.exchange {
       public bool HasMoneyToClaim {
         get { return result.HasMoneyToClaim; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MoneyToClaim {
         get { return result.MoneyToClaim; }
         set { SetMoneyToClaim(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMoneyToClaim(ulong value) {
         result.hasMoneyToClaim = true;
         result.moneyToClaim_ = value;
@@ -3705,12 +3611,10 @@ namespace bnet.protocol.exchange {
       public bool HasItemsToClaim {
         get { return result.HasItemsToClaim; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ItemsToClaim {
         get { return result.ItemsToClaim; }
         set { SetItemsToClaim(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetItemsToClaim(ulong value) {
         result.hasItemsToClaim = true;
         result.itemsToClaim_ = value;
@@ -3765,7 +3669,6 @@ namespace bnet.protocol.exchange {
     public bool HasTradeNowPrice {
       get { return hasTradeNowPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong TradeNowPrice {
       get { return tradeNowPrice_; }
     }
@@ -3776,7 +3679,6 @@ namespace bnet.protocol.exchange {
     public bool HasReservePrice {
       get { return hasReservePrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ReservePrice {
       get { return reservePrice_; }
     }
@@ -3787,7 +3689,6 @@ namespace bnet.protocol.exchange {
     public bool HasOutBidPrice {
       get { return hasOutBidPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OutBidPrice {
       get { return outBidPrice_; }
     }
@@ -4037,12 +3938,10 @@ namespace bnet.protocol.exchange {
       public bool HasTradeNowPrice {
         get { return result.HasTradeNowPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong TradeNowPrice {
         get { return result.TradeNowPrice; }
         set { SetTradeNowPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTradeNowPrice(ulong value) {
         result.hasTradeNowPrice = true;
         result.tradeNowPrice_ = value;
@@ -4057,12 +3956,10 @@ namespace bnet.protocol.exchange {
       public bool HasReservePrice {
         get { return result.HasReservePrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ReservePrice {
         get { return result.ReservePrice; }
         set { SetReservePrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReservePrice(ulong value) {
         result.hasReservePrice = true;
         result.reservePrice_ = value;
@@ -4077,12 +3974,10 @@ namespace bnet.protocol.exchange {
       public bool HasOutBidPrice {
         get { return result.HasOutBidPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OutBidPrice {
         get { return result.OutBidPrice; }
         set { SetOutBidPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOutBidPrice(ulong value) {
         result.hasOutBidPrice = true;
         result.outBidPrice_ = value;
@@ -4147,7 +4042,6 @@ namespace bnet.protocol.exchange {
     public bool HasCurrentWinningPrice {
       get { return hasCurrentWinningPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong CurrentWinningPrice {
       get { return currentWinningPrice_; }
     }
@@ -4427,12 +4321,10 @@ namespace bnet.protocol.exchange {
       public bool HasCurrentWinningPrice {
         get { return result.HasCurrentWinningPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong CurrentWinningPrice {
         get { return result.CurrentWinningPrice; }
         set { SetCurrentWinningPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCurrentWinningPrice(ulong value) {
         result.hasCurrentWinningPrice = true;
         result.currentWinningPrice_ = value;
@@ -4487,7 +4379,6 @@ namespace bnet.protocol.exchange {
     public bool HasAuctionDuration {
       get { return hasAuctionDuration; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AuctionDuration {
       get { return auctionDuration_; }
     }
@@ -4498,7 +4389,6 @@ namespace bnet.protocol.exchange {
     public bool HasAuctionStartDelay {
       get { return hasAuctionStartDelay; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AuctionStartDelay {
       get { return auctionStartDelay_; }
     }
@@ -4766,12 +4656,10 @@ namespace bnet.protocol.exchange {
       public bool HasAuctionDuration {
         get { return result.HasAuctionDuration; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AuctionDuration {
         get { return result.AuctionDuration; }
         set { SetAuctionDuration(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionDuration(ulong value) {
         result.hasAuctionDuration = true;
         result.auctionDuration_ = value;
@@ -4786,12 +4674,10 @@ namespace bnet.protocol.exchange {
       public bool HasAuctionStartDelay {
         get { return result.HasAuctionStartDelay; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AuctionStartDelay {
         get { return result.AuctionStartDelay; }
         set { SetAuctionStartDelay(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionStartDelay(ulong value) {
         result.hasAuctionStartDelay = true;
         result.auctionStartDelay_ = value;
@@ -4882,7 +4768,6 @@ namespace bnet.protocol.exchange {
     public bool HasCurrentUnitPrice {
       get { return hasCurrentUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong CurrentUnitPrice {
       get { return currentUnitPrice_; }
     }
@@ -4893,7 +4778,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxUnitPrice {
       get { return hasMaxUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MaxUnitPrice {
       get { return maxUnitPrice_; }
     }
@@ -5130,12 +5014,10 @@ namespace bnet.protocol.exchange {
       public bool HasCurrentUnitPrice {
         get { return result.HasCurrentUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong CurrentUnitPrice {
         get { return result.CurrentUnitPrice; }
         set { SetCurrentUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCurrentUnitPrice(ulong value) {
         result.hasCurrentUnitPrice = true;
         result.currentUnitPrice_ = value;
@@ -5150,12 +5032,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxUnitPrice {
         get { return result.HasMaxUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MaxUnitPrice {
         get { return result.MaxUnitPrice; }
         set { SetMaxUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxUnitPrice(ulong value) {
         result.hasMaxUnitPrice = true;
         result.maxUnitPrice_ = value;
@@ -5220,7 +5100,6 @@ namespace bnet.protocol.exchange {
     public bool HasOfferOutBidPrice {
       get { return hasOfferOutBidPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OfferOutBidPrice {
       get { return offerOutBidPrice_; }
     }
@@ -5231,7 +5110,6 @@ namespace bnet.protocol.exchange {
     public bool HasOfferTradeNowPrice {
       get { return hasOfferTradeNowPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OfferTradeNowPrice {
       get { return offerTradeNowPrice_; }
     }
@@ -5242,7 +5120,6 @@ namespace bnet.protocol.exchange {
     public bool HasOfferCurrentWinningPrice {
       get { return hasOfferCurrentWinningPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OfferCurrentWinningPrice {
       get { return offerCurrentWinningPrice_; }
     }
@@ -5548,12 +5425,10 @@ namespace bnet.protocol.exchange {
       public bool HasOfferOutBidPrice {
         get { return result.HasOfferOutBidPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OfferOutBidPrice {
         get { return result.OfferOutBidPrice; }
         set { SetOfferOutBidPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOfferOutBidPrice(ulong value) {
         result.hasOfferOutBidPrice = true;
         result.offerOutBidPrice_ = value;
@@ -5568,12 +5443,10 @@ namespace bnet.protocol.exchange {
       public bool HasOfferTradeNowPrice {
         get { return result.HasOfferTradeNowPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OfferTradeNowPrice {
         get { return result.OfferTradeNowPrice; }
         set { SetOfferTradeNowPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOfferTradeNowPrice(ulong value) {
         result.hasOfferTradeNowPrice = true;
         result.offerTradeNowPrice_ = value;
@@ -5588,12 +5461,10 @@ namespace bnet.protocol.exchange {
       public bool HasOfferCurrentWinningPrice {
         get { return result.HasOfferCurrentWinningPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OfferCurrentWinningPrice {
         get { return result.OfferCurrentWinningPrice; }
         set { SetOfferCurrentWinningPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOfferCurrentWinningPrice(ulong value) {
         result.hasOfferCurrentWinningPrice = true;
         result.offerCurrentWinningPrice_ = value;
@@ -5648,7 +5519,6 @@ namespace bnet.protocol.exchange {
     public bool HasAuctionDuration {
       get { return hasAuctionDuration; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AuctionDuration {
       get { return auctionDuration_; }
     }
@@ -5659,7 +5529,6 @@ namespace bnet.protocol.exchange {
     public bool HasAuctionStartDelay {
       get { return hasAuctionStartDelay; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AuctionStartDelay {
       get { return auctionStartDelay_; }
     }
@@ -5927,12 +5796,10 @@ namespace bnet.protocol.exchange {
       public bool HasAuctionDuration {
         get { return result.HasAuctionDuration; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AuctionDuration {
         get { return result.AuctionDuration; }
         set { SetAuctionDuration(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionDuration(ulong value) {
         result.hasAuctionDuration = true;
         result.auctionDuration_ = value;
@@ -5947,12 +5814,10 @@ namespace bnet.protocol.exchange {
       public bool HasAuctionStartDelay {
         get { return result.HasAuctionStartDelay; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AuctionStartDelay {
         get { return result.AuctionStartDelay; }
         set { SetAuctionStartDelay(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionStartDelay(ulong value) {
         result.hasAuctionStartDelay = true;
         result.auctionStartDelay_ = value;
@@ -6033,7 +5898,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxResult {
       get { return hasMaxResult; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxResult {
       get { return maxResult_; }
     }
@@ -6044,7 +5908,6 @@ namespace bnet.protocol.exchange {
     public bool HasRefOrderId {
       get { return hasRefOrderId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RefOrderId {
       get { return refOrderId_; }
     }
@@ -6226,12 +6089,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxResult {
         get { return result.HasMaxResult; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxResult {
         get { return result.MaxResult; }
         set { SetMaxResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxResult(uint value) {
         result.hasMaxResult = true;
         result.maxResult_ = value;
@@ -6246,12 +6107,10 @@ namespace bnet.protocol.exchange {
       public bool HasRefOrderId {
         get { return result.HasRefOrderId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RefOrderId {
         get { return result.RefOrderId; }
         set { SetRefOrderId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRefOrderId(ulong value) {
         result.hasRefOrderId = true;
         result.refOrderId_ = value;
@@ -6296,7 +6155,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxResult {
       get { return hasMaxResult; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxResult {
       get { return maxResult_; }
     }
@@ -6307,7 +6165,6 @@ namespace bnet.protocol.exchange {
     public bool HasRefCreatedTime {
       get { return hasRefCreatedTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RefCreatedTime {
       get { return refCreatedTime_; }
     }
@@ -6489,12 +6346,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxResult {
         get { return result.HasMaxResult; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxResult {
         get { return result.MaxResult; }
         set { SetMaxResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxResult(uint value) {
         result.hasMaxResult = true;
         result.maxResult_ = value;
@@ -6509,12 +6364,10 @@ namespace bnet.protocol.exchange {
       public bool HasRefCreatedTime {
         get { return result.HasRefCreatedTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RefCreatedTime {
         get { return result.RefCreatedTime; }
         set { SetRefCreatedTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRefCreatedTime(ulong value) {
         result.hasRefCreatedTime = true;
         result.refCreatedTime_ = value;
@@ -6559,7 +6412,6 @@ namespace bnet.protocol.exchange {
     public bool HasOrderBookId {
       get { return hasOrderBookId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OrderBookId {
       get { return orderBookId_; }
     }
@@ -6570,7 +6422,6 @@ namespace bnet.protocol.exchange {
     public bool HasMoneyAmount {
       get { return hasMoneyAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MoneyAmount {
       get { return moneyAmount_; }
     }
@@ -6581,7 +6432,6 @@ namespace bnet.protocol.exchange {
     public bool HasItemsAmount {
       get { return hasItemsAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ItemsAmount {
       get { return itemsAmount_; }
     }
@@ -6592,7 +6442,6 @@ namespace bnet.protocol.exchange {
     public bool HasOfferSettleId {
       get { return hasOfferSettleId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong OfferSettleId {
       get { return offerSettleId_; }
     }
@@ -6803,12 +6652,10 @@ namespace bnet.protocol.exchange {
       public bool HasOrderBookId {
         get { return result.HasOrderBookId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OrderBookId {
         get { return result.OrderBookId; }
         set { SetOrderBookId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOrderBookId(ulong value) {
         result.hasOrderBookId = true;
         result.orderBookId_ = value;
@@ -6823,12 +6670,10 @@ namespace bnet.protocol.exchange {
       public bool HasMoneyAmount {
         get { return result.HasMoneyAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MoneyAmount {
         get { return result.MoneyAmount; }
         set { SetMoneyAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMoneyAmount(ulong value) {
         result.hasMoneyAmount = true;
         result.moneyAmount_ = value;
@@ -6843,12 +6688,10 @@ namespace bnet.protocol.exchange {
       public bool HasItemsAmount {
         get { return result.HasItemsAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ItemsAmount {
         get { return result.ItemsAmount; }
         set { SetItemsAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetItemsAmount(ulong value) {
         result.hasItemsAmount = true;
         result.itemsAmount_ = value;
@@ -6863,12 +6706,10 @@ namespace bnet.protocol.exchange {
       public bool HasOfferSettleId {
         get { return result.HasOfferSettleId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong OfferSettleId {
         get { return result.OfferSettleId; }
         set { SetOfferSettleId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetOfferSettleId(ulong value) {
         result.hasOfferSettleId = true;
         result.offerSettleId_ = value;
@@ -6923,7 +6764,6 @@ namespace bnet.protocol.exchange {
     public bool HasTickSize {
       get { return hasTickSize; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong TickSize {
       get { return tickSize_; }
     }
@@ -6934,7 +6774,6 @@ namespace bnet.protocol.exchange {
     public bool HasFlatOutbidIncr {
       get { return hasFlatOutbidIncr; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FlatOutbidIncr {
       get { return flatOutbidIncr_; }
     }
@@ -6945,7 +6784,6 @@ namespace bnet.protocol.exchange {
     public bool HasScaleOutbidIncr {
       get { return hasScaleOutbidIncr; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ScaleOutbidIncr {
       get { return scaleOutbidIncr_; }
     }
@@ -6956,7 +6794,6 @@ namespace bnet.protocol.exchange {
     public bool HasMinStartingUnitPrice {
       get { return hasMinStartingUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MinStartingUnitPrice {
       get { return minStartingUnitPrice_; }
     }
@@ -6967,7 +6804,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxStartingUnitPrice {
       get { return hasMaxStartingUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MaxStartingUnitPrice {
       get { return maxStartingUnitPrice_; }
     }
@@ -6978,7 +6814,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxUnitPrice {
       get { return hasMaxUnitPrice; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MaxUnitPrice {
       get { return maxUnitPrice_; }
     }
@@ -6989,7 +6824,6 @@ namespace bnet.protocol.exchange {
     public bool HasMaxTotalAmount {
       get { return hasMaxTotalAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MaxTotalAmount {
       get { return maxTotalAmount_; }
     }
@@ -7299,12 +7133,10 @@ namespace bnet.protocol.exchange {
       public bool HasTickSize {
         get { return result.HasTickSize; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong TickSize {
         get { return result.TickSize; }
         set { SetTickSize(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTickSize(ulong value) {
         result.hasTickSize = true;
         result.tickSize_ = value;
@@ -7319,12 +7151,10 @@ namespace bnet.protocol.exchange {
       public bool HasFlatOutbidIncr {
         get { return result.HasFlatOutbidIncr; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FlatOutbidIncr {
         get { return result.FlatOutbidIncr; }
         set { SetFlatOutbidIncr(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFlatOutbidIncr(ulong value) {
         result.hasFlatOutbidIncr = true;
         result.flatOutbidIncr_ = value;
@@ -7339,12 +7169,10 @@ namespace bnet.protocol.exchange {
       public bool HasScaleOutbidIncr {
         get { return result.HasScaleOutbidIncr; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ScaleOutbidIncr {
         get { return result.ScaleOutbidIncr; }
         set { SetScaleOutbidIncr(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetScaleOutbidIncr(ulong value) {
         result.hasScaleOutbidIncr = true;
         result.scaleOutbidIncr_ = value;
@@ -7359,12 +7187,10 @@ namespace bnet.protocol.exchange {
       public bool HasMinStartingUnitPrice {
         get { return result.HasMinStartingUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MinStartingUnitPrice {
         get { return result.MinStartingUnitPrice; }
         set { SetMinStartingUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMinStartingUnitPrice(ulong value) {
         result.hasMinStartingUnitPrice = true;
         result.minStartingUnitPrice_ = value;
@@ -7379,12 +7205,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxStartingUnitPrice {
         get { return result.HasMaxStartingUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MaxStartingUnitPrice {
         get { return result.MaxStartingUnitPrice; }
         set { SetMaxStartingUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxStartingUnitPrice(ulong value) {
         result.hasMaxStartingUnitPrice = true;
         result.maxStartingUnitPrice_ = value;
@@ -7399,12 +7223,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxUnitPrice {
         get { return result.HasMaxUnitPrice; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MaxUnitPrice {
         get { return result.MaxUnitPrice; }
         set { SetMaxUnitPrice(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxUnitPrice(ulong value) {
         result.hasMaxUnitPrice = true;
         result.maxUnitPrice_ = value;
@@ -7419,12 +7241,10 @@ namespace bnet.protocol.exchange {
       public bool HasMaxTotalAmount {
         get { return result.HasMaxTotalAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MaxTotalAmount {
         get { return result.MaxTotalAmount; }
         set { SetMaxTotalAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxTotalAmount(ulong value) {
         result.hasMaxTotalAmount = true;
         result.maxTotalAmount_ = value;
@@ -7493,28 +7313,24 @@ namespace bnet.protocol.exchange {
     
     public const int AuctionDurationsFieldNumber = 2;
     private pbc::PopsicleList<ulong> auctionDurations_ = new pbc::PopsicleList<ulong>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<ulong> AuctionDurationsList {
       get { return pbc::Lists.AsReadOnly(auctionDurations_); }
     }
     public int AuctionDurationsCount {
       get { return auctionDurations_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong GetAuctionDurations(int index) {
       return auctionDurations_[index];
     }
     
     public const int AuctionStartDelaysFieldNumber = 3;
     private pbc::PopsicleList<ulong> auctionStartDelays_ = new pbc::PopsicleList<ulong>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<ulong> AuctionStartDelaysList {
       get { return pbc::Lists.AsReadOnly(auctionStartDelays_); }
     }
     public int AuctionStartDelaysCount {
       get { return auctionStartDelays_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong GetAuctionStartDelays(int index) {
       return auctionStartDelays_[index];
     }
@@ -7525,7 +7341,6 @@ namespace bnet.protocol.exchange {
     public bool HasAntiSnipingExtensionDelay {
       get { return hasAntiSnipingExtensionDelay; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong AntiSnipingExtensionDelay {
       get { return antiSnipingExtensionDelay_; }
     }
@@ -7796,28 +7611,23 @@ namespace bnet.protocol.exchange {
         return this;
       }
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<ulong> AuctionDurationsList {
         get { return result.auctionDurations_; }
       }
       public int AuctionDurationsCount {
         get { return result.AuctionDurationsCount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong GetAuctionDurations(int index) {
         return result.GetAuctionDurations(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionDurations(int index, ulong value) {
         result.auctionDurations_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddAuctionDurations(ulong value) {
         result.auctionDurations_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeAuctionDurations(scg::IEnumerable<ulong> values) {
         base.AddRange(values, result.auctionDurations_);
         return this;
@@ -7827,28 +7637,23 @@ namespace bnet.protocol.exchange {
         return this;
       }
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<ulong> AuctionStartDelaysList {
         get { return result.auctionStartDelays_; }
       }
       public int AuctionStartDelaysCount {
         get { return result.AuctionStartDelaysCount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong GetAuctionStartDelays(int index) {
         return result.GetAuctionStartDelays(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAuctionStartDelays(int index, ulong value) {
         result.auctionStartDelays_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddAuctionStartDelays(ulong value) {
         result.auctionStartDelays_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeAuctionStartDelays(scg::IEnumerable<ulong> values) {
         base.AddRange(values, result.auctionStartDelays_);
         return this;
@@ -7861,12 +7666,10 @@ namespace bnet.protocol.exchange {
       public bool HasAntiSnipingExtensionDelay {
         get { return result.HasAntiSnipingExtensionDelay; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong AntiSnipingExtensionDelay {
         get { return result.AntiSnipingExtensionDelay; }
         set { SetAntiSnipingExtensionDelay(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAntiSnipingExtensionDelay(ulong value) {
         result.hasAntiSnipingExtensionDelay = true;
         result.antiSnipingExtensionDelay_ = value;
@@ -8292,7 +8095,6 @@ namespace bnet.protocol.exchange {
     public bool HasProgram {
       get { return hasProgram; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Program {
       get { return program_; }
     }
@@ -8323,7 +8125,6 @@ namespace bnet.protocol.exchange {
     public bool HasSource {
       get { return hasSource; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Source {
       get { return source_; }
     }
@@ -8334,7 +8135,6 @@ namespace bnet.protocol.exchange {
     public bool HasAmount {
       get { return hasAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Amount {
       get { return amount_; }
     }
@@ -8621,12 +8421,10 @@ namespace bnet.protocol.exchange {
       public bool HasProgram {
         get { return result.HasProgram; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Program {
         get { return result.Program; }
         set { SetProgram(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgram(uint value) {
         result.hasProgram = true;
         result.program_ = value;
@@ -8678,12 +8476,10 @@ namespace bnet.protocol.exchange {
       public bool HasSource {
         get { return result.HasSource; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Source {
         get { return result.Source; }
         set { SetSource(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSource(uint value) {
         result.hasSource = true;
         result.source_ = value;
@@ -8698,12 +8494,10 @@ namespace bnet.protocol.exchange {
       public bool HasAmount {
         get { return result.HasAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Amount {
         get { return result.Amount; }
         set { SetAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAmount(ulong value) {
         result.hasAmount = true;
         result.amount_ = value;

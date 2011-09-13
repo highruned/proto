@@ -139,7 +139,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasServiceType {
       get { return hasServiceType; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ServiceType {
       get { return serviceType_; }
     }
@@ -425,12 +424,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasServiceType {
         get { return result.HasServiceType; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ServiceType {
         get { return result.ServiceType; }
         set { SetServiceType(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetServiceType(uint value) {
         result.hasServiceType = true;
         result.serviceType_ = value;
@@ -507,7 +504,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasServiceType {
       get { return hasServiceType; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ServiceType {
       get { return serviceType_; }
     }
@@ -794,12 +790,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasServiceType {
         get { return result.HasServiceType; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ServiceType {
         get { return result.ServiceType; }
         set { SetServiceType(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetServiceType(uint value) {
         result.hasServiceType = true;
         result.serviceType_ = value;
@@ -844,7 +838,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasServiceType {
       get { return hasServiceType; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ServiceType {
       get { return serviceType_; }
     }
@@ -855,7 +848,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasMaxReceivedInvitations {
       get { return hasMaxReceivedInvitations; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxReceivedInvitations {
       get { return maxReceivedInvitations_; }
     }
@@ -866,7 +858,6 @@ namespace bnet.protocol.channel_invitation {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -1091,12 +1082,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasServiceType {
         get { return result.HasServiceType; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ServiceType {
         get { return result.ServiceType; }
         set { SetServiceType(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetServiceType(uint value) {
         result.hasServiceType = true;
         result.serviceType_ = value;
@@ -1111,12 +1100,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasMaxReceivedInvitations {
         get { return result.HasMaxReceivedInvitations; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxReceivedInvitations {
         get { return result.MaxReceivedInvitations; }
         set { SetMaxReceivedInvitations(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxReceivedInvitations(uint value) {
         result.hasMaxReceivedInvitations = true;
         result.maxReceivedInvitations_ = value;
@@ -1131,12 +1118,10 @@ namespace bnet.protocol.channel_invitation {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;

@@ -237,7 +237,6 @@ namespace bnet.protocol.friends {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -463,12 +462,10 @@ namespace bnet.protocol.friends {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -513,7 +510,6 @@ namespace bnet.protocol.friends {
     public bool HasMaxFriends {
       get { return hasMaxFriends; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxFriends {
       get { return maxFriends_; }
     }
@@ -524,7 +520,6 @@ namespace bnet.protocol.friends {
     public bool HasMaxReceivedInvitations {
       get { return hasMaxReceivedInvitations; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxReceivedInvitations {
       get { return maxReceivedInvitations_; }
     }
@@ -535,7 +530,6 @@ namespace bnet.protocol.friends {
     public bool HasMaxSentInvitations {
       get { return hasMaxSentInvitations; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxSentInvitations {
       get { return maxSentInvitations_; }
     }
@@ -822,12 +816,10 @@ namespace bnet.protocol.friends {
       public bool HasMaxFriends {
         get { return result.HasMaxFriends; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxFriends {
         get { return result.MaxFriends; }
         set { SetMaxFriends(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxFriends(uint value) {
         result.hasMaxFriends = true;
         result.maxFriends_ = value;
@@ -842,12 +834,10 @@ namespace bnet.protocol.friends {
       public bool HasMaxReceivedInvitations {
         get { return result.HasMaxReceivedInvitations; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxReceivedInvitations {
         get { return result.MaxReceivedInvitations; }
         set { SetMaxReceivedInvitations(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxReceivedInvitations(uint value) {
         result.hasMaxReceivedInvitations = true;
         result.maxReceivedInvitations_ = value;
@@ -862,12 +852,10 @@ namespace bnet.protocol.friends {
       public bool HasMaxSentInvitations {
         get { return result.HasMaxSentInvitations; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxSentInvitations {
         get { return result.MaxSentInvitations; }
         set { SetMaxSentInvitations(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxSentInvitations(uint value) {
         result.hasMaxSentInvitations = true;
         result.maxSentInvitations_ = value;
@@ -1036,7 +1024,6 @@ namespace bnet.protocol.friends {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -1261,12 +1248,10 @@ namespace bnet.protocol.friends {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -2149,7 +2134,6 @@ namespace bnet.protocol.friends {
     public bool HasStartIndex {
       get { return hasStartIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint StartIndex {
       get { return startIndex_; }
     }
@@ -2160,7 +2144,6 @@ namespace bnet.protocol.friends {
     public bool HasMaxResults {
       get { return hasMaxResults; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxResults {
       get { return maxResults_; }
     }
@@ -2510,12 +2493,10 @@ namespace bnet.protocol.friends {
       public bool HasStartIndex {
         get { return result.HasStartIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint StartIndex {
         get { return result.StartIndex; }
         set { SetStartIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStartIndex(uint value) {
         result.hasStartIndex = true;
         result.startIndex_ = value;
@@ -2530,12 +2511,10 @@ namespace bnet.protocol.friends {
       public bool HasMaxResults {
         get { return result.HasMaxResults; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxResults {
         get { return result.MaxResults; }
         set { SetMaxResults(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxResults(uint value) {
         result.hasMaxResults = true;
         result.maxResults_ = value;
@@ -2592,7 +2571,6 @@ namespace bnet.protocol.friends {
     public bool HasTotalResults {
       get { return hasTotalResults; }
     }
-    [global::System.CLSCompliant(false)]
     public uint TotalResults {
       get { return totalResults_; }
     }
@@ -2817,12 +2795,10 @@ namespace bnet.protocol.friends {
       public bool HasTotalResults {
         get { return result.HasTotalResults; }
       }
-      [global::System.CLSCompliant(false)]
       public uint TotalResults {
         get { return result.TotalResults; }
         set { SetTotalResults(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTotalResults(uint value) {
         result.hasTotalResults = true;
         result.totalResults_ = value;
@@ -4042,7 +4018,6 @@ namespace bnet.protocol.friends {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -4297,12 +4272,10 @@ namespace bnet.protocol.friends {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;

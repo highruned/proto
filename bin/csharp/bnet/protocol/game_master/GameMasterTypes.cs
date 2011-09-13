@@ -1077,7 +1077,6 @@ namespace bnet.protocol.game_master {
     public bool HasWaitMilliseconds {
       get { return hasWaitMilliseconds; }
     }
-    [global::System.CLSCompliant(false)]
     public uint WaitMilliseconds {
       get { return waitMilliseconds_; }
     }
@@ -1088,7 +1087,6 @@ namespace bnet.protocol.game_master {
     public bool HasGamesPerHour {
       get { return hasGamesPerHour; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GamesPerHour {
       get { return gamesPerHour_; }
     }
@@ -1099,7 +1097,6 @@ namespace bnet.protocol.game_master {
     public bool HasActiveGames {
       get { return hasActiveGames; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ActiveGames {
       get { return activeGames_; }
     }
@@ -1110,7 +1107,6 @@ namespace bnet.protocol.game_master {
     public bool HasActivePlayers {
       get { return hasActivePlayers; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ActivePlayers {
       get { return activePlayers_; }
     }
@@ -1121,7 +1117,6 @@ namespace bnet.protocol.game_master {
     public bool HasFormingGames {
       get { return hasFormingGames; }
     }
-    [global::System.CLSCompliant(false)]
     public uint FormingGames {
       get { return formingGames_; }
     }
@@ -1132,7 +1127,6 @@ namespace bnet.protocol.game_master {
     public bool HasWaitingPlayers {
       get { return hasWaitingPlayers; }
     }
-    [global::System.CLSCompliant(false)]
     public uint WaitingPlayers {
       get { return waitingPlayers_; }
     }
@@ -1427,12 +1421,10 @@ namespace bnet.protocol.game_master {
       public bool HasWaitMilliseconds {
         get { return result.HasWaitMilliseconds; }
       }
-      [global::System.CLSCompliant(false)]
       public uint WaitMilliseconds {
         get { return result.WaitMilliseconds; }
         set { SetWaitMilliseconds(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetWaitMilliseconds(uint value) {
         result.hasWaitMilliseconds = true;
         result.waitMilliseconds_ = value;
@@ -1447,12 +1439,10 @@ namespace bnet.protocol.game_master {
       public bool HasGamesPerHour {
         get { return result.HasGamesPerHour; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GamesPerHour {
         get { return result.GamesPerHour; }
         set { SetGamesPerHour(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetGamesPerHour(uint value) {
         result.hasGamesPerHour = true;
         result.gamesPerHour_ = value;
@@ -1467,12 +1457,10 @@ namespace bnet.protocol.game_master {
       public bool HasActiveGames {
         get { return result.HasActiveGames; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ActiveGames {
         get { return result.ActiveGames; }
         set { SetActiveGames(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetActiveGames(uint value) {
         result.hasActiveGames = true;
         result.activeGames_ = value;
@@ -1487,12 +1475,10 @@ namespace bnet.protocol.game_master {
       public bool HasActivePlayers {
         get { return result.HasActivePlayers; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ActivePlayers {
         get { return result.ActivePlayers; }
         set { SetActivePlayers(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetActivePlayers(uint value) {
         result.hasActivePlayers = true;
         result.activePlayers_ = value;
@@ -1507,12 +1493,10 @@ namespace bnet.protocol.game_master {
       public bool HasFormingGames {
         get { return result.HasFormingGames; }
       }
-      [global::System.CLSCompliant(false)]
       public uint FormingGames {
         get { return result.FormingGames; }
         set { SetFormingGames(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFormingGames(uint value) {
         result.hasFormingGames = true;
         result.formingGames_ = value;
@@ -1527,12 +1511,10 @@ namespace bnet.protocol.game_master {
       public bool HasWaitingPlayers {
         get { return result.HasWaitingPlayers; }
       }
-      [global::System.CLSCompliant(false)]
       public uint WaitingPlayers {
         get { return result.WaitingPlayers; }
         set { SetWaitingPlayers(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetWaitingPlayers(uint value) {
         result.hasWaitingPlayers = true;
         result.waitingPlayers_ = value;
@@ -1577,7 +1559,6 @@ namespace bnet.protocol.game_master {
     public bool HasId {
       get { return hasId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Id {
       get { return id_; }
     }
@@ -1828,12 +1809,10 @@ namespace bnet.protocol.game_master {
       public bool HasId {
         get { return result.HasId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Id {
         get { return result.Id; }
         set { SetId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetId(ulong value) {
         result.hasId = true;
         result.id_ = value;
@@ -1973,7 +1952,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -2172,12 +2150,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;

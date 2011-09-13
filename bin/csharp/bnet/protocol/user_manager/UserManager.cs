@@ -525,7 +525,6 @@ namespace bnet.protocol.user_manager {
     public bool HasTimestampPlayed {
       get { return hasTimestampPlayed; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong TimestampPlayed {
       get { return timestampPlayed_; }
     }
@@ -780,12 +779,10 @@ namespace bnet.protocol.user_manager {
       public bool HasTimestampPlayed {
         get { return result.HasTimestampPlayed; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong TimestampPlayed {
         get { return result.TimestampPlayed; }
         set { SetTimestampPlayed(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTimestampPlayed(ulong value) {
         result.hasTimestampPlayed = true;
         result.timestampPlayed_ = value;
@@ -868,7 +865,6 @@ namespace bnet.protocol.user_manager {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -1037,12 +1033,10 @@ namespace bnet.protocol.user_manager {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;

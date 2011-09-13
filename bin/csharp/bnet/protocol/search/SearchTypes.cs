@@ -92,7 +92,6 @@ namespace bnet.protocol.search {
     public bool HasId {
       get { return hasId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Id {
       get { return id_; }
     }
@@ -284,12 +283,10 @@ namespace bnet.protocol.search {
       public bool HasId {
         get { return result.HasId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Id {
         get { return result.Id; }
         set { SetId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetId(uint value) {
         result.hasId = true;
         result.id_ = value;

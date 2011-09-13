@@ -707,7 +707,6 @@ namespace bnet.protocol.connection {
     public bool HasHash {
       get { return hasHash; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Hash {
       get { return hash_; }
     }
@@ -718,7 +717,6 @@ namespace bnet.protocol.connection {
     public bool HasId {
       get { return hasId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Id {
       get { return id_; }
     }
@@ -901,12 +899,10 @@ namespace bnet.protocol.connection {
       public bool HasHash {
         get { return result.HasHash; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Hash {
         get { return result.Hash; }
         set { SetHash(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetHash(uint value) {
         result.hasHash = true;
         result.hash_ = value;
@@ -921,12 +917,10 @@ namespace bnet.protocol.connection {
       public bool HasId {
         get { return result.HasId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Id {
         get { return result.Id; }
         set { SetId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetId(uint value) {
         result.hasId = true;
         result.id_ = value;
@@ -968,14 +962,12 @@ namespace bnet.protocol.connection {
     public const int ImportedServiceHashFieldNumber = 1;
     private int importedServiceHashMemoizedSerializedSize;
     private pbc::PopsicleList<uint> importedServiceHash_ = new pbc::PopsicleList<uint>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<uint> ImportedServiceHashList {
       get { return pbc::Lists.AsReadOnly(importedServiceHash_); }
     }
     public int ImportedServiceHashCount {
       get { return importedServiceHash_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GetImportedServiceHash(int index) {
       return importedServiceHash_[index];
     }
@@ -1187,28 +1179,23 @@ namespace bnet.protocol.connection {
       }
       
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<uint> ImportedServiceHashList {
         get { return result.importedServiceHash_; }
       }
       public int ImportedServiceHashCount {
         get { return result.ImportedServiceHashCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GetImportedServiceHash(int index) {
         return result.GetImportedServiceHash(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetImportedServiceHash(int index, uint value) {
         result.importedServiceHash_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddImportedServiceHash(uint value) {
         result.importedServiceHash_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeImportedServiceHash(scg::IEnumerable<uint> values) {
         base.AddRange(values, result.importedServiceHash_);
         return this;
@@ -1286,14 +1273,12 @@ namespace bnet.protocol.connection {
     public const int ImportedServiceIdFieldNumber = 1;
     private int importedServiceIdMemoizedSerializedSize;
     private pbc::PopsicleList<uint> importedServiceId_ = new pbc::PopsicleList<uint>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<uint> ImportedServiceIdList {
       get { return pbc::Lists.AsReadOnly(importedServiceId_); }
     }
     public int ImportedServiceIdCount {
       get { return importedServiceId_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GetImportedServiceId(int index) {
       return importedServiceId_[index];
     }
@@ -1476,28 +1461,23 @@ namespace bnet.protocol.connection {
       }
       
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<uint> ImportedServiceIdList {
         get { return result.importedServiceId_; }
       }
       public int ImportedServiceIdCount {
         get { return result.ImportedServiceIdCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GetImportedServiceId(int index) {
         return result.GetImportedServiceId(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetImportedServiceId(int index, uint value) {
         result.importedServiceId_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddImportedServiceId(uint value) {
         result.importedServiceId_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeImportedServiceId(scg::IEnumerable<uint> values) {
         base.AddRange(values, result.importedServiceId_);
         return this;
@@ -1540,7 +1520,6 @@ namespace bnet.protocol.connection {
     public bool HasTime {
       get { return hasTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Time {
       get { return time_; }
     }
@@ -1754,12 +1733,10 @@ namespace bnet.protocol.connection {
       public bool HasTime {
         get { return result.HasTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Time {
         get { return result.Time; }
         set { SetTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTime(ulong value) {
         result.hasTime = true;
         result.time_ = value;
@@ -1841,7 +1818,6 @@ namespace bnet.protocol.connection {
     public bool HasTime {
       get { return hasTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Time {
       get { return time_; }
     }
@@ -2032,12 +2008,10 @@ namespace bnet.protocol.connection {
       public bool HasTime {
         get { return result.HasTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Time {
         get { return result.Time; }
         set { SetTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTime(ulong value) {
         result.hasTime = true;
         result.time_ = value;
@@ -2101,7 +2075,6 @@ namespace bnet.protocol.connection {
     public bool HasErrorCode {
       get { return hasErrorCode; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ErrorCode {
       get { return errorCode_; }
     }
@@ -2270,12 +2243,10 @@ namespace bnet.protocol.connection {
       public bool HasErrorCode {
         get { return result.HasErrorCode; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ErrorCode {
         get { return result.ErrorCode; }
         set { SetErrorCode(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetErrorCode(uint value) {
         result.hasErrorCode = true;
         result.errorCode_ = value;
@@ -2320,7 +2291,6 @@ namespace bnet.protocol.connection {
     public bool HasErrorCode {
       get { return hasErrorCode; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ErrorCode {
       get { return errorCode_; }
     }
@@ -2512,12 +2482,10 @@ namespace bnet.protocol.connection {
       public bool HasErrorCode {
         get { return result.HasErrorCode; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ErrorCode {
         get { return result.ErrorCode; }
         set { SetErrorCode(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetErrorCode(uint value) {
         result.hasErrorCode = true;
         result.errorCode_ = value;
