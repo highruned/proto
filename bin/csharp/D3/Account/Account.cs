@@ -104,7 +104,6 @@ namespace D3.Account {
     public bool HasBannerIndex {
       get { return hasBannerIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint BannerIndex {
       get { return bannerIndex_; }
     }
@@ -465,12 +464,10 @@ namespace D3.Account {
       public bool HasBannerIndex {
         get { return result.HasBannerIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint BannerIndex {
         get { return result.BannerIndex; }
         set { SetBannerIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetBannerIndex(uint value) {
         result.hasBannerIndex = true;
         result.bannerIndex_ = value;
@@ -668,7 +665,6 @@ namespace D3.Account {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Version {
       get { return version_; }
     }
@@ -699,7 +695,6 @@ namespace D3.Account {
     public bool HasFlags {
       get { return hasFlags; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Flags {
       get { return flags_; }
     }
@@ -922,12 +917,10 @@ namespace D3.Account {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(uint value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -1014,12 +1007,10 @@ namespace D3.Account {
       public bool HasFlags {
         get { return result.HasFlags; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Flags {
         get { return result.Flags; }
         set { SetFlags(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFlags(uint value) {
         result.hasFlags = true;
         result.flags_ = value;
@@ -1064,7 +1055,6 @@ namespace D3.Account {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Version {
       get { return version_; }
     }
@@ -1418,12 +1408,10 @@ namespace D3.Account {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(uint value) {
         result.hasVersion = true;
         result.version_ = value;

@@ -108,7 +108,6 @@ namespace bnet.protocol.presence {
     public bool HasProgram {
       get { return hasProgram; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Program {
       get { return program_; }
     }
@@ -119,7 +118,6 @@ namespace bnet.protocol.presence {
     public bool HasGroup {
       get { return hasGroup; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Group {
       get { return group_; }
     }
@@ -130,7 +128,6 @@ namespace bnet.protocol.presence {
     public bool HasField {
       get { return hasField; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Field {
       get { return field_; }
     }
@@ -141,7 +138,6 @@ namespace bnet.protocol.presence {
     public bool HasIndex {
       get { return hasIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Index {
       get { return index_; }
     }
@@ -351,12 +347,10 @@ namespace bnet.protocol.presence {
       public bool HasProgram {
         get { return result.HasProgram; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Program {
         get { return result.Program; }
         set { SetProgram(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgram(uint value) {
         result.hasProgram = true;
         result.program_ = value;
@@ -371,12 +365,10 @@ namespace bnet.protocol.presence {
       public bool HasGroup {
         get { return result.HasGroup; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Group {
         get { return result.Group; }
         set { SetGroup(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetGroup(uint value) {
         result.hasGroup = true;
         result.group_ = value;
@@ -391,12 +383,10 @@ namespace bnet.protocol.presence {
       public bool HasField {
         get { return result.HasField; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Field {
         get { return result.Field; }
         set { SetField(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetField(uint value) {
         result.hasField = true;
         result.field_ = value;
@@ -411,12 +401,10 @@ namespace bnet.protocol.presence {
       public bool HasIndex {
         get { return result.HasIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Index {
         get { return result.Index; }
         set { SetIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIndex(ulong value) {
         result.hasIndex = true;
         result.index_ = value;

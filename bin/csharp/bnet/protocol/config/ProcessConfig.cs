@@ -1622,7 +1622,6 @@ namespace bnet.protocol.config {
     public bool HasPort {
       get { return hasPort; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Port {
       get { return port_; }
     }
@@ -1824,12 +1823,10 @@ namespace bnet.protocol.config {
       public bool HasPort {
         get { return result.HasPort; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Port {
         get { return result.Port; }
         set { SetPort(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPort(uint value) {
         result.hasPort = true;
         result.port_ = value;
@@ -1874,7 +1871,6 @@ namespace bnet.protocol.config {
     public bool HasPort {
       get { return hasPort; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Port {
       get { return port_; }
     }
@@ -2097,12 +2093,10 @@ namespace bnet.protocol.config {
       public bool HasPort {
         get { return result.HasPort; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Port {
         get { return result.Port; }
         set { SetPort(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPort(uint value) {
         result.hasPort = true;
         result.port_ = value;

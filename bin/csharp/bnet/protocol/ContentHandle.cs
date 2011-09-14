@@ -74,7 +74,6 @@ namespace bnet.protocol {
     public bool HasRegion {
       get { return hasRegion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Region {
       get { return region_; }
     }
@@ -85,7 +84,6 @@ namespace bnet.protocol {
     public bool HasUsage {
       get { return hasUsage; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Usage {
       get { return usage_; }
     }
@@ -292,12 +290,10 @@ namespace bnet.protocol {
       public bool HasRegion {
         get { return result.HasRegion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Region {
         get { return result.Region; }
         set { SetRegion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRegion(uint value) {
         result.hasRegion = true;
         result.region_ = value;
@@ -312,12 +308,10 @@ namespace bnet.protocol {
       public bool HasUsage {
         get { return result.HasUsage; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Usage {
         get { return result.Usage; }
         set { SetUsage(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetUsage(uint value) {
         result.hasUsage = true;
         result.usage_ = value;

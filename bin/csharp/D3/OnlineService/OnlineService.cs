@@ -121,7 +121,6 @@ namespace D3.OnlineService {
     public bool HasIdHigh {
       get { return hasIdHigh; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdHigh {
       get { return idHigh_; }
     }
@@ -132,7 +131,6 @@ namespace D3.OnlineService {
     public bool HasIdLow {
       get { return hasIdLow; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdLow {
       get { return idLow_; }
     }
@@ -315,12 +313,10 @@ namespace D3.OnlineService {
       public bool HasIdHigh {
         get { return result.HasIdHigh; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdHigh {
         get { return result.IdHigh; }
         set { SetIdHigh(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdHigh(ulong value) {
         result.hasIdHigh = true;
         result.idHigh_ = value;
@@ -335,12 +331,10 @@ namespace D3.OnlineService {
       public bool HasIdLow {
         get { return result.HasIdLow; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdLow {
         get { return result.IdLow; }
         set { SetIdLow(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdLow(ulong value) {
         result.hasIdLow = true;
         result.idLow_ = value;
@@ -385,7 +379,6 @@ namespace D3.OnlineService {
     public bool HasFactory {
       get { return hasFactory; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Factory {
       get { return factory_; }
     }
@@ -396,7 +389,6 @@ namespace D3.OnlineService {
     public bool HasIdHigh {
       get { return hasIdHigh; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdHigh {
       get { return idHigh_; }
     }
@@ -407,7 +399,6 @@ namespace D3.OnlineService {
     public bool HasIdLow {
       get { return hasIdLow; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdLow {
       get { return idLow_; }
     }
@@ -604,12 +595,10 @@ namespace D3.OnlineService {
       public bool HasFactory {
         get { return result.HasFactory; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Factory {
         get { return result.Factory; }
         set { SetFactory(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactory(ulong value) {
         result.hasFactory = true;
         result.factory_ = value;
@@ -624,12 +613,10 @@ namespace D3.OnlineService {
       public bool HasIdHigh {
         get { return result.HasIdHigh; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdHigh {
         get { return result.IdHigh; }
         set { SetIdHigh(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdHigh(ulong value) {
         result.hasIdHigh = true;
         result.idHigh_ = value;
@@ -644,12 +631,10 @@ namespace D3.OnlineService {
       public bool HasIdLow {
         get { return result.HasIdLow; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdLow {
         get { return result.IdLow; }
         set { SetIdLow(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdLow(ulong value) {
         result.hasIdLow = true;
         result.idLow_ = value;
@@ -694,7 +679,6 @@ namespace D3.OnlineService {
     public bool HasIdHigh {
       get { return hasIdHigh; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdHigh {
       get { return idHigh_; }
     }
@@ -705,7 +689,6 @@ namespace D3.OnlineService {
     public bool HasIdLow {
       get { return hasIdLow; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong IdLow {
       get { return idLow_; }
     }
@@ -888,12 +871,10 @@ namespace D3.OnlineService {
       public bool HasIdHigh {
         get { return result.HasIdHigh; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdHigh {
         get { return result.IdHigh; }
         set { SetIdHigh(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdHigh(ulong value) {
         result.hasIdHigh = true;
         result.idHigh_ = value;
@@ -908,12 +889,10 @@ namespace D3.OnlineService {
       public bool HasIdLow {
         get { return result.HasIdLow; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong IdLow {
         get { return result.IdLow; }
         set { SetIdLow(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetIdLow(ulong value) {
         result.hasIdLow = true;
         result.idLow_ = value;
@@ -1677,7 +1656,6 @@ namespace D3.OnlineService {
     public bool HasCreationFlags {
       get { return hasCreationFlags; }
     }
-    [global::System.CLSCompliant(false)]
     public uint CreationFlags {
       get { return creationFlags_; }
     }
@@ -1987,12 +1965,10 @@ namespace D3.OnlineService {
       public bool HasCreationFlags {
         get { return result.HasCreationFlags; }
       }
-      [global::System.CLSCompliant(false)]
       public uint CreationFlags {
         get { return result.CreationFlags; }
         set { SetCreationFlags(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCreationFlags(uint value) {
         result.hasCreationFlags = true;
         result.creationFlags_ = value;

@@ -17,10 +17,8 @@ namespace bnet.protocol {
     #endregion
     #region Extensions
     public const int MethodIdFieldNumber = 50000;
-    [global::System.CLSCompliant(false)]
     public static pb::GeneratedExtensionBase<uint> MethodId;
     public const int CostFieldNumber = 50001;
-    [global::System.CLSCompliant(false)]
     public static pb::GeneratedExtensionBase<uint> Cost;
     public const int TimeoutFieldNumber = 50002;
     public static pb::GeneratedExtensionBase<float> Timeout;
@@ -304,7 +302,6 @@ namespace bnet.protocol {
     public bool HasPort {
       get { return hasPort; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Port {
       get { return port_; }
     }
@@ -536,12 +533,10 @@ namespace bnet.protocol {
       public bool HasPort {
         get { return result.HasPort; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Port {
         get { return result.Port; }
         set { SetPort(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPort(uint value) {
         result.hasPort = true;
         result.port_ = value;
@@ -622,7 +617,6 @@ namespace bnet.protocol {
     public bool HasLabel {
       get { return hasLabel; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Label {
       get { return label_; }
     }
@@ -633,7 +627,6 @@ namespace bnet.protocol {
     public bool HasEpoch {
       get { return hasEpoch; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Epoch {
       get { return epoch_; }
     }
@@ -816,12 +809,10 @@ namespace bnet.protocol {
       public bool HasLabel {
         get { return result.HasLabel; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Label {
         get { return result.Label; }
         set { SetLabel(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetLabel(uint value) {
         result.hasLabel = true;
         result.label_ = value;
@@ -836,12 +827,10 @@ namespace bnet.protocol {
       public bool HasEpoch {
         get { return result.HasEpoch; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Epoch {
         get { return result.Epoch; }
         set { SetEpoch(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetEpoch(uint value) {
         result.hasEpoch = true;
         result.epoch_ = value;
@@ -896,7 +885,6 @@ namespace bnet.protocol {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -1121,12 +1109,10 @@ namespace bnet.protocol {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;

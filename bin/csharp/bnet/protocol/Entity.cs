@@ -80,7 +80,6 @@ namespace bnet.protocol {
     public bool HasHigh {
       get { return hasHigh; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong High {
       get { return high_; }
     }
@@ -91,7 +90,6 @@ namespace bnet.protocol {
     public bool HasLow {
       get { return hasLow; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Low {
       get { return low_; }
     }
@@ -274,12 +272,10 @@ namespace bnet.protocol {
       public bool HasHigh {
         get { return result.HasHigh; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong High {
         get { return result.High; }
         set { SetHigh(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetHigh(ulong value) {
         result.hasHigh = true;
         result.high_ = value;
@@ -294,12 +290,10 @@ namespace bnet.protocol {
       public bool HasLow {
         get { return result.HasLow; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Low {
         get { return result.Low; }
         set { SetLow(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetLow(ulong value) {
         result.hasLow = true;
         result.low_ = value;
