@@ -85,7 +85,6 @@ namespace bnet.protocol.toon {
     public bool HasId {
       get { return hasId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Id {
       get { return id_; }
     }
@@ -96,7 +95,6 @@ namespace bnet.protocol.toon {
     public bool HasProgram {
       get { return hasProgram; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Program {
       get { return program_; }
     }
@@ -107,7 +105,6 @@ namespace bnet.protocol.toon {
     public bool HasRegion {
       get { return hasRegion; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Region {
       get { return region_; }
     }
@@ -118,7 +115,6 @@ namespace bnet.protocol.toon {
     public bool HasRealm {
       get { return hasRealm; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Realm {
       get { return realm_; }
     }
@@ -329,12 +325,10 @@ namespace bnet.protocol.toon {
       public bool HasId {
         get { return result.HasId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Id {
         get { return result.Id; }
         set { SetId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetId(ulong value) {
         result.hasId = true;
         result.id_ = value;
@@ -349,12 +343,10 @@ namespace bnet.protocol.toon {
       public bool HasProgram {
         get { return result.HasProgram; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Program {
         get { return result.Program; }
         set { SetProgram(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgram(uint value) {
         result.hasProgram = true;
         result.program_ = value;
@@ -369,12 +361,10 @@ namespace bnet.protocol.toon {
       public bool HasRegion {
         get { return result.HasRegion; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Region {
         get { return result.Region; }
         set { SetRegion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRegion(uint value) {
         result.hasRegion = true;
         result.region_ = value;
@@ -389,12 +379,10 @@ namespace bnet.protocol.toon {
       public bool HasRealm {
         get { return result.HasRealm; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Realm {
         get { return result.Realm; }
         set { SetRealm(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRealm(uint value) {
         result.hasRealm = true;
         result.realm_ = value;

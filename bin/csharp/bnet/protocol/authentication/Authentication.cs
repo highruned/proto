@@ -956,7 +956,6 @@ namespace bnet.protocol.authentication {
     public bool HasListenerId {
       get { return hasListenerId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ListenerId {
       get { return listenerId_; }
     }
@@ -1275,12 +1274,10 @@ namespace bnet.protocol.authentication {
       public bool HasListenerId {
         get { return result.HasListenerId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ListenerId {
         get { return result.ListenerId; }
         set { SetListenerId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetListenerId(ulong value) {
         result.hasListenerId = true;
         result.listenerId_ = value;
@@ -2867,7 +2864,6 @@ namespace bnet.protocol.authentication {
     public bool HasScheme {
       get { return hasScheme; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Scheme {
       get { return scheme_; }
     }
@@ -3133,12 +3129,10 @@ namespace bnet.protocol.authentication {
       public bool HasScheme {
         get { return result.HasScheme; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Scheme {
         get { return result.Scheme; }
         set { SetScheme(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetScheme(uint value) {
         result.hasScheme = true;
         result.scheme_ = value;

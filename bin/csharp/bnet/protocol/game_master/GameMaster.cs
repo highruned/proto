@@ -944,7 +944,6 @@ namespace bnet.protocol.game_master {
     public bool HasStartIndex {
       get { return hasStartIndex; }
     }
-    [global::System.CLSCompliant(false)]
     public uint StartIndex {
       get { return startIndex_; }
     }
@@ -955,7 +954,6 @@ namespace bnet.protocol.game_master {
     public bool HasMaxResults {
       get { return hasMaxResults; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxResults {
       get { return maxResults_; }
     }
@@ -1192,12 +1190,10 @@ namespace bnet.protocol.game_master {
       public bool HasStartIndex {
         get { return result.HasStartIndex; }
       }
-      [global::System.CLSCompliant(false)]
       public uint StartIndex {
         get { return result.StartIndex; }
         set { SetStartIndex(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetStartIndex(uint value) {
         result.hasStartIndex = true;
         result.startIndex_ = value;
@@ -1212,12 +1208,10 @@ namespace bnet.protocol.game_master {
       public bool HasMaxResults {
         get { return result.HasMaxResults; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxResults {
         get { return result.MaxResults; }
         set { SetMaxResults(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxResults(uint value) {
         result.hasMaxResults = true;
         result.maxResults_ = value;
@@ -1274,7 +1268,6 @@ namespace bnet.protocol.game_master {
     public bool HasTotalResults {
       get { return hasTotalResults; }
     }
-    [global::System.CLSCompliant(false)]
     public uint TotalResults {
       get { return totalResults_; }
     }
@@ -1499,12 +1492,10 @@ namespace bnet.protocol.game_master {
       public bool HasTotalResults {
         get { return result.HasTotalResults; }
       }
-      [global::System.CLSCompliant(false)]
       public uint TotalResults {
         get { return result.TotalResults; }
         set { SetTotalResults(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTotalResults(uint value) {
         result.hasTotalResults = true;
         result.totalResults_ = value;
@@ -1561,7 +1552,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -1582,7 +1572,6 @@ namespace bnet.protocol.game_master {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -1873,12 +1862,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;
@@ -1929,12 +1916,10 @@ namespace bnet.protocol.game_master {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -2015,7 +2000,6 @@ namespace bnet.protocol.game_master {
     public bool HasRequestId {
       get { return hasRequestId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RequestId {
       get { return requestId_; }
     }
@@ -2026,7 +2010,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -2207,12 +2190,10 @@ namespace bnet.protocol.game_master {
       public bool HasRequestId {
         get { return result.HasRequestId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RequestId {
         get { return result.RequestId; }
         set { SetRequestId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRequestId(ulong value) {
         result.hasRequestId = true;
         result.requestId_ = value;
@@ -2227,12 +2208,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;
@@ -2277,7 +2256,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -2288,7 +2266,6 @@ namespace bnet.protocol.game_master {
     public bool HasRequestId {
       get { return hasRequestId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RequestId {
       get { return requestId_; }
     }
@@ -2471,12 +2448,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;
@@ -2491,12 +2466,10 @@ namespace bnet.protocol.game_master {
       public bool HasRequestId {
         get { return result.HasRequestId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RequestId {
         get { return result.RequestId; }
         set { SetRequestId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRequestId(ulong value) {
         result.hasRequestId = true;
         result.requestId_ = value;
@@ -2801,7 +2774,6 @@ namespace bnet.protocol.game_master {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -3081,12 +3053,10 @@ namespace bnet.protocol.game_master {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -3153,7 +3123,6 @@ namespace bnet.protocol.game_master {
     public bool HasProgramId {
       get { return hasProgramId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ProgramId {
       get { return programId_; }
     }
@@ -3433,12 +3402,10 @@ namespace bnet.protocol.game_master {
       public bool HasProgramId {
         get { return result.HasProgramId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ProgramId {
         get { return result.ProgramId; }
         set { SetProgramId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgramId(uint value) {
         result.hasProgramId = true;
         result.programId_ = value;
@@ -3679,7 +3646,6 @@ namespace bnet.protocol.game_master {
     public bool HasProgramId {
       get { return hasProgramId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ProgramId {
       get { return programId_; }
     }
@@ -3959,12 +3925,10 @@ namespace bnet.protocol.game_master {
       public bool HasProgramId {
         get { return result.HasProgramId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ProgramId {
         get { return result.ProgramId; }
         set { SetProgramId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgramId(uint value) {
         result.hasProgramId = true;
         result.programId_ = value;
@@ -4183,7 +4147,6 @@ namespace bnet.protocol.game_master {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -4352,12 +4315,10 @@ namespace bnet.protocol.game_master {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -4402,7 +4363,6 @@ namespace bnet.protocol.game_master {
     public bool HasSubscriptionId {
       get { return hasSubscriptionId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong SubscriptionId {
       get { return subscriptionId_; }
     }
@@ -4570,12 +4530,10 @@ namespace bnet.protocol.game_master {
       public bool HasSubscriptionId {
         get { return result.HasSubscriptionId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong SubscriptionId {
         get { return result.SubscriptionId; }
         set { SetSubscriptionId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSubscriptionId(ulong value) {
         result.hasSubscriptionId = true;
         result.subscriptionId_ = value;
@@ -4620,7 +4578,6 @@ namespace bnet.protocol.game_master {
     public bool HasSubscriptionId {
       get { return hasSubscriptionId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong SubscriptionId {
       get { return subscriptionId_; }
     }
@@ -4789,12 +4746,10 @@ namespace bnet.protocol.game_master {
       public bool HasSubscriptionId {
         get { return result.HasSubscriptionId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong SubscriptionId {
         get { return result.SubscriptionId; }
         set { SetSubscriptionId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetSubscriptionId(ulong value) {
         result.hasSubscriptionId = true;
         result.subscriptionId_ = value;
@@ -5230,7 +5185,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -5399,12 +5353,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;
@@ -5758,7 +5710,6 @@ namespace bnet.protocol.game_master {
     public bool HasFactoryId {
       get { return hasFactoryId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong FactoryId {
       get { return factoryId_; }
     }
@@ -5957,12 +5908,10 @@ namespace bnet.protocol.game_master {
       public bool HasFactoryId {
         get { return result.HasFactoryId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong FactoryId {
         get { return result.FactoryId; }
         set { SetFactoryId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetFactoryId(ulong value) {
         result.hasFactoryId = true;
         result.factoryId_ = value;
@@ -6314,7 +6263,6 @@ namespace bnet.protocol.game_master {
     public bool HasProgramId {
       get { return hasProgramId; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ProgramId {
       get { return programId_; }
     }
@@ -6578,12 +6526,10 @@ namespace bnet.protocol.game_master {
       public bool HasProgramId {
         get { return result.HasProgramId; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ProgramId {
         get { return result.ProgramId; }
         set { SetProgramId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgramId(uint value) {
         result.hasProgramId = true;
         result.programId_ = value;
@@ -6628,7 +6574,6 @@ namespace bnet.protocol.game_master {
     public bool HasRequestId {
       get { return hasRequestId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RequestId {
       get { return requestId_; }
     }
@@ -6639,7 +6584,6 @@ namespace bnet.protocol.game_master {
     public bool HasErrorCode {
       get { return hasErrorCode; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ErrorCode {
       get { return errorCode_; }
     }
@@ -6883,12 +6827,10 @@ namespace bnet.protocol.game_master {
       public bool HasRequestId {
         get { return result.HasRequestId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RequestId {
         get { return result.RequestId; }
         set { SetRequestId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRequestId(ulong value) {
         result.hasRequestId = true;
         result.requestId_ = value;
@@ -6903,12 +6845,10 @@ namespace bnet.protocol.game_master {
       public bool HasErrorCode {
         get { return result.HasErrorCode; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ErrorCode {
         get { return result.ErrorCode; }
         set { SetErrorCode(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetErrorCode(uint value) {
         result.hasErrorCode = true;
         result.errorCode_ = value;

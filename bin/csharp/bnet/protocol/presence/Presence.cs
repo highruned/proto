@@ -140,7 +140,6 @@ namespace bnet.protocol.presence {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -422,12 +421,10 @@ namespace bnet.protocol.presence {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;

@@ -268,7 +268,6 @@ namespace bnet.protocol.channel {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -606,12 +605,10 @@ namespace bnet.protocol.channel {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -676,7 +673,6 @@ namespace bnet.protocol.channel {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -957,12 +953,10 @@ namespace bnet.protocol.channel {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -1027,7 +1021,6 @@ namespace bnet.protocol.channel {
     public bool HasRequiredPrivileges {
       get { return hasRequiredPrivileges; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RequiredPrivileges {
       get { return requiredPrivileges_; }
     }
@@ -1308,12 +1301,10 @@ namespace bnet.protocol.channel {
       public bool HasRequiredPrivileges {
         get { return result.HasRequiredPrivileges; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RequiredPrivileges {
         get { return result.RequiredPrivileges; }
         set { SetRequiredPrivileges(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRequiredPrivileges(ulong value) {
         result.hasRequiredPrivileges = true;
         result.requiredPrivileges_ = value;
@@ -1985,7 +1976,6 @@ namespace bnet.protocol.channel {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -2210,12 +2200,10 @@ namespace bnet.protocol.channel {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -2266,14 +2254,12 @@ namespace bnet.protocol.channel {
     
     public const int RoleFieldNumber = 2;
     private pbc::PopsicleList<uint> role_ = new pbc::PopsicleList<uint>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<uint> RoleList {
       get { return pbc::Lists.AsReadOnly(role_); }
     }
     public int RoleCount {
       get { return role_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GetRole(int index) {
       return role_[index];
     }
@@ -2534,28 +2520,23 @@ namespace bnet.protocol.channel {
         return this;
       }
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<uint> RoleList {
         get { return result.role_; }
       }
       public int RoleCount {
         get { return result.RoleCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GetRole(int index) {
         return result.GetRole(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRole(int index, uint value) {
         result.role_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRole(uint value) {
         result.role_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeRole(scg::IEnumerable<uint> values) {
         base.AddRange(values, result.role_);
         return this;
@@ -3272,7 +3253,6 @@ namespace bnet.protocol.channel {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -3553,12 +3533,10 @@ namespace bnet.protocol.channel {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -3930,7 +3908,6 @@ namespace bnet.protocol.channel {
     public bool HasRequiredPrivileges {
       get { return hasRequiredPrivileges; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong RequiredPrivileges {
       get { return requiredPrivileges_; }
     }
@@ -4211,12 +4188,10 @@ namespace bnet.protocol.channel {
       public bool HasRequiredPrivileges {
         get { return result.HasRequiredPrivileges; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong RequiredPrivileges {
         get { return result.RequiredPrivileges; }
         set { SetRequiredPrivileges(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRequiredPrivileges(ulong value) {
         result.hasRequiredPrivileges = true;
         result.requiredPrivileges_ = value;

@@ -119,7 +119,6 @@ namespace bnet.protocol.invitation {
     public bool HasId {
       get { return hasId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Id {
       get { return id_; }
     }
@@ -180,7 +179,6 @@ namespace bnet.protocol.invitation {
     public bool HasCreationTime {
       get { return hasCreationTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong CreationTime {
       get { return creationTime_; }
     }
@@ -191,7 +189,6 @@ namespace bnet.protocol.invitation {
     public bool HasExpirationTime {
       get { return hasExpirationTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ExpirationTime {
       get { return expirationTime_; }
     }
@@ -470,12 +467,10 @@ namespace bnet.protocol.invitation {
       public bool HasId {
         get { return result.HasId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Id {
         get { return result.Id; }
         set { SetId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetId(ulong value) {
         result.hasId = true;
         result.id_ = value;
@@ -619,12 +614,10 @@ namespace bnet.protocol.invitation {
       public bool HasCreationTime {
         get { return result.HasCreationTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong CreationTime {
         get { return result.CreationTime; }
         set { SetCreationTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCreationTime(ulong value) {
         result.hasCreationTime = true;
         result.creationTime_ = value;
@@ -639,12 +632,10 @@ namespace bnet.protocol.invitation {
       public bool HasExpirationTime {
         get { return result.HasExpirationTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ExpirationTime {
         get { return result.ExpirationTime; }
         set { SetExpirationTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetExpirationTime(ulong value) {
         result.hasExpirationTime = true;
         result.expirationTime_ = value;
@@ -1176,7 +1167,6 @@ namespace bnet.protocol.invitation {
     public bool HasExpirationTime {
       get { return hasExpirationTime; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ExpirationTime {
       get { return expirationTime_; }
     }
@@ -1494,12 +1484,10 @@ namespace bnet.protocol.invitation {
       public bool HasExpirationTime {
         get { return result.HasExpirationTime; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ExpirationTime {
         get { return result.ExpirationTime; }
         set { SetExpirationTime(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetExpirationTime(ulong value) {
         result.hasExpirationTime = true;
         result.expirationTime_ = value;
@@ -1805,7 +1793,6 @@ namespace bnet.protocol.invitation {
     public bool HasInvitationId {
       get { return hasInvitationId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong InvitationId {
       get { return invitationId_; }
     }
@@ -2088,12 +2075,10 @@ namespace bnet.protocol.invitation {
       public bool HasInvitationId {
         get { return result.HasInvitationId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong InvitationId {
         get { return result.InvitationId; }
         set { SetInvitationId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetInvitationId(ulong value) {
         result.hasInvitationId = true;
         result.invitationId_ = value;

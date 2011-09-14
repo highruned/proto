@@ -894,7 +894,6 @@ namespace bnet.protocol.storage {
     public bool HasBits {
       get { return hasBits; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Bits {
       get { return bits_; }
     }
@@ -905,7 +904,6 @@ namespace bnet.protocol.storage {
     public bool HasProgram {
       get { return hasProgram; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Program {
       get { return program_; }
     }
@@ -1086,12 +1084,10 @@ namespace bnet.protocol.storage {
       public bool HasBits {
         get { return result.HasBits; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Bits {
         get { return result.Bits; }
         set { SetBits(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetBits(ulong value) {
         result.hasBits = true;
         result.bits_ = value;
@@ -1106,12 +1102,10 @@ namespace bnet.protocol.storage {
       public bool HasProgram {
         get { return result.HasProgram; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Program {
         get { return result.Program; }
         set { SetProgram(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetProgram(uint value) {
         result.hasProgram = true;
         result.program_ = value;
@@ -1533,7 +1527,6 @@ namespace bnet.protocol.storage {
     public bool HasMinVersion {
       get { return hasMinVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MinVersion {
       get { return minVersion_; }
     }
@@ -1544,7 +1537,6 @@ namespace bnet.protocol.storage {
     public bool HasMaxVersion {
       get { return hasMaxVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MaxVersion {
       get { return maxVersion_; }
     }
@@ -1565,7 +1557,6 @@ namespace bnet.protocol.storage {
     public bool HasLimit {
       get { return hasLimit; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Limit {
       get { return limit_; }
     }
@@ -1960,12 +1951,10 @@ namespace bnet.protocol.storage {
       public bool HasMinVersion {
         get { return result.HasMinVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MinVersion {
         get { return result.MinVersion; }
         set { SetMinVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMinVersion(ulong value) {
         result.hasMinVersion = true;
         result.minVersion_ = value;
@@ -1980,12 +1969,10 @@ namespace bnet.protocol.storage {
       public bool HasMaxVersion {
         get { return result.HasMaxVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MaxVersion {
         get { return result.MaxVersion; }
         set { SetMaxVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxVersion(ulong value) {
         result.hasMaxVersion = true;
         result.maxVersion_ = value;
@@ -2036,12 +2023,10 @@ namespace bnet.protocol.storage {
       public bool HasLimit {
         get { return result.HasLimit; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Limit {
         get { return result.Limit; }
         set { SetLimit(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetLimit(uint value) {
         result.hasLimit = true;
         result.limit_ = value;
@@ -2163,7 +2148,6 @@ namespace bnet.protocol.storage {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Version {
       get { return version_; }
     }
@@ -2186,7 +2170,6 @@ namespace bnet.protocol.storage {
     public bool HasMutateVersion {
       get { return hasMutateVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong MutateVersion {
       get { return mutateVersion_; }
     }
@@ -2616,12 +2599,10 @@ namespace bnet.protocol.storage {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(ulong value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -2674,12 +2655,10 @@ namespace bnet.protocol.storage {
       public bool HasMutateVersion {
         get { return result.HasMutateVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong MutateVersion {
         get { return result.MutateVersion; }
         set { SetMutateVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMutateVersion(ulong value) {
         result.hasMutateVersion = true;
         result.mutateVersion_ = value;
@@ -2790,7 +2769,6 @@ namespace bnet.protocol.storage {
     public bool HasVersion {
       get { return hasVersion; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Version {
       get { return version_; }
     }
@@ -3125,12 +3103,10 @@ namespace bnet.protocol.storage {
       public bool HasVersion {
         get { return result.HasVersion; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Version {
         get { return result.Version; }
         set { SetVersion(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetVersion(ulong value) {
         result.hasVersion = true;
         result.version_ = value;
@@ -3194,7 +3170,6 @@ namespace bnet.protocol.storage {
     public bool HasErrorCode {
       get { return hasErrorCode; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ErrorCode {
       get { return errorCode_; }
     }
@@ -3423,12 +3398,10 @@ namespace bnet.protocol.storage {
       public bool HasErrorCode {
         get { return result.HasErrorCode; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ErrorCode {
         get { return result.ErrorCode; }
         set { SetErrorCode(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetErrorCode(uint value) {
         result.hasErrorCode = true;
         result.errorCode_ = value;
@@ -5004,7 +4977,6 @@ namespace bnet.protocol.storage {
     public bool HasMaxDataSize {
       get { return hasMaxDataSize; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxDataSize {
       get { return maxDataSize_; }
     }
@@ -5027,7 +4999,6 @@ namespace bnet.protocol.storage {
     public bool HasTimeout {
       get { return hasTimeout; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Timeout {
       get { return timeout_; }
     }
@@ -5483,12 +5454,10 @@ namespace bnet.protocol.storage {
       public bool HasMaxDataSize {
         get { return result.HasMaxDataSize; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxDataSize {
         get { return result.MaxDataSize; }
         set { SetMaxDataSize(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxDataSize(uint value) {
         result.hasMaxDataSize = true;
         result.maxDataSize_ = value;
@@ -5541,12 +5510,10 @@ namespace bnet.protocol.storage {
       public bool HasTimeout {
         get { return result.HasTimeout; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Timeout {
         get { return result.Timeout; }
         set { SetTimeout(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetTimeout(uint value) {
         result.hasTimeout = true;
         result.timeout_ = value;
@@ -5665,7 +5632,6 @@ namespace bnet.protocol.storage {
     public bool HasErrorCode {
       get { return hasErrorCode; }
     }
-    [global::System.CLSCompliant(false)]
     public uint ErrorCode {
       get { return errorCode_; }
     }
@@ -5887,12 +5853,10 @@ namespace bnet.protocol.storage {
       public bool HasErrorCode {
         get { return result.HasErrorCode; }
       }
-      [global::System.CLSCompliant(false)]
       public uint ErrorCode {
         get { return result.ErrorCode; }
         set { SetErrorCode(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetErrorCode(uint value) {
         result.hasErrorCode = true;
         result.errorCode_ = value;

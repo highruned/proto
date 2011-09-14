@@ -146,7 +146,6 @@ namespace bnet.protocol.exchange_object_provider {
     public bool HasResult {
       get { return hasResult; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Result {
       get { return result_; }
     }
@@ -511,12 +510,10 @@ namespace bnet.protocol.exchange_object_provider {
       public bool HasResult {
         get { return result.HasResult; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Result {
         get { return result.Result; }
         set { SetResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetResult(ulong value) {
         result.hasResult = true;
         result.result_ = value;
@@ -671,7 +668,6 @@ namespace bnet.protocol.exchange_object_provider {
     public bool HasResult {
       get { return hasResult; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Result {
       get { return result_; }
     }
@@ -952,12 +948,10 @@ namespace bnet.protocol.exchange_object_provider {
       public bool HasResult {
         get { return result.HasResult; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Result {
         get { return result.Result; }
         set { SetResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetResult(ulong value) {
         result.hasResult = true;
         result.result_ = value;
@@ -1022,7 +1016,6 @@ namespace bnet.protocol.exchange_object_provider {
     public bool HasResult {
       get { return hasResult; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Result {
       get { return result_; }
     }
@@ -1303,12 +1296,10 @@ namespace bnet.protocol.exchange_object_provider {
       public bool HasResult {
         get { return result.HasResult; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Result {
         get { return result.Result; }
         set { SetResult(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetResult(ulong value) {
         result.hasResult = true;
         result.result_ = value;
@@ -1393,7 +1384,6 @@ namespace bnet.protocol.exchange_object_provider {
     public bool HasCashInOutMask {
       get { return hasCashInOutMask; }
     }
-    [global::System.CLSCompliant(false)]
     public uint CashInOutMask {
       get { return cashInOutMask_; }
     }
@@ -1766,12 +1756,10 @@ namespace bnet.protocol.exchange_object_provider {
       public bool HasCashInOutMask {
         get { return result.HasCashInOutMask; }
       }
-      [global::System.CLSCompliant(false)]
       public uint CashInOutMask {
         get { return result.CashInOutMask; }
         set { SetCashInOutMask(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCashInOutMask(uint value) {
         result.hasCashInOutMask = true;
         result.cashInOutMask_ = value;
@@ -1836,7 +1824,6 @@ namespace bnet.protocol.exchange_object_provider {
     public bool HasAmount {
       get { return hasAmount; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Amount {
       get { return amount_; }
     }
@@ -2093,12 +2080,10 @@ namespace bnet.protocol.exchange_object_provider {
       public bool HasAmount {
         get { return result.HasAmount; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Amount {
         get { return result.Amount; }
         set { SetAmount(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetAmount(ulong value) {
         result.hasAmount = true;
         result.amount_ = value;

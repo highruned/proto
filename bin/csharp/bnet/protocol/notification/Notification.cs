@@ -851,7 +851,6 @@ namespace bnet.protocol.notification {
     public bool HasLabel {
       get { return hasLabel; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Label {
       get { return label_; }
     }
@@ -1051,12 +1050,10 @@ namespace bnet.protocol.notification {
       public bool HasLabel {
         get { return result.HasLabel; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Label {
         get { return result.Label; }
         set { SetLabel(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetLabel(uint value) {
         result.hasLabel = true;
         result.label_ = value;

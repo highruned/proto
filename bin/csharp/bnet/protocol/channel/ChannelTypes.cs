@@ -226,7 +226,6 @@ namespace bnet.protocol.channel {
     public bool HasRole {
       get { return hasRole; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Role {
       get { return role_; }
     }
@@ -456,12 +455,10 @@ namespace bnet.protocol.channel {
       public bool HasRole {
         get { return result.HasRole; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Role {
         get { return result.Role; }
         set { SetRole(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRole(uint value) {
         result.hasRole = true;
         result.role_ = value;
@@ -516,7 +513,6 @@ namespace bnet.protocol.channel {
     public bool HasCurrentMembers {
       get { return hasCurrentMembers; }
     }
-    [global::System.CLSCompliant(false)]
     public uint CurrentMembers {
       get { return currentMembers_; }
     }
@@ -776,12 +772,10 @@ namespace bnet.protocol.channel {
       public bool HasCurrentMembers {
         get { return result.HasCurrentMembers; }
       }
-      [global::System.CLSCompliant(false)]
       public uint CurrentMembers {
         get { return result.CurrentMembers; }
         set { SetCurrentMembers(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetCurrentMembers(uint value) {
         result.hasCurrentMembers = true;
         result.currentMembers_ = value;
@@ -2169,7 +2163,6 @@ namespace bnet.protocol.channel {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -2508,12 +2501,10 @@ namespace bnet.protocol.channel {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -2558,7 +2549,6 @@ namespace bnet.protocol.channel {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -2758,12 +2748,10 @@ namespace bnet.protocol.channel {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -2864,7 +2852,6 @@ namespace bnet.protocol.channel {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -3177,12 +3164,10 @@ namespace bnet.protocol.channel {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -3265,7 +3250,6 @@ namespace bnet.protocol.channel {
     public bool HasObjectId {
       get { return hasObjectId; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong ObjectId {
       get { return objectId_; }
     }
@@ -3487,12 +3471,10 @@ namespace bnet.protocol.channel {
       public bool HasObjectId {
         get { return result.HasObjectId; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong ObjectId {
         get { return result.ObjectId; }
         set { SetObjectId(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetObjectId(ulong value) {
         result.hasObjectId = true;
         result.objectId_ = value;
@@ -4088,7 +4070,6 @@ namespace bnet.protocol.channel {
     public bool HasMaxMembers {
       get { return hasMaxMembers; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxMembers {
       get { return maxMembers_; }
     }
@@ -4099,7 +4080,6 @@ namespace bnet.protocol.channel {
     public bool HasMinMembers {
       get { return hasMinMembers; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MinMembers {
       get { return minMembers_; }
     }
@@ -4134,7 +4114,6 @@ namespace bnet.protocol.channel {
     public bool HasMaxInvitations {
       get { return hasMaxInvitations; }
     }
-    [global::System.CLSCompliant(false)]
     public uint MaxInvitations {
       get { return maxInvitations_; }
     }
@@ -4145,7 +4124,6 @@ namespace bnet.protocol.channel {
     public bool HasReason {
       get { return hasReason; }
     }
-    [global::System.CLSCompliant(false)]
     public uint Reason {
       get { return reason_; }
     }
@@ -4518,12 +4496,10 @@ namespace bnet.protocol.channel {
       public bool HasMaxMembers {
         get { return result.HasMaxMembers; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxMembers {
         get { return result.MaxMembers; }
         set { SetMaxMembers(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxMembers(uint value) {
         result.hasMaxMembers = true;
         result.maxMembers_ = value;
@@ -4538,12 +4514,10 @@ namespace bnet.protocol.channel {
       public bool HasMinMembers {
         get { return result.HasMinMembers; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MinMembers {
         get { return result.MinMembers; }
         set { SetMinMembers(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMinMembers(uint value) {
         result.hasMinMembers = true;
         result.minMembers_ = value;
@@ -4634,12 +4608,10 @@ namespace bnet.protocol.channel {
       public bool HasMaxInvitations {
         get { return result.HasMaxInvitations; }
       }
-      [global::System.CLSCompliant(false)]
       public uint MaxInvitations {
         get { return result.MaxInvitations; }
         set { SetMaxInvitations(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetMaxInvitations(uint value) {
         result.hasMaxInvitations = true;
         result.maxInvitations_ = value;
@@ -4654,12 +4626,10 @@ namespace bnet.protocol.channel {
       public bool HasReason {
         get { return result.HasReason; }
       }
-      [global::System.CLSCompliant(false)]
       public uint Reason {
         get { return result.Reason; }
         set { SetReason(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetReason(uint value) {
         result.hasReason = true;
         result.reason_ = value;
@@ -4805,14 +4775,12 @@ namespace bnet.protocol.channel {
     
     public const int RoleFieldNumber = 2;
     private pbc::PopsicleList<uint> role_ = new pbc::PopsicleList<uint>();
-    [global::System.CLSCompliant(false)]
     public scg::IList<uint> RoleList {
       get { return pbc::Lists.AsReadOnly(role_); }
     }
     public int RoleCount {
       get { return role_.Count; }
     }
-    [global::System.CLSCompliant(false)]
     public uint GetRole(int index) {
       return role_[index];
     }
@@ -4823,7 +4791,6 @@ namespace bnet.protocol.channel {
     public bool HasPrivileges {
       get { return hasPrivileges; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong Privileges {
       get { return privileges_; }
     }
@@ -5071,28 +5038,23 @@ namespace bnet.protocol.channel {
         return this;
       }
       
-      [global::System.CLSCompliant(false)]
       public pbc::IPopsicleList<uint> RoleList {
         get { return result.role_; }
       }
       public int RoleCount {
         get { return result.RoleCount; }
       }
-      [global::System.CLSCompliant(false)]
       public uint GetRole(int index) {
         return result.GetRole(index);
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetRole(int index, uint value) {
         result.role_[index] = value;
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRole(uint value) {
         result.role_.Add(value);
         return this;
       }
-      [global::System.CLSCompliant(false)]
       public Builder AddRangeRole(scg::IEnumerable<uint> values) {
         base.AddRange(values, result.role_);
         return this;
@@ -5105,12 +5067,10 @@ namespace bnet.protocol.channel {
       public bool HasPrivileges {
         get { return result.HasPrivileges; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong Privileges {
         get { return result.Privileges; }
         set { SetPrivileges(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetPrivileges(ulong value) {
         result.hasPrivileges = true;
         result.privileges_ = value;

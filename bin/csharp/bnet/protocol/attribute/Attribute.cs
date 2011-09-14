@@ -166,7 +166,6 @@ namespace bnet.protocol.attribute {
     public bool HasUintValue {
       get { return hasUintValue; }
     }
-    [global::System.CLSCompliant(false)]
     public ulong UintValue {
       get { return uintValue_; }
     }
@@ -555,12 +554,10 @@ namespace bnet.protocol.attribute {
       public bool HasUintValue {
         get { return result.HasUintValue; }
       }
-      [global::System.CLSCompliant(false)]
       public ulong UintValue {
         get { return result.UintValue; }
         set { SetUintValue(value); }
       }
-      [global::System.CLSCompliant(false)]
       public Builder SetUintValue(ulong value) {
         result.hasUintValue = true;
         result.uintValue_ = value;
