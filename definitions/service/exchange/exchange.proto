@@ -1,5 +1,5 @@
 
-
+import "google/protobuf/csharp_options.proto";
 import "lib/rpc/rpc.proto";
 import "lib/protocol/exchange.proto";
 import "lib/protocol/exchange_object_provider.proto";
@@ -9,6 +9,7 @@ package bnet.protocol.exchange;
 
 option cc_generic_services = true;
 option java_outer_classname = "CExchangeService";
+option (google.protobuf.csharp_file_options).umbrella_classname = "ExchangeService";
 
 message CreateOrderBookRequest {
   required .bnet.protocol.exchange.PartitionId partition_id = 1;
