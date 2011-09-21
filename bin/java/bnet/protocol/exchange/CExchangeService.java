@@ -15886,217 +15886,218 @@ public final class CExchangeService {
   static {
     java.lang.String[] descriptorData = {
       "\n\037service/exchange/exchange.proto\022\026bnet." +
-      "protocol.exchange\032\021lib/rpc/rpc.proto\032\033li" +
-      "b/protocol/exchange.proto\032+lib/protocol/" +
-      "exchange_object_provider.proto\032\031lib/prot" +
-      "ocol/entity.proto\032%service/exchange/exch" +
-      "ange_types.proto\"\212\001\n\026CreateOrderBookRequ" +
-      "est\0229\n\014partition_id\030\001 \002(\0132#.bnet.protoco" +
-      "l.exchange.PartitionId\0225\n\norder_book\030\002 \002" +
-      "(\0132!.bnet.protocol.exchange.OrderBook\"0\n" +
-      "\027CreateOrderBookResponse\022\025\n\rorder_book_i",
-      "d\030\001 \001(\004\"\230\001\n\034PlaceOfferOnOrderBookRequest" +
-      "\0229\n\014partition_id\030\001 \002(\0132#.bnet.protocol.e" +
-      "xchange.PartitionId\022=\n\016offer_creation\030\002 " +
-      "\002(\0132%.bnet.protocol.exchange.OfferCreati" +
-      "on\"H\n\035PlaceOfferOnOrderBookResponse\022\025\n\ro" +
-      "rder_book_id\030\001 \001(\004\022\020\n\010offer_id\030\002 \001(\004\"\333\001\n" +
-      "(PlaceOfferCreateOrderBookIfNeededReques" +
+      "protocol.exchange\032$google/protobuf/cshar" +
+      "p_options.proto\032\021lib/rpc/rpc.proto\032\033lib/" +
+      "protocol/exchange.proto\032+lib/protocol/ex" +
+      "change_object_provider.proto\032\031lib/protoc" +
+      "ol/entity.proto\032%service/exchange/exchan" +
+      "ge_types.proto\"\212\001\n\026CreateOrderBookReques" +
       "t\0229\n\014partition_id\030\001 \002(\0132#.bnet.protocol." +
       "exchange.PartitionId\0225\n\norder_book\030\002 \002(\013" +
-      "2!.bnet.protocol.exchange.OrderBook\022=\n\016o",
-      "ffer_creation\030\003 \002(\0132%.bnet.protocol.exch" +
-      "ange.OfferCreation\"T\n)PlaceOfferCreateOr" +
-      "derBookIfNeededResponse\022\025\n\rorder_book_id" +
-      "\030\001 \001(\004\022\020\n\010offer_id\030\002 \001(\004\"\222\001\n\032PlaceBidOnO" +
-      "rderBookRequest\0229\n\014partition_id\030\001 \002(\0132#." +
-      "bnet.protocol.exchange.PartitionId\0229\n\014bi" +
-      "d_creation\030\002 \002(\0132#.bnet.protocol.exchang" +
-      "e.BidCreation\"D\n\033PlaceBidOnOrderBookResp" +
-      "onse\022\025\n\rorder_book_id\030\001 \001(\004\022\016\n\006bid_id\030\002 " +
-      "\001(\004\"\325\001\n&PlaceBidCreateOrderBookIfNeededR",
+      "2!.bnet.protocol.exchange.OrderBook\"0\n\027C",
+      "reateOrderBookResponse\022\025\n\rorder_book_id\030" +
+      "\001 \001(\004\"\230\001\n\034PlaceOfferOnOrderBookRequest\0229" +
+      "\n\014partition_id\030\001 \002(\0132#.bnet.protocol.exc" +
+      "hange.PartitionId\022=\n\016offer_creation\030\002 \002(" +
+      "\0132%.bnet.protocol.exchange.OfferCreation" +
+      "\"H\n\035PlaceOfferOnOrderBookResponse\022\025\n\rord" +
+      "er_book_id\030\001 \001(\004\022\020\n\010offer_id\030\002 \001(\004\"\333\001\n(P" +
+      "laceOfferCreateOrderBookIfNeededRequest\022" +
+      "9\n\014partition_id\030\001 \002(\0132#.bnet.protocol.ex" +
+      "change.PartitionId\0225\n\norder_book\030\002 \002(\0132!",
+      ".bnet.protocol.exchange.OrderBook\022=\n\016off" +
+      "er_creation\030\003 \002(\0132%.bnet.protocol.exchan" +
+      "ge.OfferCreation\"T\n)PlaceOfferCreateOrde" +
+      "rBookIfNeededResponse\022\025\n\rorder_book_id\030\001" +
+      " \001(\004\022\020\n\010offer_id\030\002 \001(\004\"\222\001\n\032PlaceBidOnOrd" +
+      "erBookRequest\0229\n\014partition_id\030\001 \002(\0132#.bn" +
+      "et.protocol.exchange.PartitionId\0229\n\014bid_" +
+      "creation\030\002 \002(\0132#.bnet.protocol.exchange." +
+      "BidCreation\"D\n\033PlaceBidOnOrderBookRespon" +
+      "se\022\025\n\rorder_book_id\030\001 \001(\004\022\016\n\006bid_id\030\002 \001(",
+      "\004\"\325\001\n&PlaceBidCreateOrderBookIfNeededReq" +
+      "uest\0229\n\014partition_id\030\001 \002(\0132#.bnet.protoc" +
+      "ol.exchange.PartitionId\0225\n\norder_book\030\002 " +
+      "\002(\0132!.bnet.protocol.exchange.OrderBook\0229" +
+      "\n\014bid_creation\030\003 \002(\0132#.bnet.protocol.exc" +
+      "hange.BidCreation\"P\n\'PlaceBidCreateOrder" +
+      "BookIfNeededResponse\022\025\n\rorder_book_id\030\001 " +
+      "\001(\004\022\016\n\006bid_id\030\002 \001(\004\"\250\001\n\035QueryOffersByOrd" +
+      "erBookRequest\0229\n\014partition_id\030\001 \002(\0132#.bn" +
+      "et.protocol.exchange.PartitionId\022<\n\006filt",
+      "er\030\002 \002(\0132,.bnet.protocol.exchange.QueryF" +
+      "ilterByOrderId\022\016\n\006status\030\003 \002(\005\"l\n\036QueryO" +
+      "ffersByOrderBookResponse\0225\n\006offers\030\001 \003(\013" +
+      "2%.bnet.protocol.exchange.OfferExtended\022" +
+      "\023\n\013total_count\030\002 \002(\r\"\246\001\n\033QueryBidsByOrde" +
+      "rBookRequest\0229\n\014partition_id\030\001 \002(\0132#.bne" +
+      "t.protocol.exchange.PartitionId\022<\n\006filte" +
+      "r\030\002 \002(\0132,.bnet.protocol.exchange.QueryFi" +
+      "lterByOrderId\022\016\n\006status\030\003 \002(\005\"f\n\034QueryBi" +
+      "dsByOrderBookResponse\0221\n\004bids\030\001 \003(\0132#.bn",
+      "et.protocol.exchange.BidExtended\022\023\n\013tota" +
+      "l_count\030\002 \002(\r\"\321\001\n\"QueryOffersByAccountFo" +
+      "rItemRequest\022:\n\020account_for_item\030\001 \002(\0132 " +
+      ".bnet.protocol.exchange.BlobFrom\022@\n\006filt" +
+      "er\030\002 \002(\01320.bnet.protocol.exchange.QueryF" +
+      "ilterByCreatedTime\022-\n\014bnet_account\030\003 \001(\013" +
+      "2\027.bnet.protocol.EntityId\"q\n#QueryOffers" +
+      "ByAccountForItemResponse\0225\n\006offers\030\001 \003(\013" +
+      "2%.bnet.protocol.exchange.OfferExtended\022" +
+      "\023\n\013total_count\030\002 \002(\r\"\317\001\n QueryBidsByAcco",
+      "untForItemRequest\022:\n\020account_for_item\030\001 " +
+      "\002(\0132 .bnet.protocol.exchange.BlobFrom\022@\n" +
+      "\006filter\030\002 \002(\01320.bnet.protocol.exchange.Q" +
+      "ueryFilterByCreatedTime\022-\n\014bnet_account\030" +
+      "\003 \001(\0132\027.bnet.protocol.EntityId\"k\n!QueryB" +
+      "idsByAccountForItemResponse\0221\n\004bids\030\001 \003(" +
+      "\0132#.bnet.protocol.exchange.BidExtended\022\023" +
+      "\n\013total_count\030\002 \002(\r\"Y\n\035QueryOrderBooksSu" +
+      "mmaryRequest\0228\n\007handles\030\001 \003(\0132\'.bnet.pro" +
+      "tocol.exchange.OrderBookHandle\"_\n\036QueryO",
+      "rderBooksSummaryResponse\022=\n\013order_books\030" +
+      "\001 \003(\0132(.bnet.protocol.exchange.OrderBook" +
+      "Summary\"\235\001\n\"QuerySettlementsByOrderBookR" +
       "equest\0229\n\014partition_id\030\001 \002(\0132#.bnet.prot" +
-      "ocol.exchange.PartitionId\0225\n\norder_book\030" +
-      "\002 \002(\0132!.bnet.protocol.exchange.OrderBook" +
-      "\0229\n\014bid_creation\030\003 \002(\0132#.bnet.protocol.e" +
-      "xchange.BidCreation\"P\n\'PlaceBidCreateOrd" +
-      "erBookIfNeededResponse\022\025\n\rorder_book_id\030" +
-      "\001 \001(\004\022\016\n\006bid_id\030\002 \001(\004\"\250\001\n\035QueryOffersByO" +
-      "rderBookRequest\0229\n\014partition_id\030\001 \002(\0132#." +
-      "bnet.protocol.exchange.PartitionId\022<\n\006fi" +
-      "lter\030\002 \002(\0132,.bnet.protocol.exchange.Quer",
-      "yFilterByOrderId\022\016\n\006status\030\003 \002(\005\"l\n\036Quer" +
-      "yOffersByOrderBookResponse\0225\n\006offers\030\001 \003" +
-      "(\0132%.bnet.protocol.exchange.OfferExtende" +
-      "d\022\023\n\013total_count\030\002 \002(\r\"\246\001\n\033QueryBidsByOr" +
-      "derBookRequest\0229\n\014partition_id\030\001 \002(\0132#.b" +
-      "net.protocol.exchange.PartitionId\022<\n\006fil" +
-      "ter\030\002 \002(\0132,.bnet.protocol.exchange.Query" +
-      "FilterByOrderId\022\016\n\006status\030\003 \002(\005\"f\n\034Query" +
-      "BidsByOrderBookResponse\0221\n\004bids\030\001 \003(\0132#." +
-      "bnet.protocol.exchange.BidExtended\022\023\n\013to",
-      "tal_count\030\002 \002(\r\"\321\001\n\"QueryOffersByAccount" +
-      "ForItemRequest\022:\n\020account_for_item\030\001 \002(\013" +
-      "2 .bnet.protocol.exchange.BlobFrom\022@\n\006fi" +
-      "lter\030\002 \002(\01320.bnet.protocol.exchange.Quer" +
-      "yFilterByCreatedTime\022-\n\014bnet_account\030\003 \001" +
-      "(\0132\027.bnet.protocol.EntityId\"q\n#QueryOffe" +
-      "rsByAccountForItemResponse\0225\n\006offers\030\001 \003" +
-      "(\0132%.bnet.protocol.exchange.OfferExtende" +
-      "d\022\023\n\013total_count\030\002 \002(\r\"\317\001\n QueryBidsByAc" +
-      "countForItemRequest\022:\n\020account_for_item\030",
-      "\001 \002(\0132 .bnet.protocol.exchange.BlobFrom\022" +
-      "@\n\006filter\030\002 \002(\01320.bnet.protocol.exchange" +
-      ".QueryFilterByCreatedTime\022-\n\014bnet_accoun" +
-      "t\030\003 \001(\0132\027.bnet.protocol.EntityId\"k\n!Quer" +
-      "yBidsByAccountForItemResponse\0221\n\004bids\030\001 " +
-      "\003(\0132#.bnet.protocol.exchange.BidExtended" +
-      "\022\023\n\013total_count\030\002 \002(\r\"Y\n\035QueryOrderBooks" +
-      "SummaryRequest\0228\n\007handles\030\001 \003(\0132\'.bnet.p" +
-      "rotocol.exchange.OrderBookHandle\"_\n\036Quer" +
-      "yOrderBooksSummaryResponse\022=\n\013order_book",
-      "s\030\001 \003(\0132(.bnet.protocol.exchange.OrderBo" +
-      "okSummary\"\235\001\n\"QuerySettlementsByOrderBoo" +
-      "kRequest\0229\n\014partition_id\030\001 \002(\0132#.bnet.pr" +
-      "otocol.exchange.PartitionId\022<\n\006filter\030\002 " +
-      "\002(\0132,.bnet.protocol.exchange.QueryFilter" +
-      "ByOrderId\"^\n#QuerySettlementsByOrderBook" +
-      "Response\0227\n\013settlements\030\001 \003(\0132\".bnet.pro" +
-      "tocol.exchange.Settlement\"\222\002\n%SubscribeO" +
-      "rderBookStatusChangeRequest\022\021\n\tobject_id" +
-      "\030\001 \002(\004\022=\n\020min_partition_id\030\002 \002(\0132#.bnet.",
-      "protocol.exchange.PartitionId\022=\n\020max_par" +
-      "tition_id\030\003 \002(\0132#.bnet.protocol.exchange" +
-      ".PartitionId\022\017\n\007program\030\004 \002(\007\022\016\n\006status\030" +
-      "\005 \002(\005\022\020\n\010currency\030\006 \001(\t\022\022\n\nspecialist\030\007 " +
-      "\001(\005\022\021\n\tbootstrap\030\010 \001(\010\")\n\'UnsubscribeOrd" +
-      "erBookStatusChangeRequest\"a\n!SubscribeOr" +
-      "derStatusChangeRequest\022)\n\010agent_id\030\001 \002(\013" +
-      "2\027.bnet.protocol.EntityId\022\021\n\tobject_id\030\002" +
-      " \002(\004\"c\n#UnsubscribeOrderStatusChangeRequ" +
-      "est\022)\n\010agent_id\030\001 \002(\0132\027.bnet.protocol.En",
-      "tityId\022\021\n\tobject_id\030\002 \002(\004\"\212\001\n\014ClaimReque" +
-      "st\0229\n\014partition_id\030\001 \002(\0132#.bnet.protocol" +
-      ".exchange.PartitionId\022\020\n\010order_id\030\002 \002(\r\022" +
-      "-\n\014bnet_account\030\003 \001(\0132\027.bnet.protocol.En" +
-      "tityId\"\233\001\n\rCancelRequest\0229\n\014partition_id" +
-      "\030\001 \002(\0132#.bnet.protocol.exchange.Partitio" +
-      "nId\022\020\n\010order_id\030\002 \002(\r\022\016\n\006reason\030\003 \001(\r\022-\n" +
-      "\014bnet_account\030\004 \001(\0132\027.bnet.protocol.Enti" +
-      "tyId\"*\n\027GetConfigurationRequest\022\017\n\007progr" +
-      "am\030\001 \002(\007\"U\n\030GetConfigurationResponse\0229\n\007",
-      "configs\030\001 \003(\0132(.bnet.protocol.exchange.S" +
-      "pecialistConfig\"\222\001\n\034GetOfferFeeEstimatio" +
-      "nRequest\0229\n\014partition_id\030\001 \002(\0132#.bnet.pr" +
-      "otocol.exchange.PartitionId\0227\n\004data\030\002 \002(" +
-      "\0132).bnet.protocol.exchange.FeeEstimation" +
-      "Data\"\220\001\n\032GetBidFeeEstimationRequest\0229\n\014p" +
-      "artition_id\030\001 \002(\0132#.bnet.protocol.exchan" +
-      "ge.PartitionId\0227\n\004data\030\002 \002(\0132).bnet.prot" +
-      "ocol.exchange.FeeEstimationData\".\n\030GetFe" +
-      "eEstimationResponse\022\022\n\nfee_amount\030\001 \001(\004\"",
-      "}\n\034OrderBookNotificationRequest\022D\n\rnotif" +
-      "ications\030\001 \003(\0132-.bnet.protocol.exchange." +
-      "OrderBookNotification\022\027\n\017boot_strap_last" +
-      "\030\002 \001(\010\"_\n\030OfferNotificationRequest\0224\n\005of" +
-      "fer\030\001 \002(\0132%.bnet.protocol.exchange.Offer" +
-      "Extended\022\r\n\005event\030\002 \002(\r\"Y\n\026BidNotificati" +
-      "onRequest\0220\n\003bid\030\001 \002(\0132#.bnet.protocol.e" +
-      "xchange.BidExtended\022\r\n\005event\030\002 \002(\r2\245\032\n\017E" +
-      "xchangeService\022r\n\017CreateOrderBook\022..bnet" +
-      ".protocol.exchange.CreateOrderBookReques",
-      "t\032/.bnet.protocol.exchange.CreateOrderBo" +
-      "okResponse\022\204\001\n\025PlaceOfferOnOrderBook\0224.b" +
-      "net.protocol.exchange.PlaceOfferOnOrderB" +
-      "ookRequest\0325.bnet.protocol.exchange.Plac" +
-      "eOfferOnOrderBookResponse\022\250\001\n!PlaceOffer" +
-      "CreateOrderBookIfNeeded\022@.bnet.protocol." +
-      "exchange.PlaceOfferCreateOrderBookIfNeed" +
-      "edRequest\032A.bnet.protocol.exchange.Place" +
-      "OfferCreateOrderBookIfNeededResponse\022~\n\023" +
-      "PlaceBidOnOrderBook\0222.bnet.protocol.exch",
-      "ange.PlaceBidOnOrderBookRequest\0323.bnet.p" +
-      "rotocol.exchange.PlaceBidOnOrderBookResp" +
-      "onse\022\242\001\n\037PlaceBidCreateOrderBookIfNeeded" +
-      "\022>.bnet.protocol.exchange.PlaceBidCreate" +
-      "OrderBookIfNeededRequest\032?.bnet.protocol" +
-      ".exchange.PlaceBidCreateOrderBookIfNeede" +
-      "dResponse\022\207\001\n\026QueryOffersByOrderBook\0225.b" +
-      "net.protocol.exchange.QueryOffersByOrder" +
-      "BookRequest\0326.bnet.protocol.exchange.Que" +
-      "ryOffersByOrderBookResponse\022\201\001\n\024QueryBid",
-      "sByOrderBook\0223.bnet.protocol.exchange.Qu" +
-      "eryBidsByOrderBookRequest\0324.bnet.protoco" +
-      "l.exchange.QueryBidsByOrderBookResponse\022" +
-      "\226\001\n\033QueryOffersByAccountForItem\022:.bnet.p" +
-      "rotocol.exchange.QueryOffersByAccountFor" +
-      "ItemRequest\032;.bnet.protocol.exchange.Que" +
-      "ryOffersByAccountForItemResponse\022\220\001\n\031Que" +
-      "ryBidsByAccountForItem\0228.bnet.protocol.e" +
-      "xchange.QueryBidsByAccountForItemRequest" +
-      "\0329.bnet.protocol.exchange.QueryBidsByAcc",
-      "ountForItemResponse\022\207\001\n\026QueryOrderBooksS" +
-      "ummary\0225.bnet.protocol.exchange.QueryOrd" +
-      "erBooksSummaryRequest\0326.bnet.protocol.ex" +
-      "change.QueryOrderBooksSummaryResponse\022\226\001" +
-      "\n\033QuerySettlementsByOrderBook\022:.bnet.pro" +
-      "tocol.exchange.QuerySettlementsByOrderBo" +
-      "okRequest\032;.bnet.protocol.exchange.Query" +
-      "SettlementsByOrderBookResponse\022h\n\017Report" +
-      "Authorize\022>.bnet.protocol.exchange_objec" +
-      "t_provider.ReportAuthorizeRequest\032\025.bnet",
-      ".protocol.NoData\022b\n\014ReportSettle\022;.bnet." +
-      "protocol.exchange_object_provider.Report" +
-      "SettleRequest\032\025.bnet.protocol.NoData\022b\n\014" +
-      "ReportCancel\022;.bnet.protocol.exchange_ob" +
-      "ject_provider.ReportCancelRequest\032\025.bnet" +
-      ".protocol.NoData\022v\n\036SubscribeOrderBookSt" +
-      "atusChange\022=.bnet.protocol.exchange.Subs" +
-      "cribeOrderBookStatusChangeRequest\032\025.bnet" +
-      ".protocol.NoData\022z\n UnsubscribeOrderBook" +
-      "StatusChange\022?.bnet.protocol.exchange.Un",
-      "subscribeOrderBookStatusChangeRequest\032\025." +
-      "bnet.protocol.NoData\022n\n\032SubscribeOrderSt" +
-      "atusChange\0229.bnet.protocol.exchange.Subs" +
-      "cribeOrderStatusChangeRequest\032\025.bnet.pro" +
-      "tocol.NoData\022r\n\034UnsubscribeOrderStatusCh" +
-      "ange\022;.bnet.protocol.exchange.Unsubscrib" +
-      "eOrderStatusChangeRequest\032\025.bnet.protoco" +
-      "l.NoData\022\230\001\n\021GetPaymentMethods\022@.bnet.pr" +
-      "otocol.exchange_object_provider.GetPayme" +
-      "ntMethodsRequest\032A.bnet.protocol.exchang",
-      "e_object_provider.GetPaymentMethodsRespo" +
-      "nse\022K\n\014ClaimBidItem\022$.bnet.protocol.exch" +
-      "ange.ClaimRequest\032\025.bnet.protocol.NoData" +
-      "\022L\n\rClaimBidMoney\022$.bnet.protocol.exchan" +
-      "ge.ClaimRequest\032\025.bnet.protocol.NoData\022M" +
-      "\n\016ClaimOfferItem\022$.bnet.protocol.exchang" +
-      "e.ClaimRequest\032\025.bnet.protocol.NoData\022N\n" +
-      "\017ClaimOfferMoney\022$.bnet.protocol.exchang" +
-      "e.ClaimRequest\032\025.bnet.protocol.NoData\022I\n" +
-      "\tCancelBid\022%.bnet.protocol.exchange.Canc",
-      "elRequest\032\025.bnet.protocol.NoData\022K\n\013Canc" +
-      "elOffer\022%.bnet.protocol.exchange.CancelR" +
-      "equest\032\025.bnet.protocol.NoData\022u\n\020GetConf" +
-      "iguration\022/.bnet.protocol.exchange.GetCo" +
-      "nfigurationRequest\0320.bnet.protocol.excha" +
-      "nge.GetConfigurationResponse\022{\n\023GetBidFe" +
-      "eEstimation\0222.bnet.protocol.exchange.Get" +
-      "BidFeeEstimationRequest\0320.bnet.protocol." +
-      "exchange.GetFeeEstimationResponse\022\177\n\025Get" +
-      "OfferFeeEstimation\0224.bnet.protocol.excha",
-      "nge.GetOfferFeeEstimationRequest\0320.bnet." +
-      "protocol.exchange.GetFeeEstimationRespon" +
-      "se2\317\002\n\016ExchangeNotify\022o\n\033NotifyOrderBook" +
-      "StatusChange\0224.bnet.protocol.exchange.Or" +
-      "derBookNotificationRequest\032\032.bnet.protoc" +
-      "ol.NO_RESPONSE\022g\n\027NotifyOfferStatusChang" +
-      "e\0220.bnet.protocol.exchange.OfferNotifica" +
-      "tionRequest\032\032.bnet.protocol.NO_RESPONSE\022" +
-      "c\n\025NotifyBidStatusChange\022..bnet.protocol" +
-      ".exchange.BidNotificationRequest\032\032.bnet.",
-      "protocol.NO_RESPONSEB\025B\020CExchangeService" +
-      "\200\001\001"
+      "ocol.exchange.PartitionId\022<\n\006filter\030\002 \002(" +
+      "\0132,.bnet.protocol.exchange.QueryFilterBy" +
+      "OrderId\"^\n#QuerySettlementsByOrderBookRe" +
+      "sponse\0227\n\013settlements\030\001 \003(\0132\".bnet.proto" +
+      "col.exchange.Settlement\"\222\002\n%SubscribeOrd" +
+      "erBookStatusChangeRequest\022\021\n\tobject_id\030\001",
+      " \002(\004\022=\n\020min_partition_id\030\002 \002(\0132#.bnet.pr" +
+      "otocol.exchange.PartitionId\022=\n\020max_parti" +
+      "tion_id\030\003 \002(\0132#.bnet.protocol.exchange.P" +
+      "artitionId\022\017\n\007program\030\004 \002(\007\022\016\n\006status\030\005 " +
+      "\002(\005\022\020\n\010currency\030\006 \001(\t\022\022\n\nspecialist\030\007 \001(" +
+      "\005\022\021\n\tbootstrap\030\010 \001(\010\")\n\'UnsubscribeOrder" +
+      "BookStatusChangeRequest\"a\n!SubscribeOrde" +
+      "rStatusChangeRequest\022)\n\010agent_id\030\001 \002(\0132\027" +
+      ".bnet.protocol.EntityId\022\021\n\tobject_id\030\002 \002" +
+      "(\004\"c\n#UnsubscribeOrderStatusChangeReques",
+      "t\022)\n\010agent_id\030\001 \002(\0132\027.bnet.protocol.Enti" +
+      "tyId\022\021\n\tobject_id\030\002 \002(\004\"\212\001\n\014ClaimRequest" +
+      "\0229\n\014partition_id\030\001 \002(\0132#.bnet.protocol.e" +
+      "xchange.PartitionId\022\020\n\010order_id\030\002 \002(\r\022-\n" +
+      "\014bnet_account\030\003 \001(\0132\027.bnet.protocol.Enti" +
+      "tyId\"\233\001\n\rCancelRequest\0229\n\014partition_id\030\001" +
+      " \002(\0132#.bnet.protocol.exchange.PartitionI" +
+      "d\022\020\n\010order_id\030\002 \002(\r\022\016\n\006reason\030\003 \001(\r\022-\n\014b" +
+      "net_account\030\004 \001(\0132\027.bnet.protocol.Entity" +
+      "Id\"*\n\027GetConfigurationRequest\022\017\n\007program",
+      "\030\001 \002(\007\"U\n\030GetConfigurationResponse\0229\n\007co" +
+      "nfigs\030\001 \003(\0132(.bnet.protocol.exchange.Spe" +
+      "cialistConfig\"\222\001\n\034GetOfferFeeEstimationR" +
+      "equest\0229\n\014partition_id\030\001 \002(\0132#.bnet.prot" +
+      "ocol.exchange.PartitionId\0227\n\004data\030\002 \002(\0132" +
+      ").bnet.protocol.exchange.FeeEstimationDa" +
+      "ta\"\220\001\n\032GetBidFeeEstimationRequest\0229\n\014par" +
+      "tition_id\030\001 \002(\0132#.bnet.protocol.exchange" +
+      ".PartitionId\0227\n\004data\030\002 \002(\0132).bnet.protoc" +
+      "ol.exchange.FeeEstimationData\".\n\030GetFeeE",
+      "stimationResponse\022\022\n\nfee_amount\030\001 \001(\004\"}\n" +
+      "\034OrderBookNotificationRequest\022D\n\rnotific" +
+      "ations\030\001 \003(\0132-.bnet.protocol.exchange.Or" +
+      "derBookNotification\022\027\n\017boot_strap_last\030\002" +
+      " \001(\010\"_\n\030OfferNotificationRequest\0224\n\005offe" +
+      "r\030\001 \002(\0132%.bnet.protocol.exchange.OfferEx" +
+      "tended\022\r\n\005event\030\002 \002(\r\"Y\n\026BidNotification" +
+      "Request\0220\n\003bid\030\001 \002(\0132#.bnet.protocol.exc" +
+      "hange.BidExtended\022\r\n\005event\030\002 \002(\r2\245\032\n\017Exc" +
+      "hangeService\022r\n\017CreateOrderBook\022..bnet.p",
+      "rotocol.exchange.CreateOrderBookRequest\032" +
+      "/.bnet.protocol.exchange.CreateOrderBook" +
+      "Response\022\204\001\n\025PlaceOfferOnOrderBook\0224.bne" +
+      "t.protocol.exchange.PlaceOfferOnOrderBoo" +
+      "kRequest\0325.bnet.protocol.exchange.PlaceO" +
+      "fferOnOrderBookResponse\022\250\001\n!PlaceOfferCr" +
+      "eateOrderBookIfNeeded\022@.bnet.protocol.ex" +
+      "change.PlaceOfferCreateOrderBookIfNeeded" +
+      "Request\032A.bnet.protocol.exchange.PlaceOf" +
+      "ferCreateOrderBookIfNeededResponse\022~\n\023Pl",
+      "aceBidOnOrderBook\0222.bnet.protocol.exchan" +
+      "ge.PlaceBidOnOrderBookRequest\0323.bnet.pro" +
+      "tocol.exchange.PlaceBidOnOrderBookRespon" +
+      "se\022\242\001\n\037PlaceBidCreateOrderBookIfNeeded\022>" +
+      ".bnet.protocol.exchange.PlaceBidCreateOr" +
+      "derBookIfNeededRequest\032?.bnet.protocol.e" +
+      "xchange.PlaceBidCreateOrderBookIfNeededR" +
+      "esponse\022\207\001\n\026QueryOffersByOrderBook\0225.bne" +
+      "t.protocol.exchange.QueryOffersByOrderBo" +
+      "okRequest\0326.bnet.protocol.exchange.Query",
+      "OffersByOrderBookResponse\022\201\001\n\024QueryBidsB" +
+      "yOrderBook\0223.bnet.protocol.exchange.Quer" +
+      "yBidsByOrderBookRequest\0324.bnet.protocol." +
+      "exchange.QueryBidsByOrderBookResponse\022\226\001" +
+      "\n\033QueryOffersByAccountForItem\022:.bnet.pro" +
+      "tocol.exchange.QueryOffersByAccountForIt" +
+      "emRequest\032;.bnet.protocol.exchange.Query" +
+      "OffersByAccountForItemResponse\022\220\001\n\031Query" +
+      "BidsByAccountForItem\0228.bnet.protocol.exc" +
+      "hange.QueryBidsByAccountForItemRequest\0329",
+      ".bnet.protocol.exchange.QueryBidsByAccou" +
+      "ntForItemResponse\022\207\001\n\026QueryOrderBooksSum" +
+      "mary\0225.bnet.protocol.exchange.QueryOrder" +
+      "BooksSummaryRequest\0326.bnet.protocol.exch" +
+      "ange.QueryOrderBooksSummaryResponse\022\226\001\n\033" +
+      "QuerySettlementsByOrderBook\022:.bnet.proto" +
+      "col.exchange.QuerySettlementsByOrderBook" +
+      "Request\032;.bnet.protocol.exchange.QuerySe" +
+      "ttlementsByOrderBookResponse\022h\n\017ReportAu" +
+      "thorize\022>.bnet.protocol.exchange_object_",
+      "provider.ReportAuthorizeRequest\032\025.bnet.p" +
+      "rotocol.NoData\022b\n\014ReportSettle\022;.bnet.pr" +
+      "otocol.exchange_object_provider.ReportSe" +
+      "ttleRequest\032\025.bnet.protocol.NoData\022b\n\014Re" +
+      "portCancel\022;.bnet.protocol.exchange_obje" +
+      "ct_provider.ReportCancelRequest\032\025.bnet.p" +
+      "rotocol.NoData\022v\n\036SubscribeOrderBookStat" +
+      "usChange\022=.bnet.protocol.exchange.Subscr" +
+      "ibeOrderBookStatusChangeRequest\032\025.bnet.p" +
+      "rotocol.NoData\022z\n UnsubscribeOrderBookSt",
+      "atusChange\022?.bnet.protocol.exchange.Unsu" +
+      "bscribeOrderBookStatusChangeRequest\032\025.bn" +
+      "et.protocol.NoData\022n\n\032SubscribeOrderStat" +
+      "usChange\0229.bnet.protocol.exchange.Subscr" +
+      "ibeOrderStatusChangeRequest\032\025.bnet.proto" +
+      "col.NoData\022r\n\034UnsubscribeOrderStatusChan" +
+      "ge\022;.bnet.protocol.exchange.UnsubscribeO" +
+      "rderStatusChangeRequest\032\025.bnet.protocol." +
+      "NoData\022\230\001\n\021GetPaymentMethods\022@.bnet.prot" +
+      "ocol.exchange_object_provider.GetPayment",
+      "MethodsRequest\032A.bnet.protocol.exchange_" +
+      "object_provider.GetPaymentMethodsRespons" +
+      "e\022K\n\014ClaimBidItem\022$.bnet.protocol.exchan" +
+      "ge.ClaimRequest\032\025.bnet.protocol.NoData\022L" +
+      "\n\rClaimBidMoney\022$.bnet.protocol.exchange" +
+      ".ClaimRequest\032\025.bnet.protocol.NoData\022M\n\016" +
+      "ClaimOfferItem\022$.bnet.protocol.exchange." +
+      "ClaimRequest\032\025.bnet.protocol.NoData\022N\n\017C" +
+      "laimOfferMoney\022$.bnet.protocol.exchange." +
+      "ClaimRequest\032\025.bnet.protocol.NoData\022I\n\tC",
+      "ancelBid\022%.bnet.protocol.exchange.Cancel" +
+      "Request\032\025.bnet.protocol.NoData\022K\n\013Cancel" +
+      "Offer\022%.bnet.protocol.exchange.CancelReq" +
+      "uest\032\025.bnet.protocol.NoData\022u\n\020GetConfig" +
+      "uration\022/.bnet.protocol.exchange.GetConf" +
+      "igurationRequest\0320.bnet.protocol.exchang" +
+      "e.GetConfigurationResponse\022{\n\023GetBidFeeE" +
+      "stimation\0222.bnet.protocol.exchange.GetBi" +
+      "dFeeEstimationRequest\0320.bnet.protocol.ex" +
+      "change.GetFeeEstimationResponse\022\177\n\025GetOf",
+      "ferFeeEstimation\0224.bnet.protocol.exchang" +
+      "e.GetOfferFeeEstimationRequest\0320.bnet.pr" +
+      "otocol.exchange.GetFeeEstimationResponse" +
+      "2\317\002\n\016ExchangeNotify\022o\n\033NotifyOrderBookSt" +
+      "atusChange\0224.bnet.protocol.exchange.Orde" +
+      "rBookNotificationRequest\032\032.bnet.protocol" +
+      ".NO_RESPONSE\022g\n\027NotifyOfferStatusChange\022" +
+      "0.bnet.protocol.exchange.OfferNotificati" +
+      "onRequest\032\032.bnet.protocol.NO_RESPONSE\022c\n" +
+      "\025NotifyBidStatusChange\022..bnet.protocol.e",
+      "xchange.BidNotificationRequest\032\032.bnet.pr" +
+      "otocol.NO_RESPONSEB)B\020CExchangeService\200\001" +
+      "\001\302>\021\022\017ExchangeService"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
       new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
@@ -16391,12 +16392,22 @@ public final class CExchangeService {
               new java.lang.String[] { "Bid", "Event", },
               bnet.protocol.exchange.CExchangeService.BidNotificationRequest.class,
               bnet.protocol.exchange.CExchangeService.BidNotificationRequest.Builder.class);
-          return null;
+          com.google.protobuf.ExtensionRegistry registry =
+            com.google.protobuf.ExtensionRegistry.newInstance();
+          registerAllExtensions(registry);
+          google.protobuf.CsharpOptions.registerAllExtensions(registry);
+          bnet.protocol.Rpc.registerAllExtensions(registry);
+          bnet.protocol.exchange.CExchangeLib.registerAllExtensions(registry);
+          bnet.protocol.exchange_object_provider.ExchangeObjectProvider.registerAllExtensions(registry);
+          bnet.protocol.Entity.registerAllExtensions(registry);
+          bnet.protocol.exchange.ExchangeTypes.registerAllExtensions(registry);
+          return registry;
         }
       };
     com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
+          google.protobuf.CsharpOptions.getDescriptor(),
           bnet.protocol.Rpc.getDescriptor(),
           bnet.protocol.exchange.CExchangeLib.getDescriptor(),
           bnet.protocol.exchange_object_provider.ExchangeObjectProvider.getDescriptor(),

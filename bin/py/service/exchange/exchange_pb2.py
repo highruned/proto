@@ -12,7 +12,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = descriptor.FileDescriptor(
   name='service/exchange/exchange.proto',
   package='bnet.protocol.exchange',
-  serialized_pb='\n\x1fservice/exchange/exchange.proto\x12\x16\x62net.protocol.exchange\x1a\x11lib/rpc/rpc.proto\x1a\x1blib/protocol/exchange.proto\x1a+lib/protocol/exchange_object_provider.proto\x1a\x19lib/protocol/entity.proto\x1a%service/exchange/exchange_types.proto\"\x8a\x01\n\x16\x43reateOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\"0\n\x17\x43reateOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\"\x98\x01\n\x1cPlaceOfferOnOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12=\n\x0eoffer_creation\x18\x02 \x02(\x0b\x32%.bnet.protocol.exchange.OfferCreation\"H\n\x1dPlaceOfferOnOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x10\n\x08offer_id\x18\x02 \x01(\x04\"\xdb\x01\n(PlaceOfferCreateOrderBookIfNeededRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\x12=\n\x0eoffer_creation\x18\x03 \x02(\x0b\x32%.bnet.protocol.exchange.OfferCreation\"T\n)PlaceOfferCreateOrderBookIfNeededResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x10\n\x08offer_id\x18\x02 \x01(\x04\"\x92\x01\n\x1aPlaceBidOnOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x39\n\x0c\x62id_creation\x18\x02 \x02(\x0b\x32#.bnet.protocol.exchange.BidCreation\"D\n\x1bPlaceBidOnOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x0e\n\x06\x62id_id\x18\x02 \x01(\x04\"\xd5\x01\n&PlaceBidCreateOrderBookIfNeededRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\x12\x39\n\x0c\x62id_creation\x18\x03 \x02(\x0b\x32#.bnet.protocol.exchange.BidCreation\"P\n\'PlaceBidCreateOrderBookIfNeededResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x0e\n\x06\x62id_id\x18\x02 \x01(\x04\"\xa8\x01\n\x1dQueryOffersByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\x12\x0e\n\x06status\x18\x03 \x02(\x05\"l\n\x1eQueryOffersByOrderBookResponse\x12\x35\n\x06offers\x18\x01 \x03(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xa6\x01\n\x1bQueryBidsByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\x12\x0e\n\x06status\x18\x03 \x02(\x05\"f\n\x1cQueryBidsByOrderBookResponse\x12\x31\n\x04\x62ids\x18\x01 \x03(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xd1\x01\n\"QueryOffersByAccountForItemRequest\x12:\n\x10\x61\x63\x63ount_for_item\x18\x01 \x02(\x0b\x32 .bnet.protocol.exchange.BlobFrom\x12@\n\x06\x66ilter\x18\x02 \x02(\x0b\x32\x30.bnet.protocol.exchange.QueryFilterByCreatedTime\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"q\n#QueryOffersByAccountForItemResponse\x12\x35\n\x06offers\x18\x01 \x03(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xcf\x01\n QueryBidsByAccountForItemRequest\x12:\n\x10\x61\x63\x63ount_for_item\x18\x01 \x02(\x0b\x32 .bnet.protocol.exchange.BlobFrom\x12@\n\x06\x66ilter\x18\x02 \x02(\x0b\x32\x30.bnet.protocol.exchange.QueryFilterByCreatedTime\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"k\n!QueryBidsByAccountForItemResponse\x12\x31\n\x04\x62ids\x18\x01 \x03(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"Y\n\x1dQueryOrderBooksSummaryRequest\x12\x38\n\x07handles\x18\x01 \x03(\x0b\x32\'.bnet.protocol.exchange.OrderBookHandle\"_\n\x1eQueryOrderBooksSummaryResponse\x12=\n\x0border_books\x18\x01 \x03(\x0b\x32(.bnet.protocol.exchange.OrderBookSummary\"\x9d\x01\n\"QuerySettlementsByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\"^\n#QuerySettlementsByOrderBookResponse\x12\x37\n\x0bsettlements\x18\x01 \x03(\x0b\x32\".bnet.protocol.exchange.Settlement\"\x92\x02\n%SubscribeOrderBookStatusChangeRequest\x12\x11\n\tobject_id\x18\x01 \x02(\x04\x12=\n\x10min_partition_id\x18\x02 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12=\n\x10max_partition_id\x18\x03 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x0f\n\x07program\x18\x04 \x02(\x07\x12\x0e\n\x06status\x18\x05 \x02(\x05\x12\x10\n\x08\x63urrency\x18\x06 \x01(\t\x12\x12\n\nspecialist\x18\x07 \x01(\x05\x12\x11\n\tbootstrap\x18\x08 \x01(\x08\")\n\'UnsubscribeOrderBookStatusChangeRequest\"a\n!SubscribeOrderStatusChangeRequest\x12)\n\x08\x61gent_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x11\n\tobject_id\x18\x02 \x02(\x04\"c\n#UnsubscribeOrderStatusChangeRequest\x12)\n\x08\x61gent_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x11\n\tobject_id\x18\x02 \x02(\x04\"\x8a\x01\n\x0c\x43laimRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x10\n\x08order_id\x18\x02 \x02(\r\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"\x9b\x01\n\rCancelRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x10\n\x08order_id\x18\x02 \x02(\r\x12\x0e\n\x06reason\x18\x03 \x01(\r\x12-\n\x0c\x62net_account\x18\x04 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"*\n\x17GetConfigurationRequest\x12\x0f\n\x07program\x18\x01 \x02(\x07\"U\n\x18GetConfigurationResponse\x12\x39\n\x07\x63onfigs\x18\x01 \x03(\x0b\x32(.bnet.protocol.exchange.SpecialistConfig\"\x92\x01\n\x1cGetOfferFeeEstimationRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x37\n\x04\x64\x61ta\x18\x02 \x02(\x0b\x32).bnet.protocol.exchange.FeeEstimationData\"\x90\x01\n\x1aGetBidFeeEstimationRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x37\n\x04\x64\x61ta\x18\x02 \x02(\x0b\x32).bnet.protocol.exchange.FeeEstimationData\".\n\x18GetFeeEstimationResponse\x12\x12\n\nfee_amount\x18\x01 \x01(\x04\"}\n\x1cOrderBookNotificationRequest\x12\x44\n\rnotifications\x18\x01 \x03(\x0b\x32-.bnet.protocol.exchange.OrderBookNotification\x12\x17\n\x0f\x62oot_strap_last\x18\x02 \x01(\x08\"_\n\x18OfferNotificationRequest\x12\x34\n\x05offer\x18\x01 \x02(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\r\n\x05\x65vent\x18\x02 \x02(\r\"Y\n\x16\x42idNotificationRequest\x12\x30\n\x03\x62id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\r\n\x05\x65vent\x18\x02 \x02(\r2\xa5\x1a\n\x0f\x45xchangeService\x12r\n\x0f\x43reateOrderBook\x12..bnet.protocol.exchange.CreateOrderBookRequest\x1a/.bnet.protocol.exchange.CreateOrderBookResponse\x12\x84\x01\n\x15PlaceOfferOnOrderBook\x12\x34.bnet.protocol.exchange.PlaceOfferOnOrderBookRequest\x1a\x35.bnet.protocol.exchange.PlaceOfferOnOrderBookResponse\x12\xa8\x01\n!PlaceOfferCreateOrderBookIfNeeded\x12@.bnet.protocol.exchange.PlaceOfferCreateOrderBookIfNeededRequest\x1a\x41.bnet.protocol.exchange.PlaceOfferCreateOrderBookIfNeededResponse\x12~\n\x13PlaceBidOnOrderBook\x12\x32.bnet.protocol.exchange.PlaceBidOnOrderBookRequest\x1a\x33.bnet.protocol.exchange.PlaceBidOnOrderBookResponse\x12\xa2\x01\n\x1fPlaceBidCreateOrderBookIfNeeded\x12>.bnet.protocol.exchange.PlaceBidCreateOrderBookIfNeededRequest\x1a?.bnet.protocol.exchange.PlaceBidCreateOrderBookIfNeededResponse\x12\x87\x01\n\x16QueryOffersByOrderBook\x12\x35.bnet.protocol.exchange.QueryOffersByOrderBookRequest\x1a\x36.bnet.protocol.exchange.QueryOffersByOrderBookResponse\x12\x81\x01\n\x14QueryBidsByOrderBook\x12\x33.bnet.protocol.exchange.QueryBidsByOrderBookRequest\x1a\x34.bnet.protocol.exchange.QueryBidsByOrderBookResponse\x12\x96\x01\n\x1bQueryOffersByAccountForItem\x12:.bnet.protocol.exchange.QueryOffersByAccountForItemRequest\x1a;.bnet.protocol.exchange.QueryOffersByAccountForItemResponse\x12\x90\x01\n\x19QueryBidsByAccountForItem\x12\x38.bnet.protocol.exchange.QueryBidsByAccountForItemRequest\x1a\x39.bnet.protocol.exchange.QueryBidsByAccountForItemResponse\x12\x87\x01\n\x16QueryOrderBooksSummary\x12\x35.bnet.protocol.exchange.QueryOrderBooksSummaryRequest\x1a\x36.bnet.protocol.exchange.QueryOrderBooksSummaryResponse\x12\x96\x01\n\x1bQuerySettlementsByOrderBook\x12:.bnet.protocol.exchange.QuerySettlementsByOrderBookRequest\x1a;.bnet.protocol.exchange.QuerySettlementsByOrderBookResponse\x12h\n\x0fReportAuthorize\x12>.bnet.protocol.exchange_object_provider.ReportAuthorizeRequest\x1a\x15.bnet.protocol.NoData\x12\x62\n\x0cReportSettle\x12;.bnet.protocol.exchange_object_provider.ReportSettleRequest\x1a\x15.bnet.protocol.NoData\x12\x62\n\x0cReportCancel\x12;.bnet.protocol.exchange_object_provider.ReportCancelRequest\x1a\x15.bnet.protocol.NoData\x12v\n\x1eSubscribeOrderBookStatusChange\x12=.bnet.protocol.exchange.SubscribeOrderBookStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12z\n UnsubscribeOrderBookStatusChange\x12?.bnet.protocol.exchange.UnsubscribeOrderBookStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12n\n\x1aSubscribeOrderStatusChange\x12\x39.bnet.protocol.exchange.SubscribeOrderStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12r\n\x1cUnsubscribeOrderStatusChange\x12;.bnet.protocol.exchange.UnsubscribeOrderStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12\x98\x01\n\x11GetPaymentMethods\x12@.bnet.protocol.exchange_object_provider.GetPaymentMethodsRequest\x1a\x41.bnet.protocol.exchange_object_provider.GetPaymentMethodsResponse\x12K\n\x0c\x43laimBidItem\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12L\n\rClaimBidMoney\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12M\n\x0e\x43laimOfferItem\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12N\n\x0f\x43laimOfferMoney\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12I\n\tCancelBid\x12%.bnet.protocol.exchange.CancelRequest\x1a\x15.bnet.protocol.NoData\x12K\n\x0b\x43\x61ncelOffer\x12%.bnet.protocol.exchange.CancelRequest\x1a\x15.bnet.protocol.NoData\x12u\n\x10GetConfiguration\x12/.bnet.protocol.exchange.GetConfigurationRequest\x1a\x30.bnet.protocol.exchange.GetConfigurationResponse\x12{\n\x13GetBidFeeEstimation\x12\x32.bnet.protocol.exchange.GetBidFeeEstimationRequest\x1a\x30.bnet.protocol.exchange.GetFeeEstimationResponse\x12\x7f\n\x15GetOfferFeeEstimation\x12\x34.bnet.protocol.exchange.GetOfferFeeEstimationRequest\x1a\x30.bnet.protocol.exchange.GetFeeEstimationResponse2\xcf\x02\n\x0e\x45xchangeNotify\x12o\n\x1bNotifyOrderBookStatusChange\x12\x34.bnet.protocol.exchange.OrderBookNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSE\x12g\n\x17NotifyOfferStatusChange\x12\x30.bnet.protocol.exchange.OfferNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSE\x12\x63\n\x15NotifyBidStatusChange\x12..bnet.protocol.exchange.BidNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSEB\x15\x42\x10\x43\x45xchangeService\x80\x01\x01')
+  serialized_pb='\n\x1fservice/exchange/exchange.proto\x12\x16\x62net.protocol.exchange\x1a$google/protobuf/csharp_options.proto\x1a\x11lib/rpc/rpc.proto\x1a\x1blib/protocol/exchange.proto\x1a+lib/protocol/exchange_object_provider.proto\x1a\x19lib/protocol/entity.proto\x1a%service/exchange/exchange_types.proto\"\x8a\x01\n\x16\x43reateOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\"0\n\x17\x43reateOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\"\x98\x01\n\x1cPlaceOfferOnOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12=\n\x0eoffer_creation\x18\x02 \x02(\x0b\x32%.bnet.protocol.exchange.OfferCreation\"H\n\x1dPlaceOfferOnOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x10\n\x08offer_id\x18\x02 \x01(\x04\"\xdb\x01\n(PlaceOfferCreateOrderBookIfNeededRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\x12=\n\x0eoffer_creation\x18\x03 \x02(\x0b\x32%.bnet.protocol.exchange.OfferCreation\"T\n)PlaceOfferCreateOrderBookIfNeededResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x10\n\x08offer_id\x18\x02 \x01(\x04\"\x92\x01\n\x1aPlaceBidOnOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x39\n\x0c\x62id_creation\x18\x02 \x02(\x0b\x32#.bnet.protocol.exchange.BidCreation\"D\n\x1bPlaceBidOnOrderBookResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x0e\n\x06\x62id_id\x18\x02 \x01(\x04\"\xd5\x01\n&PlaceBidCreateOrderBookIfNeededRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x35\n\norder_book\x18\x02 \x02(\x0b\x32!.bnet.protocol.exchange.OrderBook\x12\x39\n\x0c\x62id_creation\x18\x03 \x02(\x0b\x32#.bnet.protocol.exchange.BidCreation\"P\n\'PlaceBidCreateOrderBookIfNeededResponse\x12\x15\n\rorder_book_id\x18\x01 \x01(\x04\x12\x0e\n\x06\x62id_id\x18\x02 \x01(\x04\"\xa8\x01\n\x1dQueryOffersByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\x12\x0e\n\x06status\x18\x03 \x02(\x05\"l\n\x1eQueryOffersByOrderBookResponse\x12\x35\n\x06offers\x18\x01 \x03(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xa6\x01\n\x1bQueryBidsByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\x12\x0e\n\x06status\x18\x03 \x02(\x05\"f\n\x1cQueryBidsByOrderBookResponse\x12\x31\n\x04\x62ids\x18\x01 \x03(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xd1\x01\n\"QueryOffersByAccountForItemRequest\x12:\n\x10\x61\x63\x63ount_for_item\x18\x01 \x02(\x0b\x32 .bnet.protocol.exchange.BlobFrom\x12@\n\x06\x66ilter\x18\x02 \x02(\x0b\x32\x30.bnet.protocol.exchange.QueryFilterByCreatedTime\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"q\n#QueryOffersByAccountForItemResponse\x12\x35\n\x06offers\x18\x01 \x03(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"\xcf\x01\n QueryBidsByAccountForItemRequest\x12:\n\x10\x61\x63\x63ount_for_item\x18\x01 \x02(\x0b\x32 .bnet.protocol.exchange.BlobFrom\x12@\n\x06\x66ilter\x18\x02 \x02(\x0b\x32\x30.bnet.protocol.exchange.QueryFilterByCreatedTime\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"k\n!QueryBidsByAccountForItemResponse\x12\x31\n\x04\x62ids\x18\x01 \x03(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\x13\n\x0btotal_count\x18\x02 \x02(\r\"Y\n\x1dQueryOrderBooksSummaryRequest\x12\x38\n\x07handles\x18\x01 \x03(\x0b\x32\'.bnet.protocol.exchange.OrderBookHandle\"_\n\x1eQueryOrderBooksSummaryResponse\x12=\n\x0border_books\x18\x01 \x03(\x0b\x32(.bnet.protocol.exchange.OrderBookSummary\"\x9d\x01\n\"QuerySettlementsByOrderBookRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12<\n\x06\x66ilter\x18\x02 \x02(\x0b\x32,.bnet.protocol.exchange.QueryFilterByOrderId\"^\n#QuerySettlementsByOrderBookResponse\x12\x37\n\x0bsettlements\x18\x01 \x03(\x0b\x32\".bnet.protocol.exchange.Settlement\"\x92\x02\n%SubscribeOrderBookStatusChangeRequest\x12\x11\n\tobject_id\x18\x01 \x02(\x04\x12=\n\x10min_partition_id\x18\x02 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12=\n\x10max_partition_id\x18\x03 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x0f\n\x07program\x18\x04 \x02(\x07\x12\x0e\n\x06status\x18\x05 \x02(\x05\x12\x10\n\x08\x63urrency\x18\x06 \x01(\t\x12\x12\n\nspecialist\x18\x07 \x01(\x05\x12\x11\n\tbootstrap\x18\x08 \x01(\x08\")\n\'UnsubscribeOrderBookStatusChangeRequest\"a\n!SubscribeOrderStatusChangeRequest\x12)\n\x08\x61gent_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x11\n\tobject_id\x18\x02 \x02(\x04\"c\n#UnsubscribeOrderStatusChangeRequest\x12)\n\x08\x61gent_id\x18\x01 \x02(\x0b\x32\x17.bnet.protocol.EntityId\x12\x11\n\tobject_id\x18\x02 \x02(\x04\"\x8a\x01\n\x0c\x43laimRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x10\n\x08order_id\x18\x02 \x02(\r\x12-\n\x0c\x62net_account\x18\x03 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"\x9b\x01\n\rCancelRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x10\n\x08order_id\x18\x02 \x02(\r\x12\x0e\n\x06reason\x18\x03 \x01(\r\x12-\n\x0c\x62net_account\x18\x04 \x01(\x0b\x32\x17.bnet.protocol.EntityId\"*\n\x17GetConfigurationRequest\x12\x0f\n\x07program\x18\x01 \x02(\x07\"U\n\x18GetConfigurationResponse\x12\x39\n\x07\x63onfigs\x18\x01 \x03(\x0b\x32(.bnet.protocol.exchange.SpecialistConfig\"\x92\x01\n\x1cGetOfferFeeEstimationRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x37\n\x04\x64\x61ta\x18\x02 \x02(\x0b\x32).bnet.protocol.exchange.FeeEstimationData\"\x90\x01\n\x1aGetBidFeeEstimationRequest\x12\x39\n\x0cpartition_id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.PartitionId\x12\x37\n\x04\x64\x61ta\x18\x02 \x02(\x0b\x32).bnet.protocol.exchange.FeeEstimationData\".\n\x18GetFeeEstimationResponse\x12\x12\n\nfee_amount\x18\x01 \x01(\x04\"}\n\x1cOrderBookNotificationRequest\x12\x44\n\rnotifications\x18\x01 \x03(\x0b\x32-.bnet.protocol.exchange.OrderBookNotification\x12\x17\n\x0f\x62oot_strap_last\x18\x02 \x01(\x08\"_\n\x18OfferNotificationRequest\x12\x34\n\x05offer\x18\x01 \x02(\x0b\x32%.bnet.protocol.exchange.OfferExtended\x12\r\n\x05\x65vent\x18\x02 \x02(\r\"Y\n\x16\x42idNotificationRequest\x12\x30\n\x03\x62id\x18\x01 \x02(\x0b\x32#.bnet.protocol.exchange.BidExtended\x12\r\n\x05\x65vent\x18\x02 \x02(\r2\xa5\x1a\n\x0f\x45xchangeService\x12r\n\x0f\x43reateOrderBook\x12..bnet.protocol.exchange.CreateOrderBookRequest\x1a/.bnet.protocol.exchange.CreateOrderBookResponse\x12\x84\x01\n\x15PlaceOfferOnOrderBook\x12\x34.bnet.protocol.exchange.PlaceOfferOnOrderBookRequest\x1a\x35.bnet.protocol.exchange.PlaceOfferOnOrderBookResponse\x12\xa8\x01\n!PlaceOfferCreateOrderBookIfNeeded\x12@.bnet.protocol.exchange.PlaceOfferCreateOrderBookIfNeededRequest\x1a\x41.bnet.protocol.exchange.PlaceOfferCreateOrderBookIfNeededResponse\x12~\n\x13PlaceBidOnOrderBook\x12\x32.bnet.protocol.exchange.PlaceBidOnOrderBookRequest\x1a\x33.bnet.protocol.exchange.PlaceBidOnOrderBookResponse\x12\xa2\x01\n\x1fPlaceBidCreateOrderBookIfNeeded\x12>.bnet.protocol.exchange.PlaceBidCreateOrderBookIfNeededRequest\x1a?.bnet.protocol.exchange.PlaceBidCreateOrderBookIfNeededResponse\x12\x87\x01\n\x16QueryOffersByOrderBook\x12\x35.bnet.protocol.exchange.QueryOffersByOrderBookRequest\x1a\x36.bnet.protocol.exchange.QueryOffersByOrderBookResponse\x12\x81\x01\n\x14QueryBidsByOrderBook\x12\x33.bnet.protocol.exchange.QueryBidsByOrderBookRequest\x1a\x34.bnet.protocol.exchange.QueryBidsByOrderBookResponse\x12\x96\x01\n\x1bQueryOffersByAccountForItem\x12:.bnet.protocol.exchange.QueryOffersByAccountForItemRequest\x1a;.bnet.protocol.exchange.QueryOffersByAccountForItemResponse\x12\x90\x01\n\x19QueryBidsByAccountForItem\x12\x38.bnet.protocol.exchange.QueryBidsByAccountForItemRequest\x1a\x39.bnet.protocol.exchange.QueryBidsByAccountForItemResponse\x12\x87\x01\n\x16QueryOrderBooksSummary\x12\x35.bnet.protocol.exchange.QueryOrderBooksSummaryRequest\x1a\x36.bnet.protocol.exchange.QueryOrderBooksSummaryResponse\x12\x96\x01\n\x1bQuerySettlementsByOrderBook\x12:.bnet.protocol.exchange.QuerySettlementsByOrderBookRequest\x1a;.bnet.protocol.exchange.QuerySettlementsByOrderBookResponse\x12h\n\x0fReportAuthorize\x12>.bnet.protocol.exchange_object_provider.ReportAuthorizeRequest\x1a\x15.bnet.protocol.NoData\x12\x62\n\x0cReportSettle\x12;.bnet.protocol.exchange_object_provider.ReportSettleRequest\x1a\x15.bnet.protocol.NoData\x12\x62\n\x0cReportCancel\x12;.bnet.protocol.exchange_object_provider.ReportCancelRequest\x1a\x15.bnet.protocol.NoData\x12v\n\x1eSubscribeOrderBookStatusChange\x12=.bnet.protocol.exchange.SubscribeOrderBookStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12z\n UnsubscribeOrderBookStatusChange\x12?.bnet.protocol.exchange.UnsubscribeOrderBookStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12n\n\x1aSubscribeOrderStatusChange\x12\x39.bnet.protocol.exchange.SubscribeOrderStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12r\n\x1cUnsubscribeOrderStatusChange\x12;.bnet.protocol.exchange.UnsubscribeOrderStatusChangeRequest\x1a\x15.bnet.protocol.NoData\x12\x98\x01\n\x11GetPaymentMethods\x12@.bnet.protocol.exchange_object_provider.GetPaymentMethodsRequest\x1a\x41.bnet.protocol.exchange_object_provider.GetPaymentMethodsResponse\x12K\n\x0c\x43laimBidItem\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12L\n\rClaimBidMoney\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12M\n\x0e\x43laimOfferItem\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12N\n\x0f\x43laimOfferMoney\x12$.bnet.protocol.exchange.ClaimRequest\x1a\x15.bnet.protocol.NoData\x12I\n\tCancelBid\x12%.bnet.protocol.exchange.CancelRequest\x1a\x15.bnet.protocol.NoData\x12K\n\x0b\x43\x61ncelOffer\x12%.bnet.protocol.exchange.CancelRequest\x1a\x15.bnet.protocol.NoData\x12u\n\x10GetConfiguration\x12/.bnet.protocol.exchange.GetConfigurationRequest\x1a\x30.bnet.protocol.exchange.GetConfigurationResponse\x12{\n\x13GetBidFeeEstimation\x12\x32.bnet.protocol.exchange.GetBidFeeEstimationRequest\x1a\x30.bnet.protocol.exchange.GetFeeEstimationResponse\x12\x7f\n\x15GetOfferFeeEstimation\x12\x34.bnet.protocol.exchange.GetOfferFeeEstimationRequest\x1a\x30.bnet.protocol.exchange.GetFeeEstimationResponse2\xcf\x02\n\x0e\x45xchangeNotify\x12o\n\x1bNotifyOrderBookStatusChange\x12\x34.bnet.protocol.exchange.OrderBookNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSE\x12g\n\x17NotifyOfferStatusChange\x12\x30.bnet.protocol.exchange.OfferNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSE\x12\x63\n\x15NotifyBidStatusChange\x12..bnet.protocol.exchange.BidNotificationRequest\x1a\x1a.bnet.protocol.NO_RESPONSEB)B\x10\x43\x45xchangeService\x80\x01\x01\xc2>\x11\x12\x0f\x45xchangeService')
 
 
 
@@ -47,8 +47,8 @@ _CREATEORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=219,
-  serialized_end=357,
+  serialized_start=257,
+  serialized_end=395,
 )
 
 
@@ -75,8 +75,8 @@ _CREATEORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=359,
-  serialized_end=407,
+  serialized_start=397,
+  serialized_end=445,
 )
 
 
@@ -110,8 +110,8 @@ _PLACEOFFERONORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=410,
-  serialized_end=562,
+  serialized_start=448,
+  serialized_end=600,
 )
 
 
@@ -145,8 +145,8 @@ _PLACEOFFERONORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=564,
-  serialized_end=636,
+  serialized_start=602,
+  serialized_end=674,
 )
 
 
@@ -187,8 +187,8 @@ _PLACEOFFERCREATEORDERBOOKIFNEEDEDREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=639,
-  serialized_end=858,
+  serialized_start=677,
+  serialized_end=896,
 )
 
 
@@ -222,8 +222,8 @@ _PLACEOFFERCREATEORDERBOOKIFNEEDEDRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=860,
-  serialized_end=944,
+  serialized_start=898,
+  serialized_end=982,
 )
 
 
@@ -257,8 +257,8 @@ _PLACEBIDONORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=947,
-  serialized_end=1093,
+  serialized_start=985,
+  serialized_end=1131,
 )
 
 
@@ -292,8 +292,8 @@ _PLACEBIDONORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1095,
-  serialized_end=1163,
+  serialized_start=1133,
+  serialized_end=1201,
 )
 
 
@@ -334,8 +334,8 @@ _PLACEBIDCREATEORDERBOOKIFNEEDEDREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1166,
-  serialized_end=1379,
+  serialized_start=1204,
+  serialized_end=1417,
 )
 
 
@@ -369,8 +369,8 @@ _PLACEBIDCREATEORDERBOOKIFNEEDEDRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1381,
-  serialized_end=1461,
+  serialized_start=1419,
+  serialized_end=1499,
 )
 
 
@@ -411,8 +411,8 @@ _QUERYOFFERSBYORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1464,
-  serialized_end=1632,
+  serialized_start=1502,
+  serialized_end=1670,
 )
 
 
@@ -446,8 +446,8 @@ _QUERYOFFERSBYORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1634,
-  serialized_end=1742,
+  serialized_start=1672,
+  serialized_end=1780,
 )
 
 
@@ -488,8 +488,8 @@ _QUERYBIDSBYORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1745,
-  serialized_end=1911,
+  serialized_start=1783,
+  serialized_end=1949,
 )
 
 
@@ -523,8 +523,8 @@ _QUERYBIDSBYORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=1913,
-  serialized_end=2015,
+  serialized_start=1951,
+  serialized_end=2053,
 )
 
 
@@ -565,8 +565,8 @@ _QUERYOFFERSBYACCOUNTFORITEMREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2018,
-  serialized_end=2227,
+  serialized_start=2056,
+  serialized_end=2265,
 )
 
 
@@ -600,8 +600,8 @@ _QUERYOFFERSBYACCOUNTFORITEMRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2229,
-  serialized_end=2342,
+  serialized_start=2267,
+  serialized_end=2380,
 )
 
 
@@ -642,8 +642,8 @@ _QUERYBIDSBYACCOUNTFORITEMREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2345,
-  serialized_end=2552,
+  serialized_start=2383,
+  serialized_end=2590,
 )
 
 
@@ -677,8 +677,8 @@ _QUERYBIDSBYACCOUNTFORITEMRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2554,
-  serialized_end=2661,
+  serialized_start=2592,
+  serialized_end=2699,
 )
 
 
@@ -705,8 +705,8 @@ _QUERYORDERBOOKSSUMMARYREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2663,
-  serialized_end=2752,
+  serialized_start=2701,
+  serialized_end=2790,
 )
 
 
@@ -733,8 +733,8 @@ _QUERYORDERBOOKSSUMMARYRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2754,
-  serialized_end=2849,
+  serialized_start=2792,
+  serialized_end=2887,
 )
 
 
@@ -768,8 +768,8 @@ _QUERYSETTLEMENTSBYORDERBOOKREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=2852,
-  serialized_end=3009,
+  serialized_start=2890,
+  serialized_end=3047,
 )
 
 
@@ -796,8 +796,8 @@ _QUERYSETTLEMENTSBYORDERBOOKRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3011,
-  serialized_end=3105,
+  serialized_start=3049,
+  serialized_end=3143,
 )
 
 
@@ -873,8 +873,8 @@ _SUBSCRIBEORDERBOOKSTATUSCHANGEREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3108,
-  serialized_end=3382,
+  serialized_start=3146,
+  serialized_end=3420,
 )
 
 
@@ -894,8 +894,8 @@ _UNSUBSCRIBEORDERBOOKSTATUSCHANGEREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3384,
-  serialized_end=3425,
+  serialized_start=3422,
+  serialized_end=3463,
 )
 
 
@@ -929,8 +929,8 @@ _SUBSCRIBEORDERSTATUSCHANGEREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3427,
-  serialized_end=3524,
+  serialized_start=3465,
+  serialized_end=3562,
 )
 
 
@@ -964,8 +964,8 @@ _UNSUBSCRIBEORDERSTATUSCHANGEREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3526,
-  serialized_end=3625,
+  serialized_start=3564,
+  serialized_end=3663,
 )
 
 
@@ -1006,8 +1006,8 @@ _CLAIMREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3628,
-  serialized_end=3766,
+  serialized_start=3666,
+  serialized_end=3804,
 )
 
 
@@ -1055,8 +1055,8 @@ _CANCELREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3769,
-  serialized_end=3924,
+  serialized_start=3807,
+  serialized_end=3962,
 )
 
 
@@ -1083,8 +1083,8 @@ _GETCONFIGURATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3926,
-  serialized_end=3968,
+  serialized_start=3964,
+  serialized_end=4006,
 )
 
 
@@ -1111,8 +1111,8 @@ _GETCONFIGURATIONRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=3970,
-  serialized_end=4055,
+  serialized_start=4008,
+  serialized_end=4093,
 )
 
 
@@ -1146,8 +1146,8 @@ _GETOFFERFEEESTIMATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4058,
-  serialized_end=4204,
+  serialized_start=4096,
+  serialized_end=4242,
 )
 
 
@@ -1181,8 +1181,8 @@ _GETBIDFEEESTIMATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4207,
-  serialized_end=4351,
+  serialized_start=4245,
+  serialized_end=4389,
 )
 
 
@@ -1209,8 +1209,8 @@ _GETFEEESTIMATIONRESPONSE = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4353,
-  serialized_end=4399,
+  serialized_start=4391,
+  serialized_end=4437,
 )
 
 
@@ -1244,8 +1244,8 @@ _ORDERBOOKNOTIFICATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4401,
-  serialized_end=4526,
+  serialized_start=4439,
+  serialized_end=4564,
 )
 
 
@@ -1279,8 +1279,8 @@ _OFFERNOTIFICATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4528,
-  serialized_end=4623,
+  serialized_start=4566,
+  serialized_end=4661,
 )
 
 
@@ -1314,10 +1314,11 @@ _BIDNOTIFICATIONREQUEST = descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=4625,
-  serialized_end=4714,
+  serialized_start=4663,
+  serialized_end=4752,
 )
 
+import google.protobuf.csharp_options_pb2
 import lib.rpc.rpc_pb2
 import lib.protocol.exchange_pb2
 import lib.protocol.exchange_object_provider_pb2
@@ -1595,8 +1596,8 @@ _EXCHANGESERVICE = descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=0,
   options=None,
-  serialized_start=4717,
-  serialized_end=8082,
+  serialized_start=4755,
+  serialized_end=8120,
   methods=[
   descriptor.MethodDescriptor(
     name='CreateOrderBook',
@@ -1866,8 +1867,8 @@ _EXCHANGENOTIFY = descriptor.ServiceDescriptor(
   file=DESCRIPTOR,
   index=1,
   options=None,
-  serialized_start=8085,
-  serialized_end=8420,
+  serialized_start=8123,
+  serialized_end=8458,
   methods=[
   descriptor.MethodDescriptor(
     name='NotifyOrderBookStatusChange',

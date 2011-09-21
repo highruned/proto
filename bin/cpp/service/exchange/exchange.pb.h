@@ -24,6 +24,7 @@
 #include <google/protobuf/extension_set.h>
 #include <google/protobuf/generated_message_reflection.h>
 #include <google/protobuf/service.h>
+#include "google/protobuf/csharp_options.pb.h"
 #include "lib/rpc/rpc.pb.h"
 #include "lib/protocol/exchange.pb.h"
 #include "lib/protocol/exchange_object_provider.pb.h"
